@@ -1,0 +1,822 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Unearth — Website Template by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700" rel="stylesheet"> -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    /* ================= NAVBAR ================= */
+
+    .site-navbar {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1100;
+      background: #ffffff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 15px 0;
+    }
+
+    /* Desktop */
+    @media (min-width: 992px) {
+      .main-menu {
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      .main-menu > li {
+        margin-left: 5px;
+      }
+    }
+
+    /* ================= MOBILE NAV FIX ================= */
+
+    @media (max-width: 991px) {
+
+      .site-logo img {
+        height: 38px !important;
+      }
+
+      .site-mobile-menu {
+        width: 280px;
+        background: #ffffff;
+        box-shadow: 2px 0 25px rgba(0,0,0,0.15);
+      }
+
+      .site-mobile-menu .site-nav-wrap {
+        display: block;
+        padding: 15px 0;
+      }
+
+      .site-mobile-menu .site-nav-wrap li {
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #f1f1f1;
+      }
+
+      .site-mobile-menu .site-nav-wrap li a {
+        display: block;
+        width: 100%;
+        padding: 14px 22px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #212121;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+
+      .site-mobile-menu .site-nav-wrap li a:hover {
+        background: #C35214;
+        color: #ffffff;
+      }
+
+      /* Dropdown items indent */
+      .site-mobile-menu .dropdown li a {
+        padding-left: 45px;
+        font-size: 15px;
+        background: #fafafa;
+      }
+
+      /* ONLY Book Demo button */
+      .site-mobile-menu .book-demo-mobile a {
+        background: #C35214 !important;
+        color: #ffffff !important;
+        margin: 15px;
+        border-radius: 30px;
+        text-align: center;
+        font-weight: 600;
+      }
+
+      .site-menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+<div class="site-wrap" id="home-section">
+
+  <!-- MOBILE MENU -->
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+  <!-- HEADER -->
+   <header class="site-navbar js-sticky-header site-navbar-target" role="banner" 
+        style="background:#fff; padding:25px 0; box-shadow:0 2px 15px rgba(0,0,0,0.06); position:relative; z-index:999;">
+
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between">
+
+      <!-- LOGO -->
+      <div class="site-logo" style="display:flex; align-items:center;">
+        <a href="index.html">
+          <img src="images/PRGEEQ-Logo.png" alt="PRGEEQ" style="height:50px;">
+        </a>
+      </div>
+
+      <!-- NAVIGATION -->
+      <div class="d-flex align-items-center justify-content-end flex-grow-1">
+
+        <nav class="site-navigation text-right d-none d-lg-block" role="navigation">
+
+          <ul class="site-menu main-menu js-clone-nav"
+              style="list-style:none; margin:0; padding:0;">
+
+            <!-- HOME -->
+           <li class="active" style="display:inline-block;">
+  <a href="index.html"
+     style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}"> Home
+  </a>
+</li>
+
+            <!-- SOLUTIONS -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+                 style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Solutions
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li>
+                  <a href="Who_we_serve.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    Who We Serve
+                  </a>
+                </li>
+
+                <li>
+                  <a href="services.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    Services
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <!-- PRODUCT -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+                 style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Product
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li>
+                  <a href="LMS.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    LMS - NEUROLXP
+                  </a>
+                </li>
+
+                <li>
+                  <a href="E-Labs.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    GQ-Labs
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <!-- RESOURCES -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+               style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Resources
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li><a href="blogs.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Blogs</a></li>
+
+                <li><a href="Events.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Achievements</a></li>
+
+                <li><a href="help_Center.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Help Center</a></li>
+
+                <li><a href="careeres.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Careers</a></li>
+
+                <li><a href="testimonials.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Testimonials</a></li>
+
+              </ul>
+            </li>
+
+            <!-- CONTACT -->
+           <li style="display:inline-block;">
+  <a href="index.html#contact-section"
+     style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">Contact Us
+  </a>
+</li>
+
+            <!-- BOOK DEMO -->
+            <li style="display:inline-block;">
+              <a href="Book_a_demo.html"
+                style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Book a Demo
+              </a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <!-- MOBILE TOGGLE -->
+        <div class="d-inline-block d-lg-none ml-3">
+          <a href="#" class="site-menu-toggle js-menu-toggle">
+            <span class="icon-menu h3"></span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Chat Button -->
+<!-- Talk to Our Expert Button -->
+<a href="Talk_to_our_expert.html" style="text-decoration:none;">
+  <div id="chatToggle" style="
+    position:fixed;
+    top:50%;
+    right:-85px;
+    transform:translateY(-50%) rotate(-90deg);
+    transform-origin:center;
+    background:#a94e00;
+    color:#fff;
+    padding:12px 28px;
+    border-radius:30px 30px 0 0;
+    font-weight:600;
+    font-size:15px;
+    letter-spacing:0.5px;
+    cursor:pointer;
+    box-shadow:0 10px 25px rgba(0,0,0,0.25);
+    z-index:9999;
+    white-space:nowrap;
+    transition:0.3s;
+  ">
+    💬 Talk to Our Expert
+  </div>
+</a>
+
+<script>
+function adjustExpertButton() {
+  var btn = document.getElementById("chatToggle");
+
+  if (window.innerWidth <= 768) {
+    // Mobile View
+    btn.style.transform = "translateY(0)";
+    btn.style.top = "auto";
+    btn.style.bottom = "20px";
+    btn.style.right = "20px";
+    btn.style.borderRadius = "30px";
+    btn.style.padding = "10px 18px";
+    btn.style.fontSize = "14px";
+  } else {
+    // Desktop View
+    btn.style.top = "50%";
+    btn.style.bottom = "auto";
+    btn.style.right = "-85px";
+    btn.style.transform = "translateY(-50%) rotate(-90deg)";
+    btn.style.borderRadius = "30px 30px 0 0";
+    btn.style.padding = "12px 28px";
+    btn.style.fontSize = "15px";
+  }
+}
+
+adjustExpertButton();
+window.addEventListener("resize", adjustExpertButton);
+</script>
+
+<body>
+  <section class="site-section" style="padding:100px 0; background:#f9f9f9;">
+    <div class="container">
+
+      <!-- ================= MAIN HEADING ================= -->
+      <div class="row justify-content-center mb-5">
+
+  <!-- LEFT SIDE -->
+  <div class="col-lg-6 col-md-12 mb-4" data-aos="fade-right">
+    <div class="block-heading-1 text-start">
+
+      <h2 style="font-weight:700; margin-bottom:20px; color:#a94e00;text-transform:none;">
+        <b>Localisation Services</b>
+      </h2>
+
+      <p style="line-height:1.8; margin-bottom:15px; color:#000">
+        Localization services refer to the process of adapting products or content 
+        to meet the linguistic, cultural, and regional requirements of specific markets. 
+        This includes translation, cultural adaptation, and regulatory compliance.
+      </p>
+
+      <p style="line-height:1.8; margin-bottom:15px; color:#000">
+        The localization industry includes services such as translation, software 
+        localization, website localization, multimedia localization, and cultural consulting.
+      </p>
+
+      <p style="line-height:1.8; color:#000">
+        Localization services are essential for companies expanding globally, 
+        helping them connect effectively with customers and increase market presence.
+      </p>
+
+    </div>
+  </div>
+
+
+  <!-- RIGHT SIDE -->
+  <div class="col-lg-6 col-md-12 mb-4" data-aos="fade-left">
+    <div class="block-heading-1 text-start" style="line-height:1.8;">
+
+      <p style="color:#000">
+        Localization services are widely used in industries such as software 
+        development, e-commerce, marketing, and media. Localized content includes 
+        websites, applications, marketing materials, and multimedia assets.
+      </p>
+
+      <p style="color: #000;">
+        The localization process typically involves translation, cultural adaptation, 
+        and quality assurance using a mix of human expertise and technology.
+      </p>
+
+      <p style="color: #000;">
+        The industry has experienced steady growth due to increasing globalization 
+        and the rising need for businesses to communicate across borders.
+      </p>
+
+      <p style="color: #000;">
+        As companies expand internationally, localization becomes crucial for 
+        delivering culturally relevant experiences and building strong global relationships.
+      </p>
+
+    </div>
+  </div>
+
+</div>
+
+      <!-- ================= FLEXIBILITY ================= -->
+      <div class="row align-items-center mb-5">
+        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+          <p style="line-height:1.8;color:#000">
+             Another factor contributing to the growth of the localization industry is the increasing demand for content in different languages. With the rise of the internet and social media, there is a growing need for content that can be understood by people who speak different languages. Localization services are essential in making sure that this content is accessible to people in different regions of the world.          </p>
+          <p style="line-height:1.8; color:#000">
+            Furthermore, advancements in technology have also played a significant role in the growth of the localization industry. Machine translation, artificial intelligence, and other technologies have made it easier and more efficient to localize content, making it possible for companies to reach more customers in different regions.          </p>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <img src="images/blog91.webp" alt="Localisation Services." style="width:100%;">
+        </div>
+      </div>
+
+      <!-- ================= ENGAGEMENT ================= -->
+      <div class="row align-items-center mb-5">
+        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+          <img src="images/blog92.avif" alt="Localisation Services." style="width:100%;">
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <p style="color:#000">Growth of Localisation industry</p>
+         <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.6; color: #000; font-size: 1.1rem; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Globalization:</strong> As businesses expand their operations globally, the need for localization services has increased. Companies are looking to reach customers in new markets and need to communicate with them in their native language to be successful.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Increasing internet usage:</strong> The internet has made it easier for businesses to expand their reach into new markets, and localization services are essential for companies to effectively communicate with their global audiences.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Mobile devices:</strong> The growth of mobile devices has further increased the demand for localization services. Mobile apps, games, and websites must be localized to cater to different regions, languages, and cultures.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Technology advancements:</strong> Machine translation, artificial intelligence, and other technologies have made it possible to automate parts of the localization process, reducing costs and turnaround times.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Multilingual content creation:</strong> The rise of social media, video streaming, and other digital platforms has created a need for multilingual content creation. Localization services are required to ensure that this content is accessible to audiences in different regions.
+    </p>
+  </li>
+
+</ul>
+        </div>
+      </div>
+
+      <!-- ================= EFFICIENCY ================= -->
+      <div class="row align-items-center mb-5">
+        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+          <p style="line-height:1.8; color:#000">
+            How to Choose the Right Localization Services
+          </p>
+          <p style="line-height:1.8; color:#000">
+            Choosing the right localization services can be a critical decision for businesses looking to expand their reach in global markets. Here are some factors to consider when choosing the right localization services:
+          </p>
+          <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.6; color: #000; font-size: 1.1rem; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Expertise:</strong> Look for localization companies that have experience in your industry and market. This will ensure that the company understands the nuances and cultural sensitivities of your target audience.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Quality:</strong> Quality is essential in localization services. Look for companies that have quality assurance processes and certifications such as ISO 9001 or ISO 17100 to ensure the highest level of quality.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Technology:</strong> Technology is crucial in localization services, and the right localization company should use the latest translation and localization software to ensure accuracy and efficiency.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Linguistic capabilities:</strong> The right localization services should have a team of professional linguists who are native speakers of the target language and have experience in the relevant industry.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Cultural expertise:</strong> Cultural sensitivity is essential in localization services, and the right localization company should have a team of cultural experts who can ensure that your content is culturally appropriate and relevant.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Customer service:</strong> Look for companies that have excellent customer service and are responsive to your needs.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Pricing:</strong> Pricing is an essential factor in choosing the right localization services. Look for companies that offer competitive pricing while maintaining high-quality standards.
+    </p>
+  </li>
+
+</ul>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <img src="images/blog93.webp" alt="Localisation Services." style="width:100%">
+        </div>
+      </div>
+
+      <!-- ================= PERSONALISATION ================= -->
+      <div class="row align-items-center mb-5">
+        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+          <img src="images/blog94.webp" alt="Localisation Services." style="width:100%;">
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <p style="line-height:1.8; color:#000">Challenges In Localisation Industry          </p>
+          <p style="color: #000;">The localization industry faces several challenges that can impact the quality and efficiency of localization services. Here are some common challenges faced by localization companies:</p>
+          <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.6; color: #000; font-size: 1.1rem; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Cultural and linguistic nuances:</strong> One of the biggest challenges in localization is understanding the cultural and linguistic nuances of the target audience. The localizer must be familiar with the cultural norms, language styles, and idiomatic expressions to provide accurate and culturally appropriate translations.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Technical compatibility:</strong> The localization of software applications, websites, and multimedia content can be challenging due to technical compatibility issues. The localizer must ensure that the localized content functions correctly and is compatible with the target platform.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Time and cost constraints:</strong> Localization can be time-consuming and expensive, especially for large-scale projects. Meeting tight deadlines and budgets can be challenging while maintaining quality.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Human resource management:</strong> Managing a team of linguists, cultural experts, and project managers across different time zones and locations can be challenging. Effective communication and project management are critical to ensure the timely delivery of high-quality localized content.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Machine translation limitations:</strong> While machine translation has improved significantly in recent years, it still has limitations in accurately capturing the nuances of language and culture. Human translators are still essential for ensuring accuracy and cultural sensitivity.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Legal and regulatory compliance:</strong> Localized content must comply with legal and regulatory requirements in different regions, which can be challenging to navigate, especially for highly regulated industries such as healthcare and finance.
+    </p>
+  </li>
+
+</ul>
+        </div>
+      </div>
+
+      <!-- ================= FUTURE TRENDS ================= -->
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-9 text-center" data-aos="fade-up">
+          <h3 style="color:#a94e00; font-weight:600; margin-bottom:20px;">The Future of eLearning - 5 Trends to be aware of</h3>
+          <p style="line-height:1.8; margin-bottom:20px; color:#000">
+             In summary, the localization services industry is expected to continue growing as businesses continue to expand globally and the demand for content in different languages continues to increase. The localization industry faces several challenges, including cultural and linguistic nuances, technical compatibility, time and cost constraints, human resource management, machine translation limitations, and legal and regulatory compliance. Overcoming these challenges requires a combination of expertise, technology, and effective project management to deliver high-quality localized content.          </p>
+          
+        </div>
+      </div>
+
+    </div>
+  </section>
+</body>
+
+
+<footer class="site-footer" style="padding:35px 0 20px 0;">
+  <div class="container">
+    <div class="row">
+
+      <!-- Company Info -->
+      <div class="col-md-4">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px;">
+          PRGEEQ Global Solutions Private Limited.
+        </h2>
+        <p style="margin-bottom:4px; font-size:14px;">No 22, 3rd Block, 18th Cross,</p>
+        <p style="margin-bottom:4px; font-size:14px;">Vishwapriya Nagar, Bangalore - 560068</p>
+        <p style="margin-bottom:6px; font-size:14px;">Karnataka, India.</p>
+
+        <p style="margin-bottom:4px; font-size:14px;"><strong>Phone :</strong> +91 968 626 6966</p>
+        <p style="margin-bottom:8px; font-size:14px;"><strong>Email :</strong> contact@prgeeq.com</p>
+
+        <!-- Social Icons -->
+        <div style="margin-top:10px;">
+          <a href="https://x.com/PrgeeqGlobal"
+             style="padding-right:10px; display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Follow PRGEEQ on Twitter">
+            <span class="icon-twitter"></span>
+          </a>
+
+          <a href="https://www.youtube.com/@prgeeqglobalsolutions"
+             style="padding-right:10px; display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Subscribe to PRGEEQ on YouTube">
+            <span class="icon-youtube"></span>
+          </a>
+
+          <a href="https://www.linkedin.com/company/prgeeq-global-solutions-private-limited/?viewAsMember=true"
+             style="display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Connect with PRGEEQ on LinkedIn">
+            <span class="icon-linkedin"></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Useful Links -->
+      <div class="col-md-2">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px; text-transform:none; color:#ffffff !important;">
+          Useful Links
+        </h2>
+        <ul class="list-unstyled" style="padding-left:0; line-height:1.6;">
+
+          <li style="margin-bottom:4px;">
+            <a href="index.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Home
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="index.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              About Us
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Solutions
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="Terms.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Terms of Service
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="Terms.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Privacy Policy
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Our Services -->
+      <div class="col-md-2">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px; text-transform:none; color:#ffffff !important;">
+          Our Services
+        </h2>
+        <ul class="list-unstyled" style="padding-left:0; line-height:1.6;">
+
+          <li style="margin-bottom:4px;">
+            <a href="elearning_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              eLearning
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="multimidia_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Multimedia
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="localization_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Localization
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="software_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Software
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Location -->
+      <div class="col-md-4">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px;">
+          Our Location
+        </h2>
+        <div style="width:100%; height:130px; border-radius:8px; overflow:hidden;">
+          <iframe
+            title="Google Maps showing PRGEEQ office location"
+            src="https://www.google.com/maps?q=Vishwapriya%20Nagar%20Bangalore&output=embed"
+            width="100%"
+            height="130"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="row" style="padding-top:15px; margin-top:15px; text-align:center;">
+      <div class="col-md-12">
+        <div style="border-top:1px solid #000; padding-top:10px;">
+          <p class="copyright" style="margin:0; font-size:13px;">
+            © Copyright 2026 | All Rights Reserved | Designed by PRGEEQ
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>

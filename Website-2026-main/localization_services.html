@@ -1,0 +1,2153 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Unearth — Website Template by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700" rel="stylesheet"> -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    /* ================= NAVBAR ================= */
+
+    .site-navbar {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1100;
+      background: #ffffff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 15px 0;
+    }
+
+    /* Desktop */
+    @media (min-width: 992px) {
+      .main-menu {
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      .main-menu > li {
+        margin-left: 5px;
+      }
+    }
+
+    /* ================= MOBILE NAV FIX ================= */
+
+    @media (max-width: 991px) {
+
+      .site-logo img {
+        height: 38px !important;
+      }
+
+      .site-mobile-menu {
+        width: 280px;
+        background: #ffffff;
+        box-shadow: 2px 0 25px rgba(0,0,0,0.15);
+      }
+
+      .site-mobile-menu .site-nav-wrap {
+        display: block;
+        padding: 15px 0;
+      }
+
+      .site-mobile-menu .site-nav-wrap li {
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #f1f1f1;
+      }
+
+      .site-mobile-menu .site-nav-wrap li a {
+        display: block;
+        width: 100%;
+        padding: 14px 22px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #212121;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+
+      .site-mobile-menu .site-nav-wrap li a:hover {
+        background: #C35214;
+        color: #ffffff;
+      }
+
+      /* Dropdown items indent */
+      .site-mobile-menu .dropdown li a {
+        padding-left: 45px;
+        font-size: 15px;
+        background: #fafafa;
+      }
+
+      /* ONLY Book Demo button */
+      .site-mobile-menu .book-demo-mobile a {
+        background: #C35214 !important;
+        color: #ffffff !important;
+        margin: 15px;
+        border-radius: 30px;
+        text-align: center;
+        font-weight: 600;
+      }
+
+      .site-menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+<div class="site-wrap" id="home-section">
+
+  <!-- MOBILE MENU -->
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-navbar js-sticky-header site-navbar-target" role="banner" 
+        style="background:#fff; padding:25px 0; box-shadow:0 2px 15px rgba(0,0,0,0.06); position:relative; z-index:999;">
+
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between">
+
+      <!-- LOGO -->
+      <div class="site-logo" style="display:flex; align-items:center;">
+        <a href="index.html">
+          <img src="images/PRGEEQ-Logo.png" alt="PRGEEQ" style="height:50px;">
+        </a>
+      </div>
+
+      <!-- NAVIGATION -->
+      <div class="d-flex align-items-center justify-content-end flex-grow-1">
+
+        <nav class="site-navigation text-right d-none d-lg-block" role="navigation">
+
+          <ul class="site-menu main-menu js-clone-nav"
+              style="list-style:none; margin:0; padding:0;">
+
+            <!-- HOME -->
+           <li class="active" style="display:inline-block;">
+  <a href="index.html"
+     style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}"> Home
+  </a>
+</li>
+
+            <!-- SOLUTIONS -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+                 style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Solutions
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li>
+                  <a href="Who_we_serve.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    Who We Serve
+                  </a>
+                </li>
+
+                <li>
+                  <a href="services.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    Services
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <!-- PRODUCT -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+                 style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Product
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li>
+                  <a href="LMS.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    LMS - NEUROLXP
+                  </a>
+                </li>
+
+                <li>
+                  <a href="E-Labs.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    GQ-Labs
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <!-- RESOURCES -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+               style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Resources
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li><a href="blogs.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Blogs</a></li>
+
+                <li><a href="Events.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Achievements</a></li>
+
+                <li><a href="help_Center.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Help Center</a></li>
+
+                <li><a href="careeres.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Careers</a></li>
+
+                <li><a href="testimonials.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Testimonials</a></li>
+
+              </ul>
+            </li>
+
+            <!-- CONTACT -->
+           <li style="display:inline-block;">
+  <a href="index.html#contact-section"
+     style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">Contact Us
+  </a>
+</li>
+
+            <!-- BOOK DEMO -->
+            <li style="display:inline-block;">
+              <a href="Book_a_demo.html"
+                style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Book a Demo
+              </a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <!-- MOBILE TOGGLE -->
+        <div class="d-inline-block d-lg-none ml-3">
+          <a href="#" class="site-menu-toggle js-menu-toggle">
+            <span class="icon-menu h3"></span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Chat Button -->
+<!-- Talk to Our Expert Button -->
+<a href="Talk_to_our_expert.html" style="text-decoration:none;">
+  <div id="chatToggle" style="
+    position:fixed;
+    top:50%;
+    right:-85px;
+    transform:translateY(-50%) rotate(-90deg);
+    transform-origin:center;
+    background:#a94e00;
+    color:#fff;
+    padding:12px 28px;
+    border-radius:30px 30px 0 0;
+    font-weight:600;
+    font-size:15px;
+    letter-spacing:0.5px;
+    cursor:pointer;
+    box-shadow:0 10px 25px rgba(0,0,0,0.25);
+    z-index:9999;
+    white-space:nowrap;
+    transition:0.3s;
+  ">
+    💬 Talk to Our Expert
+  </div>
+</a>
+
+<script>
+function adjustExpertButton() {
+  var btn = document.getElementById("chatToggle");
+
+  if (window.innerWidth <= 768) {
+    // Mobile View
+    btn.style.transform = "translateY(0)";
+    btn.style.top = "auto";
+    btn.style.bottom = "20px";
+    btn.style.right = "20px";
+    btn.style.borderRadius = "30px";
+    btn.style.padding = "10px 18px";
+    btn.style.fontSize = "14px";
+  } else {
+    // Desktop View
+    btn.style.top = "50%";
+    btn.style.bottom = "auto";
+    btn.style.right = "-85px";
+    btn.style.transform = "translateY(-50%) rotate(-90deg)";
+    btn.style.borderRadius = "30px 30px 0 0";
+    btn.style.padding = "12px 28px";
+    btn.style.fontSize = "15px";
+  }
+}
+
+adjustExpertButton();
+window.addEventListener("resize", adjustExpertButton);
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Localisation and Multilingual Content Solutions",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/logo.png"
+  },
+  "description": "PRGEEQ provides localisation services that combine multilingual translation, cultural adaptation, and accessibility integration. We help brands communicate effectively with global audiences while maintaining compliance with WCAG and ISO standards.",
+  "serviceType": "Localisation and Accessibility Services",
+  "areaServed": {
+    "@type": "Place",
+    "name": "Global"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Localisation Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Multilingual Localisation",
+          "description": "Translation and adaptation of content across multiple languages and regions by native experts."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Cultural and Accessibility Adaptation",
+          "description": "Ensuring content is culturally relevant, accessible, and compliant with WCAG guidelines."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Industry-Specific Localisation",
+          "description": "Tailored localisation solutions for education, technology, business, and e-commerce sectors."
+        }
+      }
+    ]
+  }
+}
+
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Graphic Design Solutions",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/logo.png"
+  },
+  "description": "PRGEEQ offers professional graphic design services covering branding, e-learning visuals, marketing materials, and digital design. We combine creativity and technology to deliver visually compelling and accessible graphics.",
+  "serviceType": "Graphic Design",
+  "areaServed": "Global",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Design and Branding Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Branding and Visual Identity Design",
+          "description": "Creation of logos, brand guidelines, and cohesive visual identities for organisations."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "E-learning and Multimedia Graphics",
+          "description": "Development of instructional and interactive graphics for educational and corporate learning platforms."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Marketing Collateral Design",
+          "description": "Design of brochures, banners, flyers, and promotional materials optimised for digital and print media."
+        }
+      }
+    ]
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "PRGEEQ"
+  },
+  "url": "https://www.prgeeq.com/services/graphic-design"
+}
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Language Translation Solutions",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/logo.png"
+  },
+  "description": "PRGEEQ provides expert language translation services in multiple languages, ensuring cultural accuracy, confidentiality, and compliance for global communication.",
+  "serviceType": "Language Translation",
+  "areaServed": "Global",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Translation and Interpretation Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Document and Legal Translation",
+          "description": "Accurate and certified translation of legal, academic, and business documents with full data confidentiality."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Website and Multimedia Localisation",
+          "description": "Adapting websites, marketing materials, and audiovisual content for regional audiences and cultural relevance."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Interpretation and Real-Time Translation",
+          "description": "Providing professional interpretation for conferences, meetings, and live events in multiple languages."
+        }
+      }
+    ]
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "PRGEEQ"
+  },
+  "url": "https://www.prgeeq.com/services/language-translation"
+}
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Subtitling and Captioning Solutions",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/logo.png"
+  },
+  "description": "PRGEEQ provides professional subtitling and captioning services, ensuring accurate, accessible, and culturally sensitive video content across languages and platforms.",
+  "serviceType": "Subtitling and Captioning",
+  "areaServed": "Global",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Multimedia Accessibility Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Multilingual Subtitling",
+          "description": "Creating synchronised and culturally appropriate subtitles in multiple languages for films, e-learning, and corporate videos."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Closed Captioning for Accessibility",
+          "description": "Providing readable and accessible captions compliant with WCAG and ADA standards for individuals with hearing impairments."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Video Localisation and Format Support",
+          "description": "Supporting multiple file formats (SRT, VTT, SCC) and ensuring accurate time-coding and embedding for global platforms."
+        }
+      }
+    ]
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "PRGEEQ"
+  },
+  "url": "https://www.prgeeq.com/services/subtitling-and-captioning"
+}
+
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Localisation and Multilingual Content Solutions",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/logo.png"
+  },
+  "description": "PRGEEQ provides localisation services that combine multilingual translation, cultural adaptation, and accessibility integration. We help brands communicate effectively with global audiences while maintaining compliance with WCAG and ISO standards.",
+  "serviceType": "Localisation and Accessibility Services",
+  "areaServed": {
+    "@type": "Place",
+    "name": "Global"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Localisation Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Multilingual Localisation",
+          "description": "Translation and adaptation of content across multiple languages and regions by native experts."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Cultural and Accessibility Adaptation",
+          "description": "Ensuring content is culturally relevant, accessible, and compliant with WCAG guidelines."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Industry-Specific Localisation",
+          "description": "Tailored localisation solutions for education, technology, business, and e-commerce sectors."
+        }
+      }
+    ]
+  }
+}
+
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Graphic Design Solutions",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/logo.png"
+  },
+  "description": "PRGEEQ offers professional graphic design services covering branding, e-learning visuals, marketing materials, and digital design. We combine creativity and technology to deliver visually compelling and accessible graphics.",
+  "serviceType": "Graphic Design",
+  "areaServed": "Global",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Design and Branding Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Branding and Visual Identity Design",
+          "description": "Creation of logos, brand guidelines, and cohesive visual identities for organisations."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "E-learning and Multimedia Graphics",
+          "description": "Development of instructional and interactive graphics for educational and corporate learning platforms."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Marketing Collateral Design",
+          "description": "Design of brochures, banners, flyers, and promotional materials optimised for digital and print media."
+        }
+      }
+    ]
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "PRGEEQ"
+  },
+  "url": "https://www.prgeeq.com/services/graphic-design"
+}
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Language Translation Solutions",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/logo.png"
+  },
+  "description": "PRGEEQ provides expert language translation services in multiple languages, ensuring cultural accuracy, confidentiality, and compliance for global communication.",
+  "serviceType": "Language Translation",
+  "areaServed": "Global",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Translation and Interpretation Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Document and Legal Translation",
+          "description": "Accurate and certified translation of legal, academic, and business documents with full data confidentiality."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Website and Multimedia Localisation",
+          "description": "Adapting websites, marketing materials, and audiovisual content for regional audiences and cultural relevance."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Interpretation and Real-Time Translation",
+          "description": "Providing professional interpretation for conferences, meetings, and live events in multiple languages."
+        }
+      }
+    ]
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "PRGEEQ"
+  },
+  "url": "https://www.prgeeq.com/services/language-translation"
+}
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Subtitling and Captioning Solutions",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/logo.png"
+  },
+  "description": "PRGEEQ provides professional subtitling and captioning services, ensuring accurate, accessible, and culturally sensitive video content across languages and platforms.",
+  "serviceType": "Subtitling and Captioning",
+  "areaServed": "Global",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Multimedia Accessibility Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Multilingual Subtitling",
+          "description": "Creating synchronised and culturally appropriate subtitles in multiple languages for films, e-learning, and corporate videos."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Closed Captioning for Accessibility",
+          "description": "Providing readable and accessible captions compliant with WCAG and ADA standards for individuals with hearing impairments."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Video Localisation and Format Support",
+          "description": "Supporting multiple file formats (SRT, VTT, SCC) and ensuring accurate time-coding and embedding for global platforms."
+        }
+      }
+    ]
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "PRGEEQ"
+  },
+  "url": "https://www.prgeeq.com/services/subtitling-and-captioning"
+}
+
+</script>
+<body>
+
+
+<!-- ================= MAIN OVERVIEW ================= -->
+
+<section class="site-section" style="padding:100px 0;">
+  <div class="container">
+
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-8 text-center" data-aos="fade-up">
+        <div class="block-heading-1">
+          <h2 style="color:#a94e00; text-transform:none;"><b>Localisation Services and Solutions</b></h2>
+          <p style="color: #000;"><strong>Breaking Barriers with Cultural and Linguistic Precision</strong></p>
+          <p style="color:#000">
+           Expanding your brand globally requires more than translation — it demands <strong>cultural intelligence and linguistic precision</strong>. At <strong>PRGEEQ</strong>, we provide localisation services that adapt your digital content, products, and communications to resonate with audiences across different languages, cultures, and markets. Our solutions ensure that your message maintains authenticity, impact, and accessibility wherever it is delivered.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= SUB SERVICES NAVIGATION ================= -->
+<section style="padding:0 0 50px 0; background:#f8f9fa; text-align:center; margin:0;">
+  <div class="container">
+    
+    <h2 style="margin:0 0 30px 0; color:#a94e00; text-transform:none;">
+      <b>Localisation Sub Services</b>
+    </h2>
+
+    <div>
+      <button onclick="showSub('Graphic')"
+              style="background:#a94e00;border:none;padding:12px 30px;font-weight:600;border-radius:30px;margin:10px;color:#fff;cursor:pointer;">
+        Graphic Design Solutions
+      </button>
+
+      <button onclick="showSub('LANGUAGE')"
+              style="background:#a94e00;border:none;padding:12px 30px;font-weight:600;border-radius:30px;margin:10px;color:#fff;cursor:pointer;">
+       Language Translation Solutions
+      </button>
+
+       <button onclick="showSub('SUBTITLING')"
+              style="background:#a94e00;border:none;padding:12px 30px;font-weight:600;border-radius:30px;margin:10px;color:#fff;cursor:pointer;">
+       Subtitling and Captioning Solutions
+      </button>
+    </div>
+
+  </div>
+  
+</section>
+
+
+    <div class="row align-items-center">
+       <div class="col-lg-6" data-aos="fade-left">
+    <img src="images/Graphic Design 4 (1).jpg"
+         alt="Graphic design."
+         style="width:100%;">
+  </div>
+  <div class="col-lg-6" data-aos="fade-left">
+    <h3 style="color:#a94e00;text-transform:none;"><b>Our Unique Value Proposition</b></h3>
+    <p style="color:#000">
+      PRGEEQ combines <strong>linguistic accuracy, cultural sensitivity, and technical expertise</strong> to help you build meaningful connections worldwide. We ensure that your content complies with regional conventions, accessibility standards, and local regulations, creating seamless experiences for users of all backgrounds and abilities. From websites and eLearning modules to marketing assets and software, we localise every element to support your international growth.
+    </p>
+  </div>
+</div>
+
+
+<div class="row justify-content-center align-items-center py-5">
+
+  <!-- CENTERED CONTENT -->
+  <div class="col-lg-8 col-md-10 mx-auto text-center" data-aos="fade-up">
+    
+    <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;">
+      <b>Multilingual and Cultural Expertise</b>
+    </h3>
+
+    <p style="line-height:1.8; color:#000">
+      Our team of professional linguists, localisation engineers, and cultural consultants ensures precision 
+      and inclusivity in every project. We adapt not only words but also 
+      <strong>visuals, layouts, formats, and accessibility components</strong> — such as 
+      <strong>alt text, captions, and readability enhancements</strong> — ensuring your message 
+      is equally accessible and relevant to all users, regardless of linguistic or physical differences.
+    </p>
+
+  </div>
+
+</div>
+
+
+
+<div class="row align-items-center">
+  <div class="col-lg-6" data-aos="fade-right">
+    <img src="images/Graphic Design 5 (1).jpg"
+         alt="Graphic design."
+         style="width:100%;">
+  </div>
+
+  <div class="col-lg-6" data-aos="fade-left">
+    <h3 style="color:#a94e00;text-transform:none;"><b>Why Choose PRGEEQ for Localisation Solutions</b></h3>
+    <p style="color:#000">
+     Choosing PRGEEQ means partnering with experts who understand the nuances of <strong>language, culture, and accessibility</strong>. Our localisation approach enhances your brand’s credibility, builds trust with international audiences, and ensures compliance with global accessibility guidelines like <strong>WCAG and ISO 9241-171</strong>. We help you expand your reach, improve engagement, and open pathways to global success.
+    </p>
+  </div>
+</div>
+
+
+  <div class="row justify-content-center mt-5 mb-0">
+  <div class="col-md-8 text-center" data-aos="fade-up">
+    <div class="block-heading-1">
+      
+      <h3 style="color:#a94e00;text-transform:none;">
+        <b>Key Highlights of Our Localisation Services</b>
+      </h3>
+
+      <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.6; color: #000; font-size: 1.1rem; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">End-to-end localisation</strong> for websites, eLearning, and software applications.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Multilingual translation and cultural adaptation</strong> by native professionals.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Accessibility integration</strong> including alt text, captions, and language tagging.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Industry expertise</strong> across business, education, e-commerce, and technology.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Quality assurance and testing</strong> for linguistic accuracy and user accessibility.
+    </p>
+  </li>
+
+</ul>
+
+    </div>
+  </div>
+</div>
+
+<div class="row justify-content-center align-items-center py-5">
+
+  <!-- CENTERED CONTENT -->
+  <div class="col-lg-8 col-md-10 mx-auto text-center" data-aos="fade-up">
+    
+    <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;">
+      <b>Connecting the World through Localisation</b>
+    </h3>
+
+    <p style="line-height:1.8; color:#000">
+      Localisation transforms communication from simple translation into cultural connection. 
+      With PRGEEQ, your brand speaks every language authentically, inclusively, and accessibly — 
+      ensuring that your message reaches and resonates with diverse global audiences. 
+      Together, we make the world smaller and your impact greater.
+    </p>
+
+  </div>
+
+</div>
+
+
+
+
+
+</div>
+
+</section>
+</section>
+
+
+<!-- ================= GRAPHIC DESIGN SOLUTIONS ================= -->
+
+<section id="Graphic" style="padding:100px 0; display:none; background:#ffffff;">
+  <div class="container">
+
+    <!-- ROW 1 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <img src="images/Graphic Design 1.jpg"
+             alt="Graphic Design."
+             style="width:100%;">
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Crafting Visual Narratives That Inspire and Engage</b></h3>
+        <p style="color:#000">
+          With the exponential rise in technology-driven creativity, organisations need a trusted design partner capable of turning ideas into captivating visual experiences.
+        </p>
+        <p style="color:#000">
+          At <strong>PRGEEQ,</strong> we design powerful and meaningful visuals that communicate your brand story, enhance user engagement, and elevate your organisation’s digital presence. From e-learning assets to marketing materials, we deliver design excellence that resonates globally.
+        </p>
+      </div>
+
+    </div>
+
+
+    <!-- ROW 2 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Empowering Learning and Communication Through Design</b></h3>
+        <p style="color: #000;">
+          In the digital age, visuals play a decisive role in learning, engagement, and brand communication. PRGEEQ’s Graphic Design Solutions merge aesthetics with strategy to produce visual content that educates, informs, and inspires.
+        </p>
+        <p style="color: #000;">
+          Whether you’re designing for corporate training, digital marketing, or public engagement, our creative experts ensure every design aligns with your goals, brand personality, and accessibility standards — across all devices and platforms.
+        </p>
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <img src="images/Graphic Design 2.jpg"
+             alt="Creative Design."
+             style="width:100%;">
+      </div>
+
+    </div>
+
+
+    <!-- CENTER CONTENT -->
+    <div class="row justify-content-center text-center mb-5">
+      <div class="col-lg-8" data-aos="fade-up">
+        
+        <h3 style="color:#a94e00; margin-bottom:25px;text-transform:none;">
+          <b>Our Approach to Graphic Design</b>
+        </h3>
+
+        <p style="color: #000;">
+          Our process blends creativity, research, and technology to produce impactful visual experiences.
+        </p>
+        
+       <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.6; color: #000; font-size: 1.1rem; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Discovery and Ideation –</strong> We analyse your objectives, audience, and brand essence to build a strong creative direction.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Concept Development –</strong> Our designers conceptualise layouts, visuals, and colour palettes aligned with your brand guidelines.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Design Execution –</strong> We create high-quality graphics, illustrations, infographics, and digital interfaces optimised for accessibility.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Cross-Platform Optimisation –</strong> Every design is responsive and compatible with desktops, tablets, and smartphones.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Quality Assurance –</strong> Rigorous reviews ensure visual consistency, clarity, and compliance with accessibility standards.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Collaboration and Feedback –</strong> We work closely with clients through every stage to align visuals with their creative vision.
+    </p>
+  </li>
+
+</ul>
+
+        <p style="margin-top:20px; color:#000">
+          Our graphic designers excel at producing distinctive visuals for banners, brochures, e-books, flyers, and promotional materials. With over 14 years of professional experience, our team blends artistic insight with technical expertise to deliver results that leave a lasting impact.
+        </p>
+
+      </div>
+    </div>
+
+
+    <!-- FINAL ROW -->
+    <div class="row align-items-start" style="margin-top:60px;">
+
+      <!-- LEFT -->
+      <div class="col-lg-6 mb-4" data-aos="fade-right">
+        <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;">
+          <b>Why Choose PRGEEQ for Graphic Design?</b>
+        </h3>
+        
+       <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.6; color: #000; font-size: 1.1rem; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Creative Expertise:</strong> Our team of skilled designers delivers visually compelling, brand-consistent graphics.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Industry Versatility:</strong> We cater to a broad spectrum of industries, from education and e-learning to corporate communications.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Technology-Driven Approach:</strong> We utilise tools such as Adobe Creative Cloud, CorelDRAW, Google Slides, Adobe Captivate, and Articulate Rise.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">High Quality and Timely Delivery:</strong> We ensure precision through multiple quality checks and deliver projects within strict deadlines.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Collaborative Workflow:</strong> We value your ideas and work with you to achieve a shared creative vision.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Trend-Aligned Design:</strong> We stay abreast of global design trends to deliver modern, fresh, and accessible visuals.
+    </p>
+  </li>
+
+</ul>
+
+        <p style="margin-top:15px; color:#000">
+          Our designs communicate your brand’s personality, tone, and values through strategic use of imagery, shape, and colour — helping your business stand out online and beyond.
+        </p>
+      </div>
+
+
+      <!-- RIGHT -->
+      <div class="col-lg-6 mb-4" data-aos="fade-left">
+        <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;">
+          <b>Industries We Serve</b>
+        </h3>
+
+        <p style="margin-bottom:15px; color:#000">
+          We design for a wide range of sectors, including:
+        </p>
+        
+        <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.6; color: #000; font-size: 1.1rem; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Education and E-Learning</strong>
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Corporate and Business Enterprises</strong>
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Marketing and Advertising Agencies</strong>
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Technology and Software Firms</strong>
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Healthcare and Pharmaceuticals</strong>
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Government and Non-Profit Organisations</strong>
+    </p>
+  </li>
+
+</ul>
+      </div>
+
+    </div>
+
+
+
+    <!-- ================= FAQ SECTION ================= -->
+    <section class="site-section bg-light" style="padding:40px 0;">
+      <div class="container">
+
+        <div class="row justify-content-center text-center" style="margin-bottom:30px;">
+          <div class="col-md-7" data-aos="fade-up">
+            <p style="margin:0; color:#a94e00;"><strong><b>Frequently Asked Questions</b></strong></p>
+          </div>
+        </div>
+
+        <div style="max-width:900px; margin:0 auto;">
+
+          <!-- FAQ 1 -->
+          <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+            <button onclick="var a=this.nextElementSibling;var q=this.querySelector('.q');q.style.color=a.style.display==='block'?'#333':'#f4a261';a.style.display=a.style.display==='block'?'none':'block';"
+              style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+              <span class="q" style="color:#000;">1. What do PRGEEQ’s Graphic Design Services include?</span>
+              <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+            </button>
+            <div style="padding:0 26px 22px; display:none;">
+              <p style="margin:0; line-height:1.7; color:#000">
+                Our design services cover branding, marketing collateral, web and mobile visuals, and e-learning design. We create professional, memorable designs that strengthen your organisation’s visual identity.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+            <button onclick="var a=this.nextElementSibling;var q=this.querySelector('.q');q.style.color=a.style.display==='block'?'#333':'#f4a261';a.style.display=a.style.display==='block'?'none':'block';"
+              style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+              <span class="q" style="color:#000;">2. Can PRGEEQ’s services align with my branding guidelines or industry standards?</span>
+              <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+            </button>
+            <div style="padding:0 26px 22px; display:none;">
+              <p style="margin:0; line-height:1.7; color:#000">
+                Absolutely. We tailor every design to meet your industry requirements, branding policies, and communication goals, ensuring consistency and relevance.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+            <button onclick="var a=this.nextElementSibling;var q=this.querySelector('.q');q.style.color=a.style.display==='block'?'#333':'#f4a261';a.style.display=a.style.display==='block'?'none':'block';"
+              style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+              <span class="q" style="color:#000;">3. How does effective graphic design improve marketing and communication?</span>
+              <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+            </button>
+            <div style="padding:0 26px 22px; display:none;">
+              <p style="margin:0; line-height:1.7;color:#000">
+                Strong visuals capture attention, reinforce brand recall, and communicate messages quickly and effectively — driving engagement, loyalty, and conversion.
+              </p>
+            </div>
+          </div>
+
+          <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+            <button onclick="var a=this.nextElementSibling;var q=this.querySelector('.q');q.style.color=a.style.display==='block'?'#333':'#f4a261';a.style.display=a.style.display==='block'?'none':'block';"
+              style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+              <span class="q" style="color:#000;">4. On which platforms are PRGEEQ’s designs most effective?</span>
+              <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+            </button>
+            <div style="padding:0 26px 22px; display:none;">
+              <p style="margin:0; line-height:1.7; color:#000">
+                Our graphics are designed for multi-format use, including websites, social media, mobile applications, presentations, and print materials — ensuring impact across channels.
+              </p>
+            </div>
+          </div>
+
+          <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+            <button onclick="var a=this.nextElementSibling;var q=this.querySelector('.q');q.style.color=a.style.display==='block'?'#333':'#f4a261';a.style.display=a.style.display==='block'?'none':'block';"
+              style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+              <span class="q" style="color:#000;">5. What is PRGEEQ’s process for design collaboration?</span>
+              <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+            </button>
+            <div style="padding:0 26px 22px; display:none; color:#000">
+              <p style="margin:0; line-height:1.7;">
+                We begin with a detailed briefing, develop creative concepts, refine through revisions, and deliver finalised designs ready for deployment — ensuring complete alignment with your vision.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </div>
+</section>
+
+<!-- ================= LANGUAGE TRANSLATION ================= -->
+
+<section id="LANGUAGE" style="padding:100px 0; display:none; background:#ffffff;">
+  <div class="container">
+
+    <!-- ROW 1 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <img src="images/Language Translation 2.jpg"
+             alt="Language Translation."
+             style="width:100%;">
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Breaking Down Language Barriers for Global Communication</b></h3>
+        <p style="color:#000">
+          In today’s interconnected world, effective communication transcends borders and languages. At <strong>PRGEEQ</strong>, we specialise in language translation solutions that enable seamless communication across cultures, fostering inclusivity, understanding, and global collaboration.
+          Translation is far more than a linguistic exercise — it is the bridge that connects people, ideas, and businesses across continents. From international trade and diplomacy to academia and culture, translation ensures the free flow of knowledge, preserving human heritage and promoting global unity.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- ROW 2 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Empowering Communication Beyond Borders</b></h3>
+        <p style="color: #000;">
+          Language translation plays a crucial role in today’s global ecosystem. It facilitates cross-border communication, expands market reach, and enables information sharing between diverse linguistic communities.
+          At PRGEEQ, we combine linguistic expertise, cultural awareness, and technology-driven precision to provide translations that maintain meaning, tone, and intent. Whether for corporate documents, websites, multimedia, or academic content, our solutions ensure clarity, accuracy, and accessibility for all users.
+        </p>
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <img src="images/Language Translation 1.jpg"
+             alt="Language Translation."
+             style="width:100%;">
+      </div>
+
+    </div>
+
+    <!-- CENTER CONTENT -->
+    <div class="row justify-content-center text-center mb-5">
+      <div class="col-lg-8" data-aos="fade-up">
+        
+        <h3 style="color:#a94e00; margin-bottom:25px;text-transform:none;">
+          <b>Our Approach to Language Translation</b>
+        </h3>
+
+        <p style="color:#000">
+          We follow a meticulous, multi-stage process to guarantee accurate, culturally sensitive translations that align with your goals and context.
+        </p>
+        
+       <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.6; color: #000; font-size: 1.1rem; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Content Evaluation –</strong> We assess your materials, defining the target audience, context, and linguistic objectives.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Expert Linguistic Translation –</strong> Our professional translators work with native fluency, ensuring the essence and intent of the original text are preserved.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Cultural Localisation –</strong> We adapt content to align with regional culture, tone, and social norms, ensuring effective engagement.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Technical Precision –</strong> Advanced tools such as translation memory and terminology management systems maintain consistency across large projects.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Quality Assurance –</strong> Each project undergoes editing, proofreading, and validation by subject matter experts.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Confidentiality and Security –</strong> We ensure strict data protection protocols for all client content.
+    </p>
+  </li>
+
+</ul>
+
+        <p style="margin-top:20px; color:#000">
+          Our translation services extend beyond words — we help you connect meaningfully with audiences worldwide.
+        </p>
+
+      </div>
+    </div>
+
+    <!-- FINAL ROW -->
+    <div class="row align-items-start" style="margin-top:60px;">
+
+      <!-- LEFT -->
+      <div class="col-lg-6 mb-4" data-aos="fade-right">
+        <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;">
+          <b>Why Choose PRGEEQ for Translation Services?</b>
+        </h3>
+        
+       <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.6; color: #000; font-size: 1.1rem; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Cultural and Linguistic Expertise:</strong> Our certified linguists ensure culturally appropriate, precise translations across domains.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Multilingual Capabilities:</strong> We support a vast range of global languages, enabling communication across continents.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Comprehensive Solutions:</strong> From legal, marketing, and technical to multimedia and educational content — we translate it all.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Data Security:</strong> Your documents remain confidential under strict security and non-disclosure measures.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Certified Translations:</strong> We provide certified, legally recognised translations for official submissions.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Interpretation Services:</strong> Real-time interpretation for conferences, meetings, and global events.
+    </p>
+  </li>
+
+</ul>
+
+        <p style="margin-top:15px; color:#000">
+          With PRGEEQ, language ceases to be a barrier and becomes a bridge to opportunity.
+        </p>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="col-lg-6 mb-4" data-aos="fade-left">
+        <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;">
+          <b>Industries We Serve</b>
+        </h3>
+
+        <p style="margin-bottom:15px; color:#000;">
+          Our translation services empower clients across multiple industries, including:
+        </p>
+        
+       <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.6; color: #000; font-size: 1.1rem; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Education and E-Learning</strong>
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Corporate and Legal Enterprises</strong>
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Healthcare and Pharmaceuticals</strong>
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Government and Public Administration</strong>
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Technology and Software Development</strong>
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Media and Communications</strong>
+    </p>
+  </li>
+
+</ul>
+      </div>
+
+    </div>
+    
+    <!-- ================= FAQ SECTION ================= -->
+    <section class="site-section bg-light" style="padding:40px 0;">
+      <div class="container">
+
+        <div class="row justify-content-center text-center" style="margin-bottom:30px;">
+          <div class="col-md-7" data-aos="fade-up">
+            <p style="margin:0; color:#a94e00;"><strong><b>Frequently Asked Questions</b></strong></p>
+          </div>
+        </div>
+
+        <div style="max-width:900px; margin:0 auto;">
+
+          <!-- FAQ 1 -->
+          <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+            <button onclick="var a=this.nextElementSibling;var q=this.querySelector('.q');q.style.color=a.style.display==='block'?'#333':'#f4a261';a.style.display=a.style.display==='block'?'none':'block';"
+              style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+              <span class="q" style="color:#000;">1. What are PRGEEQ’s Language Translation Services?</span>
+              <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+            </button>
+            <div style="padding:0 26px 22px; display:none;">
+              <p style="margin:0; line-height:1.7; color:#000">
+                Our services include professional translation of documents, websites, multimedia, and corporate materials into multiple languages, helping businesses communicate effectively and expand globally.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+            <button onclick="var a=this.nextElementSibling;var q=this.querySelector('.q');q.style.color=a.style.display==='block'?'#333':'#f4a261';a.style.display=a.style.display==='block'?'none':'block';"
+              style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+              <span class="q" style="color:#000;">2. What content types can PRGEEQ handle?</span>
+              <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+            </button>
+            <div style="padding:0 26px 22px; display:none;">
+              <p style="margin:0; line-height:1.7; color:#000">
+                We translate a variety of content, including legal documents, academic research, corporate reports, e-learning modules, websites, and audiovisual media.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+            <button onclick="var a=this.nextElementSibling;var q=this.querySelector('.q');q.style.color=a.style.display==='block'?'#333':'#f4a261';a.style.display=a.style.display==='block'?'none':'block';"
+              style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+              <span class="q" style="color:#000;">3. How does professional translation benefit businesses?</span>
+              <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+            </button>
+            <div style="padding:0 26px 22px; display:none;">
+              <p style="margin:0; line-height:1.7; color:#000">
+                It ensures global market penetration, maintains cultural relevance, improves customer engagement, and strengthens brand credibility across regions.
+              </p>
+            </div>
+          </div>
+
+          <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+            <button onclick="var a=this.nextElementSibling;var q=this.querySelector('.q');q.style.color=a.style.display==='block'?'#333':'#f4a261';a.style.display=a.style.display==='block'?'none':'block';"
+              style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+              <span class="q" style="color:#000;">4. What quality measures ensure accuracy and reliability?</span>
+              <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+            </button>
+            <div style="padding:0 26px 22px; display:none;">
+              <p style="margin:0; line-height:1.7; color:#000">
+                Our multi-stage review process includes translation, editing, proofreading, and use of translation memory tools to ensure precision, consistency, and context integrity.
+              </p>
+            </div>
+          </div>
+
+          <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+            <button onclick="var a=this.nextElementSibling;var q=this.querySelector('.q');q.style.color=a.style.display==='block'?'#333':'#f4a261';a.style.display=a.style.display==='block'?'none':'block';"
+              style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+              <span class="q" style="color:#000;">5. What is the process for accessing PRGEEQ’s translation services?</span>
+              <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+            </button>
+            <div style="padding:0 26px 22px; display:none;">
+             <p style="margin:0 0 0 0; padding:0; line-height:1.7; color:#000;">
+  Simply contact us through our website or email. Submit your content and language requirements, and our team will provide a tailored quote, timeline, and delivery plan.
+</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+  </div>
+</section>
+
+
+<!-- ================= SUBTITLING AND CAPTIONING SOLUTIONS ================= -->
+<section id="SUBTITLING" style="display:none; background:#ffffff;">
+
+  <div class="container py-3">
+    <div class="row align-items-center g-3 px-3 px-md-5">
+
+      <!-- IMAGE COLUMN -->
+      <div class="col-lg-6 text-center mb-3 mb-lg-0" data-aos="fade-right">
+        <img src="images/Subtitling and Captioning (1).jpg"
+             alt="Subtitling and Captioning."
+             class="img-fluid rounded shadow-sm"
+             style="width: 100%; max-height: 450px; object-fit: cover; border-radius:12px;">
+      </div>
+
+      <!-- TEXT COLUMN -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="ps-lg-4 pt-2 pt-lg-0">
+
+          <h3 style="color:#a94e00; margin-bottom:15px;">
+            <b>Making Every Word Accessible to Every Viewer</b>
+          </h3>
+
+          <p style="color:#000; line-height:1.8; font-family:'Roboto', sans-serif; font-size:1.1rem;">
+            In a world where digital content transcends borders, PRGEEQ ensures that your message is understood by everyone, everywhere.
+          </p>
+
+          <p style="color:#000; line-height:1.8; font-family:'Roboto', sans-serif; font-size:1.1rem;">
+            Our team of professional transcriptionists, translators, editors, and technical experts work collaboratively to deliver accurate, culturally sensitive, and synchronised subtitles and captions for all media formats.
+          </p>
+
+          <p style="color:#000; line-height:1.8; font-family:'Roboto', sans-serif; font-size:1.1rem;">
+            Whether you need multilingual subtitles for global audiences or closed captions for accessibility compliance, we transform your multimedia content into an inclusive experience without compromising its meaning, tone, or cultural essence.
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="container py-3">
+    <div class="row align-items-center mb-3 px-lg-5 g-3">
+
+      <!-- TEXT COLUMN -->
+      <div class="col-lg-6 pe-lg-5 px-4 px-md-3" data-aos="fade-right">
+
+        <h3 style="color:#a94e00; margin-bottom:15px;">
+          <b>Bridging Cultures Through Accurate Subtitling</b>
+        </h3>
+
+        <p style="color:#000; line-height:1.8; font-family:'Roboto', sans-serif; font-size:1.1rem;">
+          Creating effective subtitles is not just about translation; it’s about preserving context, humour, and emotion while ensuring linguistic accuracy.
+        </p>
+
+        <p style="color:#000; line-height:1.8; font-family:'Roboto', sans-serif; font-size:1.1rem;">
+          At PRGEEQ, our subtitling and captioning solutions enhance engagement, comprehension, and accessibility across films, educational content, corporate videos, and e-learning modules.
+        </p>
+
+        <p style="color:#000; line-height:1.8; font-family:'Roboto', sans-serif; font-size:1.1rem;">
+          We manage the entire process — from transcription and translation to time-coding and embedding — ensuring your video is accessible, compliant, and enjoyable across platforms and devices.
+        </p>
+
+      </div>
+
+      <!-- IMAGE COLUMN -->
+      <div class="col-lg-6 text-center" data-aos="fade-left">
+        <img src="images/Digital Marketing_2.jpg"
+             alt="digital marketing."
+             class="img-fluid rounded mx-auto d-block"
+             style="width: 100%; max-height: 450px; object-fit: cover; border-radius: 12px;">
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="container py-3">
+    <div class="row justify-content-center text-center mb-3">
+      <div class="col-lg-8 px-4 px-md-3" data-aos="fade-up">
+
+        <h3 style="color:#a94e00; margin-bottom:15px;">
+          <b>Our Approach to Subtitling and Captioning</b>
+        </h3>
+
+        <p style="color:#000; margin-bottom:15px;">
+          We follow a comprehensive and quality-driven workflow to guarantee precision and accessibility in every frame.
+        </p>
+
+        <ul class="list-unstyled"
+            style="margin:15px 0; line-height:1.6; color:#000; font-size:1.1rem; font-family:'Roboto', sans-serif; text-align:left;">
+
+          <li class="d-flex align-items-start mb-2">
+            <i class="fa-solid fa-angles-right me-3 mt-1" style="font-size:0.9rem;"></i>
+            <p class="mb-0"><strong>Accurate Transcription –</strong> We capture spoken dialogue verbatim, maintaining clarity and tone.</p>
+          </li>
+
+          <li class="d-flex align-items-start mb-2">
+            <i class="fa-solid fa-angles-right me-3 mt-1"></i>
+            <p class="mb-0"><strong>Cultural Adaptation –</strong> Our linguists adapt content for regional audiences, considering idioms and nuances.</p>
+          </li>
+
+          <li class="d-flex align-items-start mb-2">
+            <i class="fa-solid fa-angles-right me-3 mt-1"></i>
+            <p class="mb-0"><strong>Time-Coding Precision –</strong> Each subtitle is synchronised for seamless viewing.</p>
+          </li>
+
+          <li class="d-flex align-items-start mb-2">
+            <i class="fa-solid fa-angles-right me-3 mt-1"></i>
+            <p class="mb-0"><strong>Multilingual Translation –</strong> Subtitle creation in multiple languages to broaden reach.</p>
+          </li>
+
+          <li class="d-flex align-items-start mb-2">
+            <i class="fa-solid fa-angles-right me-3 mt-1"></i>
+            <p class="mb-0"><strong>Closed Captioning for Accessibility –</strong> Compliance with WCAG 2.1 standards.</p>
+          </li>
+
+          <li class="d-flex align-items-start mb-2">
+            <i class="fa-solid fa-angles-right me-3 mt-1"></i>
+            <p class="mb-0"><strong>Quality Review and Revisions –</strong> Rigorous linguistic and technical checks.</p>
+          </li>
+
+          <li class="d-flex align-items-start">
+            <i class="fa-solid fa-angles-right me-3 mt-1"></i>
+            <p class="mb-0"><strong>Data Security –</strong> Strict confidentiality for unreleased or sensitive media.</p>
+          </li>
+
+        </ul>
+
+        <p style="margin-top:15px; color:#000;">
+          We support multiple subtitle formats including SRT, VTT, and SCC, ensuring compatibility across broadcasting, streaming, and social media platforms.
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container py-3">
+    <div class="row align-items-start g-3 mt-3 px-3 px-md-4">
+
+      <!-- LEFT -->
+      <div class="col-lg-6" data-aos="fade-right">
+
+        <h3 style="color:#a94e00; margin-bottom:15px;">
+          <b>Why Choose PRGEEQ for Subtitling and Captioning?</b>
+        </h3>
+
+        <ul class="list-unstyled"
+            style="margin:15px 0; line-height:1.6; color:#000; font-size:1.1rem; font-family:'Roboto', sans-serif; text-align:left;">
+
+          <li class="d-flex align-items-start mb-2">
+            <i class="fa-solid fa-angles-right me-3 mt-1"></i>
+            <p class="mb-0"><strong>Accuracy and Quality:</strong> Linguistically precise subtitles and captions.</p>
+          </li>
+
+          <li class="d-flex align-items-start mb-2">
+            <i class="fa-solid fa-angles-right me-3 mt-1"></i>
+            <p class="mb-0"><strong>Customisable Solutions:</strong> Tailored for films, e-learning, and corporate media.</p>
+          </li>
+
+          <li class="d-flex align-items-start mb-2">
+            <i class="fa-solid fa-angles-right me-3 mt-1"></i>
+            <p class="mb-0"><strong>Accessibility Compliance:</strong> Adherence to WCAG, ADA, and broadcast standards.</p>
+          </li>
+
+          <li class="d-flex align-items-start mb-2">
+            <i class="fa-solid fa-angles-right me-3 mt-1"></i>
+            <p class="mb-0"><strong>Multilingual Expertise:</strong> Subtitles in multiple languages.</p>
+          </li>
+
+          <li class="d-flex align-items-start mb-2">
+            <i class="fa-solid fa-angles-right me-3 mt-1"></i>
+            <p class="mb-0"><strong>Fast Turnaround:</strong> Timely delivery without compromising quality.</p>
+          </li>
+
+          <li class="d-flex align-items-start">
+            <i class="fa-solid fa-angles-right me-3 mt-1"></i>
+            <p class="mb-0"><strong>Security and Confidentiality:</strong> Robust protection for private content.</p>
+          </li>
+
+        </ul>
+
+        <p style="margin-top:15px; color:#000;">
+          Our proven track record reflects our commitment to excellence, client satisfaction, and innovation in accessibility-focused video services.
+        </p>
+
+      </div>
+
+      <!-- RIGHT -->
+      <div class="col-lg-6" data-aos="fade-left">
+
+        <h3 style="color:#a94e00; margin-bottom:15px;">
+          <b>Industries We Serve</b>
+        </h3>
+
+        <ul class="list-unstyled"
+            style="margin:15px 0; line-height:1.6; color:#000; font-size:1.1rem; font-family:'Roboto', sans-serif; text-align:left;">
+
+          <li class="d-flex align-items-start mb-2">
+            <i class="fa-solid fa-angles-right me-3 mt-1"></i>
+            <p class="mb-0"><strong>Entertainment and Media</strong></p>
+          </li>
+
+          <li class="d-flex align-items-start mb-2">
+            <i class="fa-solid fa-angles-right me-3 mt-1"></i>
+            <p class="mb-0"><strong>Education and E-Learning</strong></p>
+          </li>
+
+          <li class="d-flex align-items-start mb-2">
+            <i class="fa-solid fa-angles-right me-3 mt-1"></i>
+            <p class="mb-0"><strong>Corporate Training and Marketing</strong></p>
+          </li>
+
+          <li class="d-flex align-items-start mb-2">
+            <i class="fa-solid fa-angles-right me-3 mt-1"></i>
+            <p class="mb-0"><strong>Healthcare and Public Awareness Campaigns</strong></p>
+          </li>
+
+          <li class="d-flex align-items-start">
+            <i class="fa-solid fa-angles-right me-3 mt-1"></i>
+            <p class="mb-0"><strong>Government and Non-Profit Organisations</strong></p>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+    <!-- ================= FAQ SECTION ================= -->
+    <section class="site-section bg-light" style="padding:40px 0;">
+      <div class="container">
+
+        <div class="row justify-content-center text-center" style="margin-bottom:30px;">
+          <div class="col-md-7">
+            <p style="margin:0; color:#a94e00;"><strong><b>Frequently Asked Questions</b></strong></p>
+          </div>
+        </div>
+
+        <div style="max-width:900px; margin:0 auto;">
+
+          <!-- FAQ ITEMS -->
+
+          <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+            <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';"
+              style="width:100%; border:none; background:none; padding:22px 26px; text-align:left; font-size:18px; font-weight:600; cursor:pointer;">
+              1. What are PRGEEQ’s Subtitling and Captioning Services?
+            </button>
+            <div style="padding:0 26px 22px; display:none; color:#000">
+              Our services add precise text overlays to multimedia content, making it accessible and engaging for a wider audience, including non-native speakers and individuals with hearing impairments.
+            </div>
+          </div>
+
+          <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+            <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';"
+              style="width:100%; border:none; background:none; padding:22px 26px; text-align:left; font-size:18px; font-weight:600; cursor:pointer;">
+              2. Are your services compatible with different media formats?
+            </button>
+            <div style="padding:0 26px 22px; display:none; color:#000">
+              Yes. We support multiple formats — including video, audio, live broadcasts, and online streams — and deliver in industry-standard file types like SRT and VTT.
+            </div>
+          </div>
+
+          <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+            <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';"
+              style="width:100%; border:none; background:none; padding:22px 26px; text-align:left; font-size:18px; font-weight:600; cursor:pointer;">
+              3. How do subtitles and captions improve accessibility?
+            </button>
+            <div style="padding:0 26px 22px; display:none; color:#000">
+              They ensure comprehension for those with hearing impairments and aid non-native speakers by providing text-based references, enhancing understanding and inclusivity.
+            </div>
+          </div>
+
+          <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+            <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';"
+              style="width:100%; border:none; background:none; padding:22px 26px; text-align:left; font-size:18px; font-weight:600; cursor:pointer;">
+              4. Can subtitles and captions be customised for style or branding?
+            </button>
+            <div style="padding:0 26px 22px; display:none; color:#000">
+              Absolutely. We tailor fonts, colours, placement, and styles to match your brand identity or aesthetic requirements.
+            </div>
+          </div>
+
+          <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+            <button onclick="var a=this.nextElementSibling;a.style.display=a.style.display==='block'?'none':'block';"
+              style="width:100%; border:none; background:none; padding:22px 26px; text-align:left; font-size:18px; font-weight:600; cursor:pointer;">
+              5. Which industries benefit most from these services?
+            </button>
+            <div style="padding:0 26px 22px; display:none; color:#000">
+              Subtitling and captioning are invaluable in education, entertainment, healthcare, and marketing — helping content reach wider audiences while improving SEO and engagement.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </div>
+</section>
+
+
+
+
+<!-- ================= INLINE JAVASCRIPT ================= -->
+
+<script>
+function showSub(section) {
+
+  var graphicSection = document.getElementById("Graphic");
+  var languageSection = document.getElementById("LANGUAGE");
+  var subtitlingSection = document.getElementById("SUBTITLING");
+
+  // Hide all first
+  graphicSection.style.display = "none";
+  languageSection.style.display = "none";
+  subtitlingSection.style.display = "none";
+
+  // Show selected section
+  if(section === "Graphic") {
+    graphicSection.style.display = "block";
+  } 
+  else if(section === "LANGUAGE") {
+    languageSection.style.display = "block";
+  } 
+  else if(section === "SUBTITLING") {
+    subtitlingSection.style.display = "block";
+  }
+
+  // Smooth scroll
+  document.getElementById(section).scrollIntoView({
+    behavior: "smooth"
+  });
+}
+</script>
+
+
+
+</section>
+
+<!-- ================= WEB ACCESSIBILITY ================= -->
+
+<!-- AOS JS -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/aos.js"></script>
+
+<script>
+  AOS.init({
+    duration: 800,
+    easing: 'ease-out-cubic',
+    once: true
+  });
+</script>
+
+</body>
+
+
+<footer class="site-footer" style="padding:35px 0 20px 0;">
+  <div class="container">
+    <div class="row">
+
+      <!-- Company Info -->
+      <div class="col-md-4">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px;">
+          PRGEEQ Global Solutions Private Limited.
+        </h2>
+        <p style="margin-bottom:4px; font-size:14px;">No 22, 3rd Block, 18th Cross,</p>
+        <p style="margin-bottom:4px; font-size:14px;">Vishwapriya Nagar, Bangalore - 560068</p>
+        <p style="margin-bottom:6px; font-size:14px;">Karnataka, India.</p>
+
+        <p style="margin-bottom:4px; font-size:14px;"><strong>Phone :</strong> +91 968 626 6966</p>
+        <p style="margin-bottom:8px; font-size:14px;"><strong>Email :</strong> contact@prgeeq.com</p>
+
+        <!-- Social Icons -->
+        <div style="margin-top:10px;">
+          <a href="https://x.com/PrgeeqGlobal"
+             style="padding-right:10px; display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Follow PRGEEQ on Twitter">
+            <span class="icon-twitter"></span>
+          </a>
+
+          <a href="https://www.youtube.com/@prgeeqglobalsolutions"
+             style="padding-right:10px; display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Subscribe to PRGEEQ on YouTube">
+            <span class="icon-youtube"></span>
+          </a>
+
+          <a href="https://www.linkedin.com/company/prgeeq-global-solutions-private-limited/?viewAsMember=true"
+             style="display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Connect with PRGEEQ on LinkedIn">
+            <span class="icon-linkedin"></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Useful Links -->
+      <div class="col-md-2">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px; text-transform:none; color:#ffffff !important;">
+          Useful Links
+        </h2>
+        <ul class="list-unstyled" style="padding-left:0; line-height:1.6;">
+
+          <li style="margin-bottom:4px;">
+            <a href="index.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Home
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="index.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              About Us
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Solutions
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="Terms.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Terms of Service
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="Terms.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Privacy Policy
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Our Services -->
+      <div class="col-md-2">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px; text-transform:none; color:#ffffff !important;">
+          Our Services
+        </h2>
+        <ul class="list-unstyled" style="padding-left:0; line-height:1.6;">
+
+          <li style="margin-bottom:4px;">
+            <a href="elearning_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              eLearning
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="multimidia_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Multimedia
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="localization_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Localization
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="software_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Software
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Location -->
+      <div class="col-md-4">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px;">
+          Our Location
+        </h2>
+        <div style="width:100%; height:130px; border-radius:8px; overflow:hidden;">
+          <iframe
+            title="Google Maps showing PRGEEQ office location"
+            src="https://www.google.com/maps?q=Vishwapriya%20Nagar%20Bangalore&output=embed"
+            width="100%"
+            height="130"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="row" style="padding-top:15px; margin-top:15px; text-align:center;">
+      <div class="col-md-12">
+        <div style="border-top:1px solid #000; padding-top:10px;">
+          <p class="copyright" style="margin:0; font-size:13px;">
+            © Copyright 2026 | All Rights Reserved | Designed by PRGEEQ
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>

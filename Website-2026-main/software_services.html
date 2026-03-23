@@ -1,0 +1,1612 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Unearth — Website Template by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700" rel="stylesheet"> -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    /* ================= NAVBAR ================= */
+
+    .site-navbar {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1100;
+      background: #ffffff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 15px 0;
+    }
+
+    /* Desktop */
+    @media (min-width: 992px) {
+      .main-menu {
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      .main-menu > li {
+        margin-left: 5px;
+      }
+    }
+
+    /* ================= MOBILE NAV FIX ================= */
+
+    @media (max-width: 991px) {
+
+      .site-logo img {
+        height: 38px !important;
+      }
+
+      .site-mobile-menu {
+        width: 280px;
+        background: #ffffff;
+        box-shadow: 2px 0 25px rgba(0,0,0,0.15);
+      }
+
+      .site-mobile-menu .site-nav-wrap {
+        display: block;
+        padding: 15px 0;
+      }
+
+      .site-mobile-menu .site-nav-wrap li {
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #f1f1f1;
+      }
+
+      .site-mobile-menu .site-nav-wrap li a {
+        display: block;
+        width: 100%;
+        padding: 14px 22px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #212121;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+
+      .site-mobile-menu .site-nav-wrap li a:hover {
+        background: #C35214;
+        color: #ffffff;
+      }
+
+      /* Dropdown items indent */
+      .site-mobile-menu .dropdown li a {
+        padding-left: 45px;
+        font-size: 15px;
+        background: #fafafa;
+      }
+
+      /* ONLY Book Demo button */
+      .site-mobile-menu .book-demo-mobile a {
+        background: #C35214 !important;
+        color: #ffffff !important;
+        margin: 15px;
+        border-radius: 30px;
+        text-align: center;
+        font-weight: 600;
+      }
+
+      .site-menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+<div class="site-wrap" id="home-section">
+
+  <!-- MOBILE MENU -->
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-navbar js-sticky-header site-navbar-target" role="banner" 
+        style="background:#fff; padding:25px 0; box-shadow:0 2px 15px rgba(0,0,0,0.06); position:relative; z-index:999;">
+
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between">
+
+      <!-- LOGO -->
+      <div class="site-logo" style="display:flex; align-items:center;">
+        <a href="index.html">
+          <img src="images/PRGEEQ-Logo.png" alt="PRGEEQ" style="height:50px;">
+        </a>
+      </div>
+
+      <!-- NAVIGATION -->
+      <div class="d-flex align-items-center justify-content-end flex-grow-1">
+
+        <nav class="site-navigation text-right d-none d-lg-block" role="navigation">
+
+          <ul class="site-menu main-menu js-clone-nav"
+              style="list-style:none; margin:0; padding:0;">
+
+            <!-- HOME -->
+           <li class="active" style="display:inline-block;">
+  <a href="index.html"
+     style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}"> Home
+  </a>
+</li>
+
+            <!-- SOLUTIONS -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+                 style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Solutions
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li>
+                  <a href="Who_we_serve.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    Who We Serve
+                  </a>
+                </li>
+
+                <li>
+                  <a href="services.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    Services
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <!-- PRODUCT -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+                 style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Product
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li>
+                  <a href="LMS.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    LMS - NEUROLXP
+                  </a>
+                </li>
+
+                <li>
+                  <a href="E-Labs.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    GQ-Labs
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <!-- RESOURCES -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+               style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Resources
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li><a href="blogs.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Blogs</a></li>
+
+                <li><a href="Events.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Achievements</a></li>
+
+                <li><a href="help_Center.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Help Center</a></li>
+
+                <li><a href="careeres.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Careers</a></li>
+
+                <li><a href="testimonials.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Testimonials</a></li>
+
+              </ul>
+            </li>
+
+            <!-- CONTACT -->
+           <li style="display:inline-block;">
+  <a href="index.html#contact-section"
+     style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">Contact Us
+  </a>
+</li>
+
+            <!-- BOOK DEMO -->
+            <li style="display:inline-block;">
+              <a href="Book_a_demo.html"
+                style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Book a Demo
+              </a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <!-- MOBILE TOGGLE -->
+        <div class="d-inline-block d-lg-none ml-3">
+          <a href="#" class="site-menu-toggle js-menu-toggle">
+            <span class="icon-menu h3"></span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Chat Button -->
+<!-- Talk to Our Expert Button -->
+<a href="Talk_to_our_expert.html" style="text-decoration:none;">
+  <div id="chatToggle" style="
+    position:fixed;
+    top:50%;
+    right:-85px;
+    transform:translateY(-50%) rotate(-90deg);
+    transform-origin:center;
+    background:#a94e00;
+    color:#fff;
+    padding:12px 28px;
+    border-radius:30px 30px 0 0;
+    font-weight:600;
+    font-size:15px;
+    letter-spacing:0.5px;
+    cursor:pointer;
+    box-shadow:0 10px 25px rgba(0,0,0,0.25);
+    z-index:9999;
+    white-space:nowrap;
+    transition:0.3s;
+  ">
+    💬 Talk to Our Expert
+  </div>
+</a>
+
+<script>
+function adjustExpertButton() {
+  var btn = document.getElementById("chatToggle");
+
+  if (window.innerWidth <= 768) {
+    // Mobile View
+    btn.style.transform = "translateY(0)";
+    btn.style.top = "auto";
+    btn.style.bottom = "20px";
+    btn.style.right = "20px";
+    btn.style.borderRadius = "30px";
+    btn.style.padding = "10px 18px";
+    btn.style.fontSize = "14px";
+  } else {
+    // Desktop View
+    btn.style.top = "50%";
+    btn.style.bottom = "auto";
+    btn.style.right = "-85px";
+    btn.style.transform = "translateY(-50%) rotate(-90deg)";
+    btn.style.borderRadius = "30px 30px 0 0";
+    btn.style.padding = "12px 28px";
+    btn.style.fontSize = "15px";
+  }
+}
+
+adjustExpertButton();
+window.addEventListener("resize", adjustExpertButton);
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "PRGEEQ E-Learning Solutions",
+  "url": "https://www.prgeeq.com/e-learning",
+  "logo": "https://www.prgeeq.com/assets/logo.png",
+  "description": "PRGEEQ provides interactive, accessible, and personalised e-learning solutions designed to enhance engagement, knowledge retention, and digital literacy for learners worldwide.",
+  "founder": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited"
+  },
+  "areaServed": "Worldwide",
+  "serviceType": "E-Learning Solutions, Digital Learning Platforms, Adaptive Learning Systems",
+  "slogan": "Empowering Digital Learning Through Innovation",
+  "sameAs": [
+    "https://www.linkedin.com/company/prgeeq",
+    "https://twitter.com/prgeeq"
+  ],
+  "knowsAbout": [
+    "e-learning solutions",
+    "adaptive learning",
+    "accessible education",
+    "digital literacy",
+    "corporate training"
+  ]
+}
+
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Learning App Solutions",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/logo.png"
+  },
+  "description": "PRGEEQ develops customised mobile learning apps with gamification, analytics, and accessibility features for education and corporate training. Our solutions deliver engaging, scalable, and secure learning experiences.",
+  "serviceType": "Mobile Learning App Development",
+  "areaServed": "Worldwide",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Learning App Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Educational and Corporate Learning Apps"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Gamified Learning and Analytics Integration"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Cross-Platform App Development"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Custom Branding and Localisation"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Data Security and Maintenance Support"
+        }
+      }
+    ]
+  },
+  "mainEntityOfPage": "https://www.prgeeq.com/learning-apps-solutions",
+  "inLanguage": "en-GB"
+}
+
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "PRGEEQ Learning Management System",
+  "applicationCategory": "EducationalApplication",
+  "operatingSystem": "Web, iOS, Android",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/logo.png"
+  },
+  "description": "PRGEEQ’s Learning Management System (LMS) is an accessible, interactive, and secure platform for online education, training, and performance tracking across industries.",
+  "featureList": [
+    "Interactive learning modules and collaborative forums",
+    "AI-based learner analytics and reporting",
+    "Custom branding and design flexibility",
+    "Cross-device compatibility with offline support",
+    "Data security and compliance with GDPR standards"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "price": "Custom",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "downloadUrl": "https://www.prgeeq.com/lms",
+  "screenshot": "https://www.prgeeq.com/images/prgeeq-lms-interface.png",
+  "url": "https://www.prgeeq.com/services/learning-management-system"
+}
+
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "PRGEEQ E-Learning Solutions",
+  "url": "https://www.prgeeq.com/e-learning",
+  "logo": "https://www.prgeeq.com/assets/logo.png",
+  "description": "PRGEEQ provides interactive, accessible, and personalised e-learning solutions designed to enhance engagement, knowledge retention, and digital literacy for learners worldwide.",
+  "founder": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited"
+  },
+  "areaServed": "Worldwide",
+  "serviceType": "E-Learning Solutions, Digital Learning Platforms, Adaptive Learning Systems",
+  "slogan": "Empowering Digital Learning Through Innovation",
+  "sameAs": [
+    "https://www.linkedin.com/company/prgeeq",
+    "https://twitter.com/prgeeq"
+  ],
+  "knowsAbout": [
+    "e-learning solutions",
+    "adaptive learning",
+    "accessible education",
+    "digital literacy",
+    "corporate training"
+  ]
+}
+
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Learning App Solutions",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/logo.png"
+  },
+  "description": "PRGEEQ develops customised mobile learning apps with gamification, analytics, and accessibility features for education and corporate training. Our solutions deliver engaging, scalable, and secure learning experiences.",
+  "serviceType": "Mobile Learning App Development",
+  "areaServed": "Worldwide",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Learning App Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Educational and Corporate Learning Apps"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Gamified Learning and Analytics Integration"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Cross-Platform App Development"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Custom Branding and Localisation"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Data Security and Maintenance Support"
+        }
+      }
+    ]
+  },
+  "mainEntityOfPage": "https://www.prgeeq.com/learning-apps-solutions",
+  "inLanguage": "en-GB"
+}
+
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "PRGEEQ Learning Management System",
+  "applicationCategory": "EducationalApplication",
+  "operatingSystem": "Web, iOS, Android",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/logo.png"
+  },
+  "description": "PRGEEQ’s Learning Management System (LMS) is an accessible, interactive, and secure platform for online education, training, and performance tracking across industries.",
+  "featureList": [
+    "Interactive learning modules and collaborative forums",
+    "AI-based learner analytics and reporting",
+    "Custom branding and design flexibility",
+    "Cross-device compatibility with offline support",
+    "Data security and compliance with GDPR standards"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "price": "Custom",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "downloadUrl": "https://www.prgeeq.com/lms",
+  "screenshot": "https://www.prgeeq.com/images/prgeeq-lms-interface.png",
+  "url": "https://www.prgeeq.com/services/learning-management-system"
+}
+
+</script>
+
+<body>
+
+
+<!-- ================= MAIN OVERVIEW ================= -->
+
+<section class="site-section" style="padding:100px 0;">
+  <div class="container">
+
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-8 text-center" data-aos="fade-up">
+        <div class="block-heading-1">
+          <h2 style="color: #a94e00;text-transform:none;"><b>Software Solutions and Services</b></h2>
+          <p style="color: #000;"><strong>Empowering Businesses with Custom Software Development</strong></p>
+          <p style="color:#000">
+           At <strong>PRGEEQ</strong>, we create intelligent, future-ready software solutions that empower organisations to innovate, optimise operations, and achieve sustainable growth. Our expert developers design and deliver custom applications that seamlessly align with your business goals, ensuring agility, security, and scalability.
+          </p>
+        </div>
+      </div>
+    </div>
+
+<!-- ================= SUB SERVICES NAVIGATION ================= -->
+    <section style="padding:0 0 50px 0; background:#f8f9fa; text-align:center; margin:0;">
+  <div class="container">
+    
+    <h2 style="margin:0 0 30px 0; color:#a94e00; text-transform:none;">
+      <b>Software Sub Services</b>
+    </h2>
+
+    <div>
+      <button onclick="showSub('Learning')"
+              style="background:#a94e00;border:none;padding:12px 30px;font-weight:600;border-radius:30px;margin:10px;color:#fff;cursor:pointer;">
+        Learning Apps Solutions
+      </button>
+
+      <button onclick="showSub('Management')"
+              style="background:#a94e00;border:none;padding:12px 30px;font-weight:600;border-radius:30px;margin:10px;color:#fff;cursor:pointer;">
+        Learning Management Solutions
+      </button>
+    </div>
+
+  </div>
+</section>
+
+    <div class="row align-items-center">
+  <div class="col-lg-6" data-aos="fade-right">
+    <img src="images/Software 2.jpg"
+         alt="software."
+         style="width:100%;">
+  </div>
+
+  <div class="col-lg-6" data-aos="fade-left">
+    <h3 style="color:#a94e00;text-transform:none;"><b>Our Unique Value Proposition</b></h3>
+    <p style="color: #000;">
+     We combine strategic thinking, cutting-edge technology, and deep industry insight to provide software that drives measurable value. Our development approach focuses on accessibility, user experience, and long-term performance — ensuring that every solution we deliver is inclusive, intuitive, and compliant with global accessibility standards.
+    </p>
+  </div>
+</div>
+
+
+  <div class="row justify-content-center mt-5 mb-0">
+  <div class="col-md-8 text-center" data-aos="fade-up">
+    <div class="block-heading-1">
+      
+      <h3 style="color:#a94e00;text-transform:none;">
+        <b>Key Highlights of Our Software Solutions</b>
+      </h3>
+
+     <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.6; color: #000; font-size: 1.1rem; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Customised Software Development:</strong> Tailored applications built to address your exact requirements, enhancing productivity and efficiency.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Industry-Specific Solutions:</strong> Expertise across diverse sectors such as healthcare, education, finance, and enterprise operations.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Process Automation:</strong> Streamlined workflows that reduce manual effort, improve accuracy, and enhance collaboration.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Accessible and Inclusive Design:</strong> Every application adheres to WCAG and inclusive-design principles to ensure usability for all users.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Scalable Architecture:</strong> Solutions that evolve with your organisation’s growth and adapt to emerging technologies.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Comprehensive Support:</strong> From consultation and design to implementation and post-launch maintenance, we ensure end-to-end service excellence.
+    </p>
+  </li>
+
+</ul>
+
+    </div>
+  </div>
+</div>
+
+<div class="row align-items-center">
+  <div class="col-lg-6" data-aos="fade-right">
+    <img src="images/Software 3.jpg"
+         alt="software."
+         style="width:100%;">
+  </div>
+
+  <div class="col-lg-6" data-aos="fade-left">
+    <h3 style="color:#a94e00;text-transform:none;"><b>Why Choose PRGEEQ</b></h3>
+    <p style="color: #000;">
+       Choosing PRGEEQ means partnering with a trusted technology provider committed to your digital success. We blend innovation with reliability to deliver solutions that simplify operations, boost performance, and unlock new opportunities. Our team stays ahead of technological advancements, ensuring your software remains robust, secure, and relevant in a rapidly changing digital environment.    </p>
+  </div>
+</div>
+
+
+</div>
+
+</section>
+</section>
+
+
+
+
+
+<!-- =================  Learning Apps Solutions ================= -->
+
+<section id="Learning" style="padding:100px 0; display:none; background:#ffffff;">
+  <div class="container">
+
+    <!-- ROW 1 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <img src="images/Learning Apps 1.jpg"
+             alt="Learning Apps."
+             style="width:100%;">
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Transform Learning into a Mobile Experience</b></h3>
+        <p style="color: #000;">
+          Unlock a world of knowledge at your fingertips with <strong>PRGEEQ’s Learning App Solutions</strong> — where innovation meets accessibility. Our expertly designed mobile learning applications seamlessly blend education, technology, and convenience to make every moment a chance to learn.
+          We help institutions, corporations, and educators turn ideas into interactive, engaging, and scalable learning platforms. Whether you are building training solutions, academic apps, or self-paced learning environments, PRGEEQ ensures exceptional quality, usability, and learner satisfaction.
+        </p>
+      </div>
+
+    </div>
+
+
+    <!-- ROW 2 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Is PRGEEQ the Right Partner for You?</b></h3>
+        <p style="color: #000;">
+          Our Learning App Services are ideal if you answer ‘Yes’ to any of the following:
+        </p>
+
+       <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.6; color: #000; font-size: 1.1rem; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      Do you want to take your educational content to the next level with mobile learning?
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      Are you looking for a user-friendly, cross-platform app that engages learners of all ages?
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      Do you require personalised learning features with progress tracking and analytics?
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      Do you value secure, accessible, and multilingual learning experiences?
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      Are you ready to expand globally through mobile-based education delivery?
+    </p>
+  </li>
+
+</ul>
+
+        <p style="color:#000">
+          PRGEEQ provides the complete suite of learning app development services, combining creative design, cutting-edge technology, and accessibility compliance.
+        </p>
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <img src="images/Learning Apps 2.jpg"
+             alt="Mobile Learning App."
+             style="width:100%;">
+      </div>
+
+    </div>
+
+
+    <!-- CENTER CONTENT -->
+    <div class="row justify-content-center text-center mb-5">
+      <div class="col-lg-8" data-aos="fade-up">
+        
+        <h3 style="color:#a94e00; margin-bottom:25px;text-transform:none;">
+          <b>Our Approach to Learning App Development</b>
+        </h3>
+
+        <p style="color:#000">
+          Learning should be fun, interactive, and inclusive. PRGEEQ’s approach ensures every app is designed for impact, motivation, and measurable outcomes.
+        </p>
+
+        <p style="color:#000">
+          We integrate gamification, quizzes, progress dashboards, and certification systems to keep learners motivated. Every app includes accessibility features such as text-to-speech, closed captions, and adaptive layouts to ensure equitable learning opportunities for all.
+        </p>
+       <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.6; color: #000; font-size: 1.1rem; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Learner-Centric Design:</strong> Intuitive navigation and responsive design for all devices.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Advanced Analytics:</strong> Real-time insights into learner performance and engagement.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Scalability:</strong> Built to support audiences ranging from small cohorts to global enterprises.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Customisation:</strong> Fully tailored interfaces, branding, and content management systems.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Security and Compliance:</strong> Data protection and privacy as top priorities.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Cross-Platform Compatibility:</strong> Deploy on iOS, Android, and web simultaneously.
+    </p>
+  </li>
+
+</ul>
+
+        <p style="margin-top:20px; color:#000">
+          Learners are rewarded with digital badges and certificates, encouraging achievement and lifelong engagement.
+        </p>
+
+      </div>
+    </div>
+
+
+<!-- FINAL ROW -->
+<div class="row justify-content-center" style="margin-top:60px;">
+
+  <!-- CENTERED COLUMN -->
+  <div class="col-lg-8 col-md-10 mx-auto text-center" data-aos="fade-up">
+    
+    <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;">
+      <b>Why Choose PRGEEQ for Learning Apps</b>
+    </h3>
+        
+ <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.6; color: #000; font-size: 1.1rem; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Secure and Private:</strong> Robust data encryption and privacy compliance.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Expert Development Team:</strong> Skilled in advanced app frameworks and educational technology.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Customisable CMS:</strong> Update content easily with built-in content management systems.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Gamified and Motivational:</strong> Reward systems, badges, and progress tracking.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Scalable and Localised:</strong> Multi-language support for global learning audiences.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Collaboration Tools:</strong> In-app chat, forums, and social integration to enhance peer learning.
+    </p>
+  </li>
+
+</ul>
+
+  </div>
+
+</div>
+
+
+
+
+<!-- FAQ SECTION -->
+<section class="site-section bg-light" id="faq-section" style="padding:40px 0;">
+  <div class="container">
+
+    <div class="row justify-content-center text-center" style="margin-bottom:30px;">
+      <div class="col-md-7" data-aos="fade-up">
+        <p style="margin:0; color:#a94e00;"><strong><b>Frequently Asked Questions</b></strong></p>
+      </div>
+    </div>
+
+    <div style="max-width:900px; margin:0 auto;">
+
+      <!-- FAQ 1 -->
+      <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button onclick="var a=this.nextElementSibling; a.style.display=a.style.display==='block'?'none':'block';"
+          style="width:100%; border:none; background:none; padding:22px 26px; text-align:left; font-size:18px; font-weight:600; cursor:pointer;">
+          1. What are PRGEEQ’s Mobile Learning App Services, and how do they benefit educational institutions and businesses?
+        </button>
+        <div style="padding:0 26px 22px; display:none; color:#000">
+          <p>Our services involve developing mobile applications that deliver training and education effectively through smartphones and tablets. They enable learners to access flexible, on-demand learning experiences with analytics and engagement features.</p>
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button onclick="var a=this.nextElementSibling; a.style.display=a.style.display==='block'?'none':'block';"
+          style="width:100%; border:none; background:none; padding:22px 26px; text-align:left; font-size:18px; font-weight:600; cursor:pointer;">
+         2. Can PRGEEQ’s apps be customised to match branding and institutional requirements?
+        </button>
+        <div style="padding:0 26px 22px; display:none; color:#000">
+          <p>Yes. We tailor every app to align with your brand identity, content structure, and learning objectives — ensuring consistency, familiarity, and professional presentation.</p>
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button onclick="var a=this.nextElementSibling; a.style.display=a.style.display==='block'?'none':'block';"
+          style="width:100%; border:none; background:none; padding:22px 26px; text-align:left; font-size:18px; font-weight:600; cursor:pointer;">
+          3. How do Learning Apps enhance engagement and learning outcomes?
+        </button>
+        <div style="padding:0 26px 22px; display:none; color:#000">
+          <p>Our apps include gamified learning, progress tracking, quizzes, and interactive content that improve motivation, retention, and overall learning satisfaction.</p>
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button onclick="var a=this.nextElementSibling; a.style.display=a.style.display==='block'?'none':'block';"
+          style="width:100%; border:none; background:none; padding:22px 26px; text-align:left; font-size:18px; font-weight:600; cursor:pointer;">
+         4. Can PRGEEQ integrate third-party tools and content?
+        </button>
+        <div style="padding:0 26px 22px; display:none;color:#000">
+          <p>Absolutely. We integrate APIs, external libraries, and third-party content, expanding functionality for collaboration, reporting, and diverse educational resources.</p>
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button onclick="var a=this.nextElementSibling; a.style.display=a.style.display==='block'?'none':'block';"
+          style="width:100%; border:none; background:none; padding:22px 26px; text-align:left; font-size:18px; font-weight:600; cursor:pointer;">
+          5. What support does PRGEEQ offer post-launch?
+        </button>
+        <div style="padding:0 26px 22px; display:none; color:#000">
+          <p>We provide complete support including maintenance, updates, performance monitoring, and user analytics — ensuring your learning app remains secure, functional, and up to date.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</div>
+</section>
+
+<!-- =================Learning Management Solutions ================= -->
+
+
+<section id="Management" style="padding:100px 0; display:none; background:#ffffff;">
+  <div class="container">
+
+    <!-- ROW 1 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <img src="images/LMS 4.jpg"
+             alt="LMS."
+             style="width:100%;">
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <h3 style="color:#a94e00; text-transform:none;"><b>Elevate Learning with Elegance</b></h3>
+        <p style="color:#000"> 
+          At <strong>PRGEEQ,</strong> we are redefining education with our innovative Learning Management System (LMS) — a platform where learning meets technology, and creativity merges with functionality.
+          Our LMS delivers immersive, interactive, and data-driven learning experiences that empower organisations, educators, and learners to connect, collaborate, and excel.
+          Whether you are an academic institution, enterprise, or training provider, our LMS is designed to transform how you manage, deliver, and measure learning — anytime, anywhere.
+        </p>
+      </div>
+
+    </div>
+
+
+    <!-- ROW 2 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Our Approach to Learning Management</b></h3>
+        <p style="color:#000">
+          At PRGEEQ, our LMS is more than a system — it’s a learning ecosystem, meticulously designed to integrate functionality with design innovation.
+          We introduce a neumorphic design philosophy, blending visual depth with intuitive usability to create a futuristic, engaging learning experience.
+        </p>
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <img src="images/Learning Apps 3.jpg"
+             alt="Learning app."
+             style="width:100%;">
+      </div>
+
+    </div>
+
+
+    <!-- CENTER CONTENT -->
+    <div class="row justify-content-center text-center mb-5">
+      <div class="col-lg-8" data-aos="fade-up">
+        
+        <h3 style="color:#a94e00; margin-bottom:25px;text-transform:none;">
+          <b>Key Features of the PRGEEQ LMS</b>
+        </h3>
+
+       <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.6; color: #000; font-size: 1.1rem; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Interactive Learning Modules:</strong> Deliver captivating, multimedia-rich learning experiences.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Progress Tracking:</strong> Monitor learner performance and group analytics in real time.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Accessible Anywhere:</strong> Seamless learning across devices — desktop, tablet, or mobile.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Collaborative Learning:</strong> Encourage teamwork through forums, discussions, and group projects.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Data-Driven Insights:</strong> Harness advanced analytics for strategic decision-making.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Security and Compliance:</strong> Protect sensitive data with robust encryption and privacy protocols.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Full Customisation:</strong> Adapt themes, branding, and workflows to your organisation’s unique needs.
+    </p>
+  </li>
+
+</ul>
+
+      </div>
+    </div>
+
+
+    <!-- FINAL ROW -->
+    <div class="row align-items-start" style="margin-top:60px;">
+
+      <!-- LEFT -->
+      <div class="col-lg-6 mb-4" data-aos="fade-right">
+        <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;">
+          <b>Why Choose PRGEEQ LMS?</b>
+        </h3>
+        
+      <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.6; color: #000; font-size: 1.1rem; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Revolutionary User Experience:</strong> Designed for engagement, accessibility, and simplicity.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Future-Ready Platform:</strong> Scalable architecture adaptable to evolving technologies.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Full Accessibility:</strong> WCAG-compliant features ensure inclusive learning for all users.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">End-to-End Integration:</strong> Seamlessly connects with existing ERP, CRM, and content systems.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Comprehensive Support:</strong> Includes onboarding, user training, and technical assistance.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Custom Branding:</strong> Aligns seamlessly with your organisation’s visual identity.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Reliable Security:</strong> Multi-layer encryption and GDPR-compliant data management.
+    </p>
+  </li>
+
+</ul>
+      </div>
+
+
+      <!-- RIGHT -->
+      <div class="col-lg-6 mb-4" data-aos="fade-left">
+        <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;">
+          <b>Highlights of Our Approach</b>
+        </h3>
+<ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.6; color: #000; font-size: 1.1rem; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Sculpted Learning:</strong> A visually immersive design that enhances focus and engagement.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Neumorphic Magic:</strong> A soft, tactile interface that feels intuitive and modern.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Secure Sophistication:</strong> A perfect balance of elegant aesthetics and enterprise-grade security.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Effortless Engagement:</strong> Learners enjoy smooth navigation, responsive layouts, and motivating user journeys.
+    </p>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 5px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <p style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Collaborative Classrooms:</strong> Discussion forums foster interaction, peer learning, and knowledge sharing.
+    </p>
+  </li>
+
+</ul>
+      </div>
+
+    </div>
+
+
+
+<section class="site-section bg-light" id="faq-section" style="padding:40px 0;">
+  <div class="container">
+
+    <!-- Heading -->
+    <div class="row justify-content-center text-center" style="margin-bottom:30px;">
+      <div class="col-md-7" data-aos="fade-up">
+        <p style="margin:0; color:#a94e00;"><strong><b>Frequently Asked Questions (FAQs)</b></strong></p>
+      </div>
+    </div>
+
+    <!-- FAQ Wrapper -->
+    <div style="max-width:900px; margin:0 auto;">
+
+      <!-- FAQ 1 -->
+      <div data-aos="fade-up" data-aos-delay="200"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button onclick="var a=this.nextElementSibling; var q=this.querySelector('.q'); q.style.color = a.style.display==='block' ? '#333' : '#f4a261'; a.style.display = a.style.display==='block' ? 'none' : 'block';"
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            1. What is a Learning Management System (LMS), and how does PRGEEQ’s LMS help?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            An LMS is a digital platform for delivering and tracking educational or training content. PRGEEQ’s LMS simplifies course creation, learner management, and reporting while enhancing engagement through interactivity.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div data-aos="fade-up" data-aos-delay="300"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button onclick="var a=this.nextElementSibling; var q=this.querySelector('.q'); q.style.color = a.style.display==='block' ? '#333' : '#f4a261'; a.style.display = a.style.display==='block' ? 'none' : 'block';"
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            2. Can the PRGEEQ LMS be customised for different organisations?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            Yes. We tailor the LMS to align with your institution’s branding, course structure, and business objectives, ensuring a personalised learning experience.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button onclick="var a=this.nextElementSibling; var q=this.querySelector('.q'); q.style.color = a.style.display==='block' ? '#333' : '#f4a261'; a.style.display = a.style.display==='block' ? 'none' : 'block';"
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+           3. How does PRGEEQ’s LMS improve learning outcomes?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            By combining accessibility, analytics, and interactivity, our LMS supports self-paced learning, encourages collaboration, and tracks learner progress effectively.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button onclick="var a=this.nextElementSibling; var q=this.querySelector('.q'); q.style.color = a.style.display==='block' ? '#333' : '#f4a261'; a.style.display = a.style.display==='block' ? 'none' : 'block';"
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            4. Does the LMS integrate with other platforms?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            Absolutely. Our system supports third-party integrations, enabling connection with existing software, APIs, and external content providers.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button onclick="var a=this.nextElementSibling; var q=this.querySelector('.q'); q.style.color = a.style.display==='block' ? '#333' : '#f4a261'; a.style.display = a.style.display==='block' ? 'none' : 'block';"
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+           5. What support does PRGEEQ provide after implementation?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            We offer continuous support, including user onboarding, system maintenance, and technical assistance to ensure a smooth and sustainable learning experience.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  </div>
+</section>
+
+
+<!-- ================= INLINE JAVASCRIPT ================= -->
+
+<script>
+function showSub(section) {
+
+  var docSection = document.getElementById("Learning");
+  var webSection = document.getElementById("Management");
+
+  // Hide both first
+  docSection.style.display = "none";
+  webSection.style.display = "none";
+
+  // Show only selected section
+  if(section === "Learning") {
+    docSection.style.display = "block";
+  } else if(section === "Management") {
+    webSection.style.display = "block";
+  }
+
+  // Smooth scroll
+  document.getElementById(section).scrollIntoView({
+    behavior: "smooth"
+  });
+}
+</script>
+
+</section>
+
+ 
+<!-- ================= WEB ACCESSIBILITY ================= -->
+
+<!-- AOS JS -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/aos.js"></script>
+
+<script>
+  AOS.init({
+    duration: 800,
+    easing: 'ease-out-cubic',
+    once: true
+  });
+</script>
+
+</body>
+<footer class="site-footer" style="padding:35px 0 20px 0;">
+  <div class="container">
+    <div class="row">
+
+      <!-- Company Info -->
+      <div class="col-md-4">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px;">
+          PRGEEQ Global Solutions Private Limited.
+        </h2>
+        <p style="margin-bottom:4px; font-size:14px;">No 22, 3rd Block, 18th Cross,</p>
+        <p style="margin-bottom:4px; font-size:14px;">Vishwapriya Nagar, Bangalore - 560068</p>
+        <p style="margin-bottom:6px; font-size:14px;">Karnataka, India.</p>
+
+        <p style="margin-bottom:4px; font-size:14px;"><strong>Phone :</strong> +91 968 626 6966</p>
+        <p style="margin-bottom:8px; font-size:14px;"><strong>Email :</strong> contact@prgeeq.com</p>
+
+        <!-- Social Icons -->
+        <div style="margin-top:10px;">
+          <a href="https://x.com/PrgeeqGlobal"
+             style="padding-right:10px; display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Follow PRGEEQ on Twitter">
+            <span class="icon-twitter"></span>
+          </a>
+
+          <a href="https://www.youtube.com/@prgeeqglobalsolutions"
+             style="padding-right:10px; display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Subscribe to PRGEEQ on YouTube">
+            <span class="icon-youtube"></span>
+          </a>
+
+          <a href="https://www.linkedin.com/company/prgeeq-global-solutions-private-limited/?viewAsMember=true"
+             style="display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Connect with PRGEEQ on LinkedIn">
+            <span class="icon-linkedin"></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Useful Links -->
+      <div class="col-md-2">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px; text-transform:none; color:#ffffff !important;">
+          Useful Links
+        </h2>
+        <ul class="list-unstyled" style="padding-left:0; line-height:1.6;">
+
+          <li style="margin-bottom:4px;">
+            <a href="index.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Home
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="index.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              About Us
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Solutions
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="Terms.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Terms of Service
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="Terms.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Privacy Policy
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Our Services -->
+      <div class="col-md-2">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px; text-transform:none; color:#ffffff !important;">
+          Our Services
+        </h2>
+        <ul class="list-unstyled" style="padding-left:0; line-height:1.6;">
+
+          <li style="margin-bottom:4px;">
+            <a href="elearning_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              eLearning
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="multimidia_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Multimedia
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="localization_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Localization
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="software_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Software
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Location -->
+      <div class="col-md-4">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px;">
+          Our Location
+        </h2>
+        <div style="width:100%; height:130px; border-radius:8px; overflow:hidden;">
+          <iframe
+            title="Google Maps showing PRGEEQ office location"
+            src="https://www.google.com/maps?q=Vishwapriya%20Nagar%20Bangalore&output=embed"
+            width="100%"
+            height="130"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="row" style="padding-top:15px; margin-top:15px; text-align:center;">
+      <div class="col-md-12">
+        <div style="border-top:1px solid #000; padding-top:10px;">
+          <p class="copyright" style="margin:0; font-size:13px;">
+            © Copyright 2026 | All Rights Reserved | Designed by PRGEEQ
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>

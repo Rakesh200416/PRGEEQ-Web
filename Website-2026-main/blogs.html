@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Unearth — Website Template by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700" rel="stylesheet"> -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    /* ================= NAVBAR ================= */
+
+    .site-navbar {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1100;
+      background: #ffffff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 15px 0;
+    }
+
+    /* Desktop */
+    @media (min-width: 992px) {
+      .main-menu {
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      .main-menu > li {
+        margin-left: 5px;
+      }
+    }
+
+    /* ================= MOBILE NAV FIX ================= */
+
+    @media (max-width: 991px) {
+
+      .site-logo img {
+        height: 38px !important;
+      }
+
+      .site-mobile-menu {
+        width: 280px;
+        background: #ffffff;
+        box-shadow: 2px 0 25px rgba(0,0,0,0.15);
+      }
+
+      .site-mobile-menu .site-nav-wrap {
+        display: block;
+        padding: 15px 0;
+      }
+
+      .site-mobile-menu .site-nav-wrap li {
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #f1f1f1;
+      }
+
+      .site-mobile-menu .site-nav-wrap li a {
+        display: block;
+        width: 100%;
+        padding: 14px 22px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #212121;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+
+      .site-mobile-menu .site-nav-wrap li a:hover {
+        background: #C35214;
+        color: #ffffff;
+      }
+
+      /* Dropdown items indent */
+      .site-mobile-menu .dropdown li a {
+        padding-left: 45px;
+        font-size: 15px;
+        background: #fafafa;
+      }
+
+      /* ONLY Book Demo button */
+      .site-mobile-menu .book-demo-mobile a {
+        background: #C35214 !important;
+        color: #ffffff !important;
+        margin: 15px;
+        border-radius: 30px;
+        text-align: center;
+        font-weight: 600;
+      }
+
+      .site-menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+<div class="site-wrap" id="home-section">
+
+  <!-- MOBILE MENU -->
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-navbar js-sticky-header site-navbar-target" role="banner" 
+        style="background:#fff; padding:25px 0; box-shadow:0 2px 15px rgba(0,0,0,0.06); position:relative; z-index:999;">
+
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between">
+
+      <!-- LOGO -->
+      <div class="site-logo" style="display:flex; align-items:center;">
+        <a href="index.html">
+          <img src="images/PRGEEQ-Logo.png" alt="PRGEEQ" style="height:50px;">
+        </a>
+      </div>
+
+      <!-- NAVIGATION -->
+      <div class="d-flex align-items-center justify-content-end flex-grow-1">
+
+        <nav class="site-navigation text-right d-none d-lg-block" role="navigation">
+
+          <ul class="site-menu main-menu js-clone-nav"
+              style="list-style:none; margin:0; padding:0;">
+
+            <!-- HOME -->
+           <li class="active" style="display:inline-block;">
+  <a href="index.html"
+     style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}"> Home
+  </a>
+</li>
+
+            <!-- SOLUTIONS -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+                 style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Solutions
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li>
+                  <a href="Who_we_serve.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    Who We Serve
+                  </a>
+                </li>
+
+                <li>
+                  <a href="services.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    Services
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <!-- PRODUCT -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+                 style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Product
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li>
+                  <a href="LMS.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    LMS - NEUROLXP
+                  </a>
+                </li>
+
+                <li>
+                  <a href="E-Labs.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    GQ-Labs
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <!-- RESOURCES -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+               style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Resources
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li><a href="blogs.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Blogs</a></li>
+
+                <li><a href="Events.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Achievements</a></li>
+
+                <li><a href="help_Center.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Help Center</a></li>
+
+                <li><a href="careeres.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Careers</a></li>
+
+                <li><a href="testimonials.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Testimonials</a></li>
+
+              </ul>
+            </li>
+
+            <!-- CONTACT -->
+           <li style="display:inline-block;">
+  <a href="index.html#contact-section"
+     style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">Contact Us
+  </a>
+</li>
+
+            <!-- BOOK DEMO -->
+            <li style="display:inline-block;">
+              <a href="Book_a_demo.html"
+                style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Book a Demo
+              </a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <!-- MOBILE TOGGLE -->
+        <div class="d-inline-block d-lg-none ml-3">
+          <a href="#" class="site-menu-toggle js-menu-toggle">
+            <span class="icon-menu h3"></span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Chat Button -->
+<!-- Talk to Our Expert Button -->
+<a href="Talk_to_our_expert.html" style="text-decoration:none;">
+  <div id="chatToggle" style="
+    position:fixed;
+    top:50%;
+    right:-85px;
+    transform:translateY(-50%) rotate(-90deg);
+    transform-origin:center;
+    background:#a94e00;
+    color:#fff;
+    padding:12px 28px;
+    border-radius:30px 30px 0 0;
+    font-weight:600;
+    font-size:15px;
+    letter-spacing:0.5px;
+    cursor:pointer;
+    box-shadow:0 10px 25px rgba(0,0,0,0.25);
+    z-index:9999;
+    white-space:nowrap;
+    transition:0.3s;
+  ">
+    💬 Talk to Our Expert
+  </div>
+</a>
+
+<script>
+function adjustExpertButton() {
+  var btn = document.getElementById("chatToggle");
+
+  if (window.innerWidth <= 768) {
+    // Mobile View
+    btn.style.transform = "translateY(0)";
+    btn.style.top = "auto";
+    btn.style.bottom = "20px";
+    btn.style.right = "20px";
+    btn.style.borderRadius = "30px";
+    btn.style.padding = "10px 18px";
+    btn.style.fontSize = "14px";
+  } else {
+    // Desktop View
+    btn.style.top = "50%";
+    btn.style.bottom = "auto";
+    btn.style.right = "-85px";
+    btn.style.transform = "translateY(-50%) rotate(-90deg)";
+    btn.style.borderRadius = "30px 30px 0 0";
+    btn.style.padding = "12px 28px";
+    btn.style.fontSize = "15px";
+  }
+}
+
+adjustExpertButton();
+window.addEventListener("resize", adjustExpertButton);
+</script>
+  <section class="site-section bg-light" id="pricing-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center">
+          <div class="col-md-7">
+            <div class="block-heading-1" data-aos="fade-up" data-aos-delay="">
+              <h2 style="color: #a94e00;text-transform:none;"><b>Blogs</b></h2>
+              <p style="color: #111;">Ready to time travel with us? Our Blogs are a combination of information and a relatable personality, complete with an interactive experience.</p>
+              <h3 class="text-center text-black" style="color: #a94e00;text-transform:none;"><b>What are you looking for?</b></h3>
+            </div>
+          </div>
+        </div>
+<div class="container">
+  <div class="row">
+
+    <!-- ===== BLOG 1 ===== -->
+    <div class="col-md-6 col-lg-4 mb-4 d-flex" data-aos="fade-up" data-aos-duration="1000">
+      <div onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 25px 60px rgba(0,0,0,0.15)';this.querySelector('img').style.transform='scale(1.08)'"
+           onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 15px 40px rgba(0,0,0,0.08)';this.querySelector('img').style.transform='scale(1)'"
+           style="background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 15px 40px rgba(0,0,0,0.08);display:flex;flex-direction:column;height:100%;width:100%;transition:all .4s ease;">
+        <img src="images/Changing Face of eLearning.png" alt="Changing Face of eLearning."
+             style="width:100%;height:220px;object-fit:cover;transition:transform .6s ease;">
+        <div style="padding:20px;display:flex;flex-direction:column;flex:1;">
+          <h3 style="text-align:center;font-weight:600;margin-bottom:15px; color:#111; text-transform:none;"><b>Changing Face of eLearning</b></h3>
+          <p style="flex-grow:1;color:#111">Explore the revolutionary changes transforming the eLearning landscape and discover how modern educational technology is reshaping the future of learning experiences.</p>
+          <div style="margin-top:auto;text-align:center;">
+            <a href="blog1.html" class="btn btn-secondary btn-md">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== BLOG 2 ===== -->
+    <div class="col-md-6 col-lg-4 mb-4 d-flex" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
+      <div onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 25px 60px rgba(0,0,0,0.15)';this.querySelector('img').style.transform='scale(1.08)'"
+           onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 15px 40px rgba(0,0,0,0.08)';this.querySelector('img').style.transform='scale(1)'"
+           style="background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 15px 40px rgba(0,0,0,0.08);display:flex;flex-direction:column;height:100%;width:100%;transition:all .4s ease;">
+        <img src="images/ChatGPT in Content Services.jpg" alt="ChatGPT in Content Services."
+             style="width:100%;height:220px;object-fit:cover;transition:transform .6s ease;">
+        <div style="padding:20px;display:flex;flex-direction:column;flex:1;">
+          <h3 style="text-align:center;font-weight:600;margin-bottom:15px; color:#111;text-transform:none;"><b>ChatGPT in Content Services</b></h3>
+          <p style="flex-grow:1; color:#111">Discover how AI-powered tools like ChatGPT are revolutionising content creation, editing, and optimisation across the digital content ecosystem.</p>
+          <div style="margin-top:auto;text-align:center;">
+            <a href="blog2.html" class="btn btn-secondary btn-md">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== BLOG 3 ===== -->
+    <div class="col-md-6 col-lg-4 mb-4 d-flex" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+      <div onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 25px 60px rgba(0,0,0,0.15)';this.querySelector('img').style.transform='scale(1.08)'"
+           onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 15px 40px rgba(0,0,0,0.08)';this.querySelector('img').style.transform='scale(1)'"
+           style="background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 15px 40px rgba(0,0,0,0.08);display:flex;flex-direction:column;height:100%;width:100%;transition:all .4s ease;">
+        <img src="images/Future of Digital Publishing.jpg" alt="Future of Digital Publishing."
+             style="width:100%;height:220px;object-fit:cover;transition:transform .6s ease;">
+        <div style="padding:20px;display:flex;flex-direction:column;flex:1;">
+          <h3 style="text-align:center;font-weight:600;margin-bottom:15px; color:#111; text-transform:none;"><b>Future of Digital Publishing</b></h3>
+          <p style="flex-grow:1; color:#111">Uncover emerging trends and technologies shaping the next generation of digital publishing and transforming how audiences consume content.</p>
+          <div style="margin-top:auto;text-align:center;">
+            <a href="blog3.html" class="btn btn-secondary btn-md">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== BLOG 4 ===== -->
+    <div class="col-md-6 col-lg-4 mb-4 d-flex" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1000">
+      <div onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 25px 60px rgba(0,0,0,0.15)';this.querySelector('img').style.transform='scale(1.08)'"
+           onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 15px 40px rgba(0,0,0,0.08)';this.querySelector('img').style.transform='scale(1)'"
+           style="background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 15px 40px rgba(0,0,0,0.08);display:flex;flex-direction:column;height:100%;width:100%;transition:all .4s ease;">
+        <img src="images/Graphic Design.jpg" alt="Graphic Design."
+             style="width:100%;height:220px;object-fit:cover;transition:transform .6s ease;">
+        <div style="padding:20px;display:flex;flex-direction:column;flex:1;">
+          <h3 style="text-align:center;font-weight:600;margin-bottom:15px; color:#111; text-transform:none;"><b>Graphic Design Trends</b></h3>
+          <p style="flex-grow:1; color:#111">Stay ahead of the curve with the latest graphic design trends shaping visual communication and brand identity in 2024.</p>
+          <div style="margin-top:auto;text-align:center;">
+            <a href="blog4.html" class="btn btn-secondary btn-md">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== BLOG 5 ===== -->
+    <div class="col-md-6 col-lg-4 mb-4 d-flex" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+      <div onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 25px 60px rgba(0,0,0,0.15)';this.querySelector('img').style.transform='scale(1.08)'"
+           onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 15px 40px rgba(0,0,0,0.08)';this.querySelector('img').style.transform='scale(1)'"
+           style="background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 15px 40px rgba(0,0,0,0.08);display:flex;flex-direction:column;height:100%;width:100%;transition:all .4s ease;">
+        <img src="images/Instructional Designing.png" alt="Instructional Designing"
+             style="width:100%;height:220px;object-fit:cover;transition:transform .6s ease;">
+        <div style="padding:20px;display:flex;flex-direction:column;flex:1;">
+          <h3 style="text-align:center;font-weight:600;margin-bottom:15px; color:#111; text-transform:none;"><b>Instructional Designing</b></h3>
+          <p style="flex-grow:1; color:#111">Master the art of instructional design with proven methodologies and best practices for creating effective learning experiences.</p>
+          <div style="margin-top:auto;text-align:center;">
+            <a href="blog5.html" class="btn btn-secondary btn-md">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== BLOG 6 ===== -->
+    <div class="col-md-6 col-lg-4 mb-4 d-flex" data-aos="fade-up" data-aos-delay="750" data-aos-duration="1000">
+      <div onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 25px 60px rgba(0,0,0,0.15)';this.querySelector('img').style.transform='scale(1.08)'"
+           onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 15px 40px rgba(0,0,0,0.08)';this.querySelector('img').style.transform='scale(1)'"
+           style="background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 15px 40px rgba(0,0,0,0.08);display:flex;flex-direction:column;height:100%;width:100%;transition:all .4s ease;">
+        <img src="images/Can ChatGPT Help eLearning.jpg" alt="Can ChatGPT Help eLearning."
+             style="width:100%;height:220px;object-fit:cover;transition:transform .6s ease;">
+        <div style="padding:20px;display:flex;flex-direction:column;flex:1;">
+          <h3 style="text-align:center;font-weight:600;margin-bottom:15px;color:#111; text-transform:none;"><b>Can ChatGPT Help eLearning</b></h3>
+          <p style="flex-grow:1; color:#111">Explore the potential of ChatGPT in enhancing eLearning experiences through personalized content and intelligent tutoring systems.</p>
+          <div style="margin-top:auto;text-align:center;">
+            <a href="blog6.html" class="btn btn-secondary btn-md">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== BLOG 7 ===== -->
+    <div class="col-md-6 col-lg-4 mb-4 d-flex" data-aos="fade-up" data-aos-delay="900" data-aos-duration="1000">
+      <div onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 25px 60px rgba(0,0,0,0.15)';this.querySelector('img').style.transform='scale(1.08)'"
+           onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 15px 40px rgba(0,0,0,0.08)';this.querySelector('img').style.transform='scale(1)'"
+           style="background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 15px 40px rgba(0,0,0,0.08);display:flex;flex-direction:column;height:100%;width:100%;transition:all .4s ease;">
+        <img src="images/LMS Content Migration.jpg" alt="LMS Content Migration."
+             style="width:100%;height:220px;object-fit:cover;transition:transform .6s ease;">
+        <div style="padding:20px;display:flex;flex-direction:column;flex:1;">
+          <h3 style="text-align:center;font-weight:600;margin-bottom:15px; color:#111; text-transform:none;"><b>LMS Content Migration</b></h3>
+          <p style="flex-grow:1; color:#111">Learn essential strategies and best practices for seamless LMS content migration without losing data or engagement.</p>
+          <div style="margin-top:auto;text-align:center;">
+            <a href="blog7.html" class="btn btn-secondary btn-md">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== BLOG 8 ===== -->
+    <div class="col-md-6 col-lg-4 mb-4 d-flex" data-aos="fade-up" data-aos-delay="1050" data-aos-duration="1000">
+      <div onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 25px 60px rgba(0,0,0,0.15)';this.querySelector('img').style.transform='scale(1.08)'"
+           onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 15px 40px rgba(0,0,0,0.08)';this.querySelector('img').style.transform='scale(1)'"
+           style="background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 15px 40px rgba(0,0,0,0.08);display:flex;flex-direction:column;height:100%;width:100%;transition:all .4s ease;">
+        <img src="images/Academic Content.jpg" alt="Academic Content."
+             style="width:100%;height:220px;object-fit:cover;transition:transform .6s ease;">
+        <div style="padding:20px;display:flex;flex-direction:column;flex:1;">
+          <h3 style="text-align:center;font-weight:600;margin-bottom:15px; color:#111; text-transform:none;"><b>Academic Content Development</b></h3>
+          <p style="flex-grow:1; color:#111">Discover key principles and methodologies for developing high-quality academic content that engages and educates students effectively.</p>
+          <div style="margin-top:auto;text-align:center;">
+            <a href="blog8.html" class="btn btn-secondary btn-md">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== BLOG 9 ===== -->
+    <div class="col-md-6 col-lg-4 mb-4 d-flex" data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1000">
+      <div onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 25px 60px rgba(0,0,0,0.15)';this.querySelector('img').style.transform='scale(1.08)'"
+           onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 15px 40px rgba(0,0,0,0.08)';this.querySelector('img').style.transform='scale(1)'"
+           style="background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 15px 40px rgba(0,0,0,0.08);display:flex;flex-direction:column;height:100%;width:100%;transition:all .4s ease;">
+        <img src="images/Localisation Services.jpg" alt="Localisation Services."
+             style="width:100%;height:220px;object-fit:cover;transition:transform .6s ease;">
+        <div style="padding:20px;display:flex;flex-direction:column;flex:1;">
+          <h3 style="text-align:center;font-weight:600;margin-bottom:15px; color:#111; text-transform:none;"><b>Localisation Services</b></h3>
+          <p style="flex-grow:1; color:#111">Understand the importance of localization in reaching global audiences and strategies for effective content adaptation.</p>
+          <div style="margin-top:auto;text-align:center;">
+            <a href="blog9.html" class="btn btn-secondary btn-md">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+        </div>
+      </div>
+    </section>
+   
+<footer class="site-footer" style="padding:35px 0 20px 0;">
+  <div class="container">
+    <div class="row">
+
+      <!-- Company Info -->
+      <div class="col-md-4">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px;">
+          PRGEEQ Global Solutions Private Limited.
+        </h2>
+        <p style="margin-bottom:4px; font-size:14px;">No 22, 3rd Block, 18th Cross,</p>
+        <p style="margin-bottom:4px; font-size:14px;">Vishwapriya Nagar, Bangalore - 560068</p>
+        <p style="margin-bottom:6px; font-size:14px;">Karnataka, India.</p>
+
+        <p style="margin-bottom:4px; font-size:14px;"><strong>Phone :</strong> +91 968 626 6966</p>
+        <p style="margin-bottom:8px; font-size:14px;"><strong>Email :</strong> contact@prgeeq.com</p>
+
+        <!-- Social Icons -->
+        <div style="margin-top:10px;">
+          <a href="https://x.com/PrgeeqGlobal"
+             style="padding-right:10px; display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Follow PRGEEQ on Twitter">
+            <span class="icon-twitter"></span>
+          </a>
+
+          <a href="https://www.youtube.com/@prgeeqglobalsolutions"
+             style="padding-right:10px; display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Subscribe to PRGEEQ on YouTube">
+            <span class="icon-youtube"></span>
+          </a>
+
+          <a href="https://www.linkedin.com/company/prgeeq-global-solutions-private-limited/?viewAsMember=true"
+             style="display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Connect with PRGEEQ on LinkedIn">
+            <span class="icon-linkedin"></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Useful Links -->
+      <div class="col-md-2">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px; text-transform:none; color:#ffffff !important;">
+          Useful Links
+        </h2>
+        <ul class="list-unstyled" style="padding-left:0; line-height:1.6;">
+
+          <li style="margin-bottom:4px;">
+            <a href="index.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Home
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="index.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              About Us
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Solutions
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="Terms.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Terms of Service
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="Terms.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Privacy Policy
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Our Services -->
+      <div class="col-md-2">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px; text-transform:none; color:#ffffff !important;">
+          Our Services
+        </h2>
+        <ul class="list-unstyled" style="padding-left:0; line-height:1.6;">
+
+          <li style="margin-bottom:4px;">
+            <a href="elearning_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              eLearning
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="multimidia_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Multimedia
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="localization_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Localization
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="software_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Software
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Location -->
+      <div class="col-md-4">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px;">
+          Our Location
+        </h2>
+        <div style="width:100%; height:130px; border-radius:8px; overflow:hidden;">
+          <iframe
+            title="Google Maps showing PRGEEQ office location"
+            src="https://www.google.com/maps?q=Vishwapriya%20Nagar%20Bangalore&output=embed"
+            width="100%"
+            height="130"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="row" style="padding-top:15px; margin-top:15px; text-align:center;">
+      <div class="col-md-12">
+        <div style="border-top:1px solid #000; padding-top:10px;">
+          <p class="copyright" style="margin:0; font-size:13px;">
+            © Copyright 2026 | All Rights Reserved | Designed by PRGEEQ
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>

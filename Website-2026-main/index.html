@@ -1,0 +1,2629 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Unearth — Website Template by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700" rel="stylesheet"> -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+ 
+  <style>
+
+    html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    /* ================= NAVBAR ================= */
+
+    .site-navbar {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1100;
+      background: #ffffff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 15px 0;
+    }
+
+    /* Desktop */
+    @media (min-width: 992px) {
+      .main-menu {
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      .main-menu > li {
+        margin-left: 5px;
+      }
+    }
+
+    /* ================= MOBILE NAV FIX ================= */
+
+    @media (max-width: 991px) {
+
+      .site-logo img {
+        height: 38px !important;
+      }
+
+      .site-mobile-menu {
+        width: 280px;
+        background: #ffffff;
+        box-shadow: 2px 0 25px rgba(0,0,0,0.15);
+      }
+
+      .site-mobile-menu .site-nav-wrap {
+        display: block;
+        padding: 15px 0;
+      }
+
+      .site-mobile-menu .site-nav-wrap li {
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #f1f1f1;
+      }
+
+      .site-mobile-menu .site-nav-wrap li a {
+        display: block;
+        width: 100%;
+        padding: 14px 22px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #212121;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+
+      .site-mobile-menu .site-nav-wrap li a:hover {
+        background: #C35214;
+        color: #ffffff;
+      }
+
+      /* Dropdown items indent */
+      .site-mobile-menu .dropdown li a {
+        padding-left: 45px;
+        font-size: 15px;
+        background: #fafafa;
+      }
+
+      /* ONLY Book Demo button */
+      .site-mobile-menu .book-demo-mobile a {
+        background: #C35214 !important;
+        color: #ffffff !important;
+        margin: 15px;
+        border-radius: 30px;
+        text-align: center;
+        font-weight: 600;
+      }
+
+      .site-menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+<div class="site-wrap" id="home-section">
+
+  <!-- MOBILE MENU -->
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-navbar js-sticky-header site-navbar-target" role="banner" 
+        style="background:#fff; padding:25px 0; box-shadow:0 2px 15px rgba(0,0,0,0.06); position:relative; z-index:999;">
+
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between">
+
+      <!-- LOGO -->
+      <div class="site-logo" style="display:flex; align-items:center;">
+        <a href="index.html">
+          <img src="images/PRGEEQ-Logo.png" alt="PRGEEQ" style="height:50px;">
+        </a>
+      </div>
+
+      <!-- NAVIGATION -->
+      <div class="d-flex align-items-center justify-content-end flex-grow-1">
+
+        <nav class="site-navigation text-right d-none d-lg-block" role="navigation">
+
+          <ul class="site-menu main-menu js-clone-nav"
+              style="list-style:none; margin:0; padding:0;">
+
+            <!-- HOME -->
+           <li class="active" style="display:inline-block;">
+  <a href="index.html"
+     style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}"> Home
+  </a>
+</li>
+
+            <!-- SOLUTIONS -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+                 style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Solutions
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li>
+                  <a href="Who_we_serve.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    Who We Serve
+                  </a>
+                </li>
+
+                <li>
+                  <a href="services.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    Services
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <!-- PRODUCT -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+                 style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Product
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li>
+                  <a href="LMS.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    LMS - NEUROLXP
+                  </a>
+                </li>
+
+                <li>
+                  <a href="E-Labs.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    GQ-Labs
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <!-- RESOURCES -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+               style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Resources
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li><a href="blogs.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Blogs</a></li>
+
+                <li><a href="Events.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Achievements</a></li>
+
+                <li><a href="help_Center.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Help Center</a></li>
+
+                <li><a href="careeres.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Careers</a></li>
+
+                <li><a href="testimonials.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Testimonials</a></li>
+
+              </ul>
+            </li>
+
+            <!-- CONTACT -->
+           <li style="display:inline-block;">
+  <a href="#contact-section"
+     style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">Contact Us
+  </a>
+</li>
+
+            <!-- BOOK DEMO -->
+            <li style="display:inline-block;">
+              <a href="Book_a_demo.html"
+                style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Book a Demo
+              </a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <!-- MOBILE TOGGLE -->
+        <div class="d-inline-block d-lg-none ml-3">
+          <a href="#" class="site-menu-toggle js-menu-toggle">
+            <span class="icon-menu h3"></span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+ <div class="owl-carousel slide-one-item">
+
+  <div class="site-section-cover hero-slide slide-1">
+    <div class="hero-overlay"></div>
+    <div class="container h-100">
+      <div class="row align-items-center justify-content-center text-center h-100">
+        <div class="col-md-12 col-lg-7">
+
+          <h1 class="hero-heading" style="font-size:60px;">
+            Building the Legacy of Great Digital Stories
+          </h1>
+
+          <a href="#contact-section" class="hero-btn">
+             Get in touch
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-section-cover hero-slide slide-2"
+        data-bg="images/macro-shot-jigsaw-puzzles-teamwork-concept_Compact.webp">
+    <div class="hero-overlay"></div>
+    <div class="container h-100">
+      <div class="row align-items-center justify-content-center text-center h-100">
+        <div class="col-md-12 col-lg-8">
+
+          <h1 class="hero-heading" style="font-size:60px;">
+              Making a Difference One at a Time
+          </h1>
+
+          <a href="#contact-section" class="hero-btn">
+             Get in touch
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<style>
+.hero-slide {
+  position: relative;
+  min-height: 100svh; 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.slide-1 {
+  background-image: url('images/relax-area-hotel_Compact.webp');
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.hero-logo {
+  display: inline-block; /* Allows text-center to handle alignment */
+  width: 180px;         /* Forces actual size */
+  height: 60px;          /* Forces actual size */
+  margin-bottom: 20px;
+  object-fit: contain;   /* Ensures logo doesn't distort */
+}
+
+.hero-heading {
+  color: #fff;
+  font-size: clamp(24px, 4vw, 60px); 
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* Owl Arrows */
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5) !important;
+  color: #fff !important;
+  border-radius: 50% !important;
+  width: 50px;
+  height: 50px;
+  border: none !important;
+  font-size: 28px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.owl-nav .owl-prev { left: 20px; }
+.owl-nav .owl-next { right: 20px; }
+
+.owl-dots {
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const lazySlide = document.querySelector('.slide-2');
+  if (lazySlide && lazySlide.dataset.bg) {
+    const img = new Image();
+    img.src = lazySlide.dataset.bg;
+    img.onload = function () {
+      lazySlide.style.backgroundImage = "url('" + lazySlide.dataset.bg + "')";
+    };
+  }
+
+  $('.slide-one-item').owlCarousel({
+    items: 1,
+    loop: true,
+    smartSpeed: 700,
+    autoplay: false,
+    nav: true,
+    dots: true,
+    mouseDrag: true,
+    touchDrag: true,
+    navText: ["&#10094;", "&#10095;"]
+  });
+});
+</script>
+    <div class="site-section">
+      <div class="block__73694 mb-2" id="services-section">
+        <div class="container">
+           <div class="row mb-7 justify-content-center">
+                  <div class="col-md-5 text-center">
+                    <div class="block-heading-1" data-aos="fade-up" data-aos-delay="">
+                     <h2 style="color:#a94e00; text-transform:none;"><B>About Us</B></h2>
+                      <h4 class="mb-3 text-black" style="text-transform: none;">PRGEEQ was born with two clear purposes</h4>
+                    </div>
+                  </div>
+                </div>
+          <div class="row d-flex no-gutters align-items-stretch" style="margin:0; padding:0;">
+
+                <div class="row" style="margin:0; padding:0;">
+
+  <!-- ITEM 1 -->
+  <div class="col-lg-5 col-md-6 col-12 ml-auto"
+     style="padding:20px 15px;"
+     data-aos="fade-right">
+
+  <div style="
+      display:flex;
+      align-items:flex-start;
+      gap:15px;
+      background:#ffffff;
+      padding:20px;
+      border-radius:12px;
+      box-shadow:0 5px 20px rgba(0,0,0,0.05);
+      height:100%;
+      transition:all 0.3s ease;
+  "
+  onmouseover="
+      this.style.background='#C35214';
+      this.style.transform='translateY(-6px)';
+      this.style.boxShadow='0 15px 30px rgba(0,0,0,0.15)';
+      this.querySelector('p').style.color='#fff';
+      this.querySelector('.circle1').style.background='#fff';
+      this.querySelector('.circle1').style.color='#C35214';
+  "
+  onmouseout="
+      this.style.background='#ffffff';
+      this.style.transform='none';
+      this.style.boxShadow='0 5px 20px rgba(0,0,0,0.05)';
+      this.querySelector('p').style.color='#222';
+      this.querySelector('.circle1').style.background='#a94e00';
+      this.querySelector('.circle1').style.color='#fff';
+  ">
+
+    <!-- Circle -->
+    <div class="circle1" style="
+        min-width:60px;
+        height:60px;
+        border-radius:50%;
+        background:#a94e00;
+        color:#fff;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:22px;
+        font-weight:700;
+        transition:all 0.3s ease;
+    ">
+      1
+    </div>
+
+    <!-- Text -->
+    <div>
+      <p style="
+          margin:0;
+          font-size:16px;
+          line-height:1.6;
+          color:#222;
+          font-weight:500;
+          transition:color 0.3s ease;
+      ">
+        Drive high-quality culture in digital transformation services.
+      </p>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- ITEM 2 -->
+<div class="col-lg-5 col-md-6 col-12 ml-auto"
+     style="padding:20px 15px;"
+     data-aos="fade-left">
+
+  <div style="
+      display:flex;
+      align-items:flex-start;
+      gap:15px;
+      background:#ffffff;
+      padding:20px;
+      border-radius:12px;
+      box-shadow:0 5px 20px rgba(0,0,0,0.05);
+      height:100%;
+      transition:all 0.3s ease;
+  "
+  onmouseover="
+      this.style.background='#C35214';
+      this.style.transform='translateY(-6px)';
+      this.style.boxShadow='0 15px 30px rgba(0,0,0,0.15)';
+      this.querySelector('p').style.color='#fff';
+      this.querySelector('.circle2').style.background='#fff';
+      this.querySelector('.circle2').style.color='#C35214';
+  "
+  onmouseout="
+      this.style.background='#ffffff';
+      this.style.transform='none';
+      this.style.boxShadow='0 5px 20px rgba(0,0,0,0.05)';
+      this.querySelector('p').style.color='#222';
+      this.querySelector('.circle2').style.background='#a94e00';
+      this.querySelector('.circle2').style.color='#fff';
+  ">
+
+    <!-- Circle -->
+    <div class="circle2" style="
+        min-width:60px;
+        height:60px;
+        border-radius:50%;
+        background:#a94e00;
+        color:#fff;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:22px;
+        font-weight:700;
+        transition:all 0.3s ease;
+    ">
+      2
+    </div>
+
+    <!-- Text -->
+    <div>
+      <p style="
+          margin:0;
+          font-size:16px;
+          line-height:1.6;
+          color:#222;
+          font-weight:500;
+          transition:color 0.3s ease;
+      ">
+         Enable clientele to serve their patrons with a high degree of satisfaction.
+      </p>
+    </div>
+
+  </div>
+</div>
+    </div>
+  </div>
+
+</div>
+              </div>
+
+          </div>
+        </div>      
+      </div>
+
+     <div class="row justify-content-center" style="margin-top:0; padding-top:0;">
+  <div class="col-md-7 text-center" style="margin-top:0; padding-top:0;">
+    <div class="block-heading-1" style="margin-top:0; padding-top:0;">
+      <div style="font-family: Arial, sans-serif;
+                  max-width:800px;
+                  margin:0 auto;
+                  text-align:center;
+                  color:#111;
+                  line-height:1.6;">
+
+       <p style="margin:0 0 20px 0; padding:0 20px; font-family: 'Roboto', sans-serif; line-height: 1.6; color: #111;"
+   data-aos="fade-up">
+  <strong style="color:#000; font-weight: 700;">
+    PRGEEQ is a forward-thinking digital learning solutions provider
+  </strong>
+  possessing a deep passion for harnessing the power of technology to create dynamic and engaging learning experiences.
+</p>
+
+<div data-aos="fade-up" data-aos-delay="200" style="background-color: #fff3e0; border: 2px solid #ffffff; border-radius: 15px; padding: 40px 20px; margin-bottom: 30px;">
+  <div style="font-family: 'Oswald', sans-serif; background-color: #a94e00; color: #ffffff; padding: 8px 25px; border-radius: 20px; display: inline-block; font-weight: 700; text-transform: none; letter-spacing: 1px; margin-bottom: 20px; font-size: 0.9em;">
+    Started in 2022
+  </div>
+  <p style="font-family: 'Roboto', sans-serif; font-size: 1.1em; margin: 0; color: #111;">
+    <strong style="color: #000; font-weight: 700;">We quickly became the go-to choice</strong> for digital transformation service providers.
+  </p>
+</div>
+
+<div data-aos="fade-up" data-aos-delay="400" style="background-color: #fff3e0; border: 2px solid #ffffff; border-radius: 15px; padding: 40px 30px;">
+  <h2 style="font-family: 'Oswald', sans-serif; color: #a94e00; margin-top: 0; font-size: 1.8em; margin-bottom: 20px; text-transform: none; font-weight: 700;">
+    Our Promise Today
+  </h2>
+  <p style="font-family: 'Roboto', sans-serif; margin: 0; line-height: 1.7; color: #111;">
+    <strong style="color: #000; font-weight: 700;">PRGEEQ's promise today is to enable businesses</strong> for end-to-end digital adoption and transformation to move forward with a new urgency in implementing <strong>digital-first strategies</strong> to support new digital revenue streams.
+  </p>
+</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<section id="clients" style="padding:60px 15px; background:#ffffff; font-family:system-ui,-apple-system,sans-serif; text-align:center;">
+
+  <div style="max-width:1200px; margin:0 auto;">
+
+    <div style="display: flex; align-items: center; justify-content: center; width: 100%; margin-bottom: 10px;" data-aos="fade-up">
+    <span style="flex-grow: 1; height: 1px; background-color: #000; max-width: 100px; margin-right: 15px;"></span>
+    
+   <p style="
+    font-size: clamp(14px, 2.2vw, 20px);
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #000;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 1.4;
+    text-align: center;
+    word-break: break-word;
+">
+    PRGEEQ GLOBAL SOLUTIONS PRIVATE LIMITED
+</p>
+    
+    <span style="flex-grow: 1; height: 1px; background-color: #000; max-width: 100px; margin-left: 15px;"></span>
+</div>
+
+    <div class="block-heading-1" data-aos="fade-up" data-aos-delay="">
+                      <h2 style="color: #a94e00; text-transform:none;"><b>Our Clients</b></h2>
+                      
+                    </div>
+
+  <p data-aos="fade-up" 
+   data-aos-delay="200" 
+   style="color: #000; font-family: 'Roboto', sans-serif; font-weight: 400; line-height: 1.6;">
+  At PRGEEQ, we strive to be of value, rather than just a success!<br>
+  Our greatest assets are our <strong style="font-weight: 700;">Clients!</strong>
+</p>
+<style>
+  .logo-item {
+    flex: 0 0 16.66%;
+    max-width: 16.66%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 991px) {
+    .logo-item {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .logo-item {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+</style>
+
+<div style="display:flex; flex-wrap:wrap; justify-content:center;">
+
+  <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/Parragon Publishing_Compact.png" alt="Parragon"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+  <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/Thomson Digital_Compact.png" alt="Thomson"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+  <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/Straive_Compact.png" alt="Straive"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+  <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/Hurix Digital_Compact.png" alt="Hurix"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+  <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/Integra_Compact.png" alt="Integra"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+  <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/Educba_Compact.png" alt="Educba"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+  <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/Lumina Datamatics_compact.png" alt="Lumina Datamatics"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+  <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/Impelsys_Compact.png" alt="Impelsys"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+  <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/Trainocate_Compact.png" alt="Trainocate"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+  <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/Academian-Compact.png" alt="Academian"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+  <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/Amnet_Compact.png" alt="Amnet"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+  <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/Diacritech_Compact.png" alt="Diacritech"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+  <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/Fourth Quadrant_Compact.png" alt="Fourth Quadrant"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+  <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/ICTA_Compact.png" alt="ICTA"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+  <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/NewGen Knowledgeworks_Compact.png" alt="NewGen"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+  <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/Novatechset-Compact.png" alt="Novatechset"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+  <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/SBLCorp-Compact.png" alt="SBLCorp"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+  <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/Six Red Marbles_Compact.png" alt="Six Red Marbles"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+   <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/Magic_EdTech.jpeg" alt="Magic EdTech"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+   <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/MAP_systems.jpeg" alt="MAP systems"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+   <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/MPS.jpeg" alt="MPS"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+   <div class="logo-item">
+    <div style="background:#fff; border:1px solid #f07f2f; border-radius:12px; height:110px; padding:10px; display:flex; align-items:center; justify-content:center; transition:all .3s ease;"
+         onmouseover="this.style.borderWidth='3px'; this.style.transform='translateY(-6px)'"
+         onmouseout="this.style.borderWidth='1px'; this.style.transform='translateY(0)'">
+      <img src="images/MR_technology.jpeg" alt="MR Technology"
+           style="max-width:90%; max-height:90%; object-fit:contain;">
+    </div>
+  </div>
+
+</div>
+  </div>
+</section>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+    duration: 700,
+    easing: 'ease-out-cubic',
+    once: true,
+    offset: 120
+  });
+</script>
+ </div>
+ 
+<div class="site-section" id="team-section"
+     style="padding:10px 15px; margin:20px 0;">
+
+  <div class="container" style="max-width:1100px; margin:0 auto;">
+
+    <div class="row justify-content-center" style="margin:0;">
+
+      <div class="col-md-8 col-12 text-center"
+           style="padding:0 10px;">
+
+        <div class="block-heading-1" data-aos="fade-up">
+
+          <h2 style="
+              margin-bottom:20px;
+              color:#a94e00;
+              font-size:clamp(22px, 4vw, 34px);
+              line-height:1.3;
+              font-weight:700;
+              text-transform: none
+          ">
+            Empowering Your Journey in the Digital Age
+          </h2>
+
+          <p data-aos="fade-up" data-aos-delay="200"
+             style="
+               margin-bottom:16px;
+               color:#000;
+               font-size:clamp(15px, 2.2vw, 18px);
+               line-height:1.7;
+             ">
+            At PRGEEQ, we believe that 
+            <strong>innovation, knowledge, and collaboration</strong>
+            are the cornerstones of progress in today's fast-evolving world.
+          </p>
+
+          <p data-aos="fade-up" data-aos-delay="300"
+             style="
+               margin:0;
+               color:#000;
+               font-size:clamp(15px, 2.2vw, 18px);
+               line-height:1.7;
+             ">
+            As a <strong>trusted digital partner</strong>, we empower individuals,
+            entrepreneurs, and enterprises to unlock their full potential —
+            enabling them to <strong>innovate, adapt, and thrive</strong>
+            in the global marketplace.
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="site-section bg-light" style="padding:20px 0;">
+  <div class="container">
+    <div class="row text-center">
+
+      <!-- Innovation -->
+      <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="">
+        <div class="block__35630" style="padding:30px 20px;">
+          <div class="icon mb-3" style="font-size:36px; line-height:1;">
+            💡
+          </div>
+          <h3 class="mb-3" style="text-transform: none; color:#a94e00"><b>Innovation</b></h3>
+          <p style="margin:0; color:#000;">Cutting-edge solutions for tomorrow's challenges</p>
+        </div>
+      </div>
+
+      <!-- Knowledge -->
+      <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="block__35630" style="padding:30px 20px;">
+          <div class="icon mb-3" style="font-size:36px; line-height:1;">
+            📖
+          </div>
+          <h3 class="mb-3" style="text-transform: none; color:#a94e00"><b>Knowledge</b></h3>
+          <p style="margin:0; color:#000;">Deep expertise across digital transformation</p>
+        </div>
+      </div>
+
+      <!-- Collaboration -->
+      <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="block__35630" style="padding:30px 20px;">
+          <div class="icon mb-3" style="font-size:36px; line-height:1;">
+            👥
+          </div>
+          <h3 class="mb-3" style="text-transform: none; color:#a94e00"><b>Collaboration</b></h3>
+          <p style="margin:0; color:#000;">Partnership-driven approach to <br>success</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="block__73694" style="padding:20px 0; margin:0;">
+  <div class="container">
+    <div class="row d-flex align-items-center" style="margin:0;">
+
+      <!-- IMAGE SIDE (Professional Styled) -->
+      <div class="col-12 col-lg-5 order-lg-2"
+           style="background-image: url('images/Our Approach.webp');
+                  background-size: cover;
+                  background-position: center;
+                  height: 280px;
+                  border-radius: 12px;"
+           data-aos="fade-left"
+           role="img"
+           aria-label="Illustration of PRGEEQ digital approach">
+      </div>
+
+      <!-- CONTENT SIDE -->
+     <div class="col-lg-6 col-12 order-lg-1"
+     data-aos="fade-right"
+     style="
+        color:#000;
+        padding:40px 18px;
+        margin:0 auto;
+     ">
+
+  <h2 style="
+      color:#a94e00;
+      font-weight:700;
+      margin-bottom:18px;
+      font-size:clamp(22px, 4vw, 32px);
+      line-height:1.3;
+      text-align:left;
+      text-transform: none
+  ">
+    Our Approach
+  </h2>
+
+  <p style="
+      font-weight:700;
+      margin-bottom:14px;
+      font-size:clamp(16px, 2.5vw, 20px);
+      text-align:left;
+  ">
+    XaaS – Everything as a Service
+  </p>
+
+  <p style="
+      margin-bottom:16px;
+      font-size:clamp(15px, 2.2vw, 17px);
+      line-height:1.7;
+      text-align:left;
+  ">
+    The digital landscape is constantly evolving, and at PRGEEQ, we embrace this change through 
+    <strong>XaaS (Everything as a Service)</strong> — a flexible and transformative approach 
+    that reshapes how organisations consume technology.
+  </p>
+
+  <p style="
+      margin-bottom:12px;
+      font-size:clamp(15px, 2.2vw, 17px);
+      line-height:1.7;
+      text-align:left;
+  ">
+    We craft customised digital solutions based on your unique needs, leveraging models such as:
+  </p>
+
+  <!-- Clean Bullet List -->
+  <ul style="
+      list-style:none;
+      padding:0;
+      margin:0 0 18px 0;
+      font-size:clamp(15px, 2.2vw, 17px);
+      line-height:1.8;
+  ">
+    <li style="display:flex; align-items:flex-start; margin-bottom:10px;">
+      <i class="fa-solid fa-angles-right" style="color:#000; margin-right:10px; margin-top:4px;"></i>
+      <span>Software as a Service (SaaS)</span>
+    </li>
+
+    <li style="display:flex; align-items:flex-start; margin-bottom:10px;">
+      <i class="fa-solid fa-angles-right" style="color:#000; margin-right:10px; margin-top:4px;"></i>
+      <span>Infrastructure as a Service (IaaS)</span>
+    </li>
+
+    <li style="display:flex; align-items:flex-start;">
+      <i class="fa-solid fa-angles-right" style="color:#000; margin-right:10px; margin-top:4px;"></i>
+      <span>Platform and Learning as a Service (PaaS / LaaS)</span>
+    </li>
+  </ul>
+
+  <p style="
+      margin-top:10px;
+      font-size:clamp(15px, 2.2vw, 17px);
+      line-height:1.7;
+      text-align:left;
+  ">
+    Our XaaS methodology ensures 
+    <strong>agility, cost-effectiveness, and innovation</strong> — helping clients across industries 
+    to build smarter, faster, and future-ready operations.
+  </p>
+
+</div>
+
+    </div>
+  </div>      
+</div>
+
+<div class="site-section"
+     style="padding:0; margin:0;">
+
+  <div class="block__73694"
+       id="services-section"
+       style="margin:0; padding:10px 15px;">
+
+    <div class="container" style="padding:0;">
+
+      <div class="row justify-content-center" style="margin:0;">
+
+        <div class="col-12 col-lg-6 text-center">
+
+          <div data-aos="fade-up" style="margin:0 auto; max-width:700px;">
+
+            <h2 style="
+                margin:0 0 15px 0;
+                color:#a94e00;
+                font-weight:700;
+                font-size:clamp(24px, 4vw, 34px);
+                line-height:1.3;
+                text-transform: none
+            ">
+              Global Expertise
+            </h2>
+
+            <p style="
+                margin:0;
+                color:#000;
+                font-size:clamp(15px, 2.2vw, 18px);
+                line-height:1.7;
+            ">
+              At PRGEEQ, we believe that 
+              <strong>innovation, knowledge, and collaboration</strong>
+              are the cornerstones of progress in today's fast-evolving world.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+  <!-- OUR PREMISES SECTION -->
+<div class="site-section" style="padding:60px 0 40px 0; margin:0; overflow:hidden;">
+
+  <div class="container">
+
+    <div class="row align-items-center justify-content-center">
+
+      <!-- IMAGE SIDE -->
+      <div class="col-12 col-lg-5 mb-4 mb-lg-0 d-flex justify-content-center" data-aos="fade-right">
+        <div style="
+            background-image:url('images/Our Premises.jpg');
+            background-size:cover;
+            background-position:center;
+            min-height:320px;
+            border-radius:14px;
+            width:100%;
+            max-width:480px;
+        "
+        role="img"
+        aria-label="PRGEEQ Innovation Hub Premises">
+        </div>
+      </div>
+
+      <!-- CONTENT SIDE -->
+      <div class="col-12 col-lg-6 d-flex justify-content-center"
+           data-aos="fade-left">
+
+        <div style="max-width:520px; width:100%; padding:0 10px;">
+
+          <h2 style="
+              color:#a94e00;
+              font-weight:700;
+              margin-bottom:20px;
+              font-size:clamp(24px, 4vw, 34px);
+              line-height:1.3;
+              text-transform: none;
+          ">
+            Our Premises
+          </h2>
+
+          <p style="
+              font-weight:800;
+              margin-bottom:16px;
+              font-size:clamp(16px, 2.5vw, 20px);
+              color:#000;
+          ">
+            Innovation-Driven Digital Services
+          </p>
+
+          <p style="margin-bottom:16px; line-height:1.8; color:#000;">
+            A recent survey shows 41% of company revenue will soon come from digital products 
+            and services, emphasizing the need for fast, innovative digital delivery.
+          </p>
+
+          <p style="margin-bottom:18px; line-height:1.8; color:#000;">
+            At PRGEEQ, our <strong>Innovation-Driven Digital Services Hub</strong> is built 
+            for forward-thinkers and creators.
+          </p>
+
+          <!-- Bullet List -->
+          <ul style="list-style:none; padding:0; margin:0 0 20px 0; line-height:1.8; color:#000;">
+
+            <li style="display:flex; margin-bottom:12px;">
+              <i class="fa-solid fa-angles-right"
+                 style="color:#000; margin-right:12px; margin-top:5px;"></i>
+              <span>Collaboration</span>
+            </li>
+
+            <li style="display:flex; margin-bottom:12px;">
+              <i class="fa-solid fa-angles-right"
+                 style="color:#000; margin-right:12px; margin-top:5px;"></i>
+              <span>Experimentation</span>
+            </li>
+
+            <li style="display:flex;">
+              <i class="fa-solid fa-angles-right"
+                 style="color:#000; margin-right:12px; margin-top:5px;"></i>
+              <span>Breakthrough Thinking</span>
+            </li>
+
+          </ul>
+
+          <p style="margin:0; line-height:1.8; color:#000;">
+            <strong>PRGEEQ delivers end-to-end digital solutions globally</strong>,
+            enabling seamless digital transformation and new revenue streams.
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- OUR MISSION SECTION -->
+<div style="padding:60px 0; margin:0; overflow:hidden;">
+
+  <div class="container">
+
+    <div class="row align-items-center justify-content-center">
+
+      <!-- IMAGE SIDE -->
+      <div class="col-12 col-lg-5 order-lg-2 mb-4 mb-lg-0 d-flex justify-content-center"
+           data-aos="fade-left">
+
+        <div style="
+            background-image:url('images/Our mission.jpg');
+            background-size:cover;
+            background-position:center;
+            min-height:320px;
+            border-radius:14px;
+            width:100%;
+            max-width:480px;
+        "
+        role="img"
+        aria-label="PRGEEQ Mission illustration">
+        </div>
+
+      </div>
+
+      <!-- CONTENT SIDE -->
+      <div class="col-12 col-lg-6 order-lg-1 d-flex justify-content-center"
+           data-aos="fade-right">
+
+        <div style="max-width:520px; width:100%; padding:0 10px;">
+
+          <h2 style="
+              color:#a94e00;
+              font-weight:700;
+              margin-bottom:20px;
+              font-size:clamp(24px, 4vw, 34px);
+              line-height:1.3;
+              text-transform: none;
+          ">
+            Our Mission
+          </h2>
+
+          <p style="
+              font-weight:700;
+              margin-bottom:16px;
+              font-size:clamp(16px, 2.5vw, 20px);
+              color:#000;
+          ">
+            Unlocking Seamless Digital Narratives
+          </p>
+
+          <p style="margin-bottom:18px; line-height:1.8; color:#000;">
+            Our mission is to empower organisations to build exceptional 
+            digital experiences through technology and creativity.
+          </p>
+
+          <ul style="list-style:none; padding:0; margin:0; line-height:1.8; color:#000;">
+
+            <li style="display:flex; margin-bottom:14px;">
+              <i class="fa-solid fa-angles-right"
+                 style="color:#000; margin-right:12px; margin-top:5px;"></i>
+              <div>
+                <strong>Optimise Intellectual Capital</strong>
+                <div style="margin-top:4px;">
+                  Provide seamless digital content solutions.
+                </div>
+              </div>
+            </li>
+
+            <li style="display:flex; margin-bottom:14px;">
+              <i class="fa-solid fa-angles-right"
+                 style="color:#000; margin-right:12px; margin-top:5px;"></i>
+              <div>
+                <strong>Build Digital Narratives</strong>
+                <div style="margin-top:4px;">
+                  Help clients build powerful digital stories.
+                </div>
+              </div>
+            </li>
+
+            <li style="display:flex;">
+              <i class="fa-solid fa-angles-right"
+                 style="color:#000; margin-right:12px; margin-top:5px;"></i>
+              <div>
+                <strong>Drive Innovation</strong>
+                <div style="margin-top:4px;">
+                  Encourage innovation with ethical standards.
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="site-section"
+     style="padding:40px 0 60px 0; overflow:hidden;">
+
+  <div class="block__73694 mb-2" id="services-section">
+
+    <div class="container">
+
+      <div class="row align-items-center justify-content-center">
+
+        <!-- IMAGE SIDE -->
+        <div class="col-12 col-lg-5 d-flex justify-content-center"
+             data-aos="fade-right">
+
+          <div class="mb-4 mb-lg-0"
+     style="
+        background-image:url('images/Our Vision.jpg');
+        background-size:cover;
+        background-position:center;
+        min-height:320px;
+        border-radius:12px;
+        width:100%;
+        max-width:480px;
+     "
+     role="img"
+     aria-label="PRGEEQ Global Vision illustration">
+</div>
+
+        </div>
+
+        <!-- CONTENT SIDE -->
+        <div class="col-12 col-lg-6 d-flex justify-content-center"
+             data-aos="fade-left">
+
+          <div style="
+              max-width:520px;
+              width:100%;
+              padding:0 10px;
+              color:#000;
+          ">
+
+            <h2 style="
+                color:#a94e00;
+                font-weight:700;
+                margin-bottom:20px;
+                font-size:clamp(22px, 4vw, 32px);
+                line-height:1.3;
+                text-transform: none;
+            ">
+              Leading Global Digital Transformation
+            </h2>
+
+            <p style="
+                font-weight:700;
+                margin-bottom:22px;
+                font-size:clamp(16px, 2.5vw, 20px);
+            ">
+              Setting benchmarks for innovation, excellence, and social impact
+            </p>
+
+            <ul style="
+                list-style:none;
+                padding:0;
+                margin:0;
+                font-size:clamp(15px, 2.2vw, 17px);
+                line-height:1.7;
+            ">
+
+              <li style="display:flex; align-items:flex-start; margin-bottom:22px;">
+                <i class="fa-solid fa-angles-right"
+                   style="color:#000; margin-right:14px; margin-top:6px;"></i>
+                <div>
+                  <strong>Leadership</strong>
+                  <p style="margin:6px 0 0 0;">
+                    Be recognised as a worldwide frontrunner in delivering efficient,
+                    inclusive, and ethical digital solutions
+                  </p>
+                </div>
+              </li>
+
+              <li style="display:flex; align-items:flex-start; margin-bottom:22px;">
+                <i class="fa-solid fa-angles-right"
+                   style="color:#000; margin-right:14px; margin-top:6px;"></i>
+                <div>
+                  <strong>Digital India Hub</strong>
+                  <p style="margin:6px 0 0 0;">
+                    Promote India as a global digital-solution hub driving innovation worldwide
+                  </p>
+                </div>
+              </li>
+
+              <li style="display:flex; align-items:flex-start; margin-bottom:22px;">
+                <i class="fa-solid fa-angles-right"
+                   style="color:#000; margin-right:14px; margin-top:6px;"></i>
+                <div>
+                  <strong>Human Potential</strong>
+                  <p style="margin:6px 0 0 0;">
+                    Create technology that enhances human potential and accelerates business growth
+                  </p>
+                </div>
+              </li>
+
+              <li style="display:flex; align-items:flex-start;">
+                <i class="fa-solid fa-angles-right"
+                   style="color:#000; margin-right:14px; margin-top:6px;"></i>
+                <div>
+                  <strong>Excellence Standards</strong>
+                  <p style="margin:6px 0 0 0;">
+                    Maintain the highest standards of technical integrity and accessibility compliance
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="site-section"
+     style="padding:0; margin:0;" 
+     data-aos="fade-up"
+     data-aos-delay="0"
+     data-aos-once="true">
+  <div class="block__73694" id="services-section" style="padding:0; margin:0;">
+    <div class="container-fluid" style="padding:0;"> <div class="row justify-content-center no-gutters" style="margin:0;"> <div class="col-md-6 text-center" style="padding:0;"> <div class="block-heading-1" style="padding:0; margin:0;">
+            <p style="margin:0; padding:0; line-height:1.6; color:#000; text-transform:none;">
+              Through our leadership, we help organisations embrace
+              <strong>digital responsibility</strong> while achieving operational excellence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="site-section" style="padding: 80px 0; background: #ffffff;">
+  <div class="container">
+    <div class="row align-items-stretch">
+      
+      <!-- LEFT SIDE (VIDEO NOW HERE) -->
+      <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+        <div class="text-center h-100 d-flex flex-column">
+          <h2 style="color:#a94e00; text-transform:none; font-weight:700; margin-bottom: 25px; font-size: 28px;">
+            See Us In Action
+          </h2>
+          
+          <div style="flex-grow: 1; position: relative; height:320px; border-radius:12px; border: 1px solid #f07f2f; box-shadow: 0 15px 35px rgba(0,0,0,0.1); background: #000; overflow: hidden;">
+            <figure class="block-img-video-1" style="margin:0; height: 100%;">
+              <a href="https://youtu.be/0cI3o4ZHVOg?si=5VGU4aTW4QO37lED" 
+                 data-fancybox 
+                 style="display: block; width: 100%; height: 100%; position: relative;">
+                
+                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2; width: 65px; height: 65px; background: rgba(240, 127, 47, 0.9); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 20px rgba(0,0,0,0.3);">
+                   <span class="icon-play" style="font-size: 28px; color: #fff; margin-left: 4px;"></span>
+                </div>
+
+                <img src="images/The Geeks for Knowledge Economy_2_Compact.webp" 
+                     alt="Demo video on PRGEEQ" 
+                     style="width:100%;
+                            height:100%;
+                            object-fit: cover;
+                            display:block;
+                            filter: brightness(0.75);">
+              </a>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE (IMAGE NOW HERE) -->
+      <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-left">
+        <div class="text-center h-100 d-flex flex-column">
+          <h2 style="color:#a94e00; text-transform:none; font-weight:700; margin-bottom: 25px; font-size: 28px;">
+            Our Core Values
+          </h2>
+          
+          <div style="flex-grow: 1; height: 320px; display: flex; align-items: center; justify-content: center; overflow: hidden; background: transparent;">
+            <img 
+              src="images/Our Core values.webp" 
+              alt="Our core values."
+              style="max-width: 100%; 
+                     max-height: 100%; 
+                     width: auto; 
+                     height: auto; 
+                     object-fit: contain; 
+                     display: block;">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<style>
+  .values-box {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 40px 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  /* Letters Row */
+  .letters-row {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+
+  .letter {
+    width: 65px;
+    height: 65px;
+    background: #a94e00;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .letter:hover,
+  .letter.active {
+    background: #fb8c00;
+    transform: translateY(-5px) scale(1.08);
+    box-shadow: 0 8px 20px rgba(251,140,0,0.4);
+  }
+
+  /* Content Area */
+  .value-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #a94e00;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+  }
+
+  .value-text {
+    font-size: 17px;
+    color: #333;
+    line-height: 1.7;
+    max-width: 650px;
+    margin: auto;
+    transition: all 0.3s ease;
+  }
+
+  /* Smooth fade effect */
+  #valueContent {
+    transition: opacity 0.3s ease;
+  }
+
+  .fade {
+    opacity: 0;
+  }
+</style>
+
+
+<div class="values-box">
+
+  <!-- Letters in Single Row -->
+  <div class="letters-row">
+    <div class="letter active" data-key="P">P</div>
+    <div class="letter" data-key="R">R</div>
+    <div class="letter" data-key="G">G</div>
+    <div class="letter" data-key="EX">E</div>
+    <div class="letter" data-key="ET">E</div>
+    <div class="letter" data-key="Q">Q</div>
+  </div>
+
+  <!-- Dynamic Text -->
+  <div id="valueContent">
+    <div class="value-title">Passion</div>
+    <div class="value-text">
+      We approach every challenge with energy, creativity, and commitment to make a lasting impact.
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+  const values = {
+    P: {
+      title: "Passion",
+      text: "We approach every challenge with energy, creativity, and commitment to make a lasting impact."
+    },
+    R: {
+      title: "Respect",
+      text: "We value every individual's contribution, treating others with empathy, fairness, and integrity."
+    },
+    G: {
+      title: "Global Vision",
+      text: "We think beyond borders, embracing diversity and innovation to create worldwide opportunities."
+    },
+    EX: {
+      title: "Excellence",
+      text: "We strive to exceed expectations through continuous improvement and superior performance."
+    },
+    ET: {
+      title: "Ethics",
+      text: "We uphold honesty, transparency, and accountability in every decision and action we take."
+    },
+    Q: {
+      title: "Quality",
+      text: "We deliver exceptional products and services that consistently meet the highest standards."
+    }
+  };
+
+  const letters = document.querySelectorAll(".letter");
+  const contentBox = document.getElementById("valueContent");
+
+  letters.forEach(letter => {
+    letter.addEventListener("mouseenter", function () {
+      const key = this.getAttribute("data-key");
+      const content = values[key];
+
+      // Fade out
+      contentBox.classList.add("fade");
+
+      setTimeout(() => {
+        contentBox.innerHTML = `
+          <div class="value-title">${content.title}</div>
+          <div class="value-text">${content.text}</div>
+        `;
+        contentBox.classList.remove("fade");
+      }, 200);
+
+      // Update active state
+      letters.forEach(l => l.classList.remove("active"));
+      this.classList.add("active");
+    });
+  });
+</script>
+
+<!-- WHY HIRE PRGEEQ : HEADING -->
+<div class="site-section" id="services-section"
+     style="padding-top:0; padding-bottom:0; margin-top:0; margin-bottom:0;">
+  <div class="container" style="padding-top:0; padding-bottom:0;">
+
+    <div class="row justify-content-center mb-3" style="margin-top:0;">
+      <div class="col-md-5 text-center">
+        <div class="block-heading-1" data-aos="fade-up">
+          <h2 style="margin-top:0; color:#a94e00; text-transform:none; "><b>Why Hire PRGEEQ?</b></h2>
+          <p data-aos="fade-up" data-aos-delay="200" style="margin-bottom:0; color:#000">
+            Why We're the Right Choice for You
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- WHY HIRE PRGEEQ : CARDS --><div class="site-section bg-light" style="padding: 60px 0; margin:0;">
+  <div class="container-fluid" style="padding: 0 40px;">
+
+    <div class="row justify-content-center">
+
+      <div class="col-lg mb-4 d-flex" data-aos="fade-up">
+        <div class="block__35630 w-100"
+          style="padding:35px 20px; background:#fff; border-radius:20px;
+                 border:1px solid #f0f0f0; text-align:center;
+                 transition:all .4s cubic-bezier(.175,.885,.32,1.275);
+                 box-shadow:0 10px 30px rgba(0,0,0,.05);"
+          onmouseover="this.style.borderColor='#fb8c00'; this.style.transform='translateY(-12px)'; this.style.boxShadow='0 20px 40px rgba(0,0,0,.12)';"
+          onmouseout="this.style.borderColor='#f0f0f0'; this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,.05)';">
+
+          <div style="width:75px; height:75px; margin:0 auto 25px;
+                      background:linear-gradient(135deg,#a94e00,#f57c00);
+                      border-radius:50%; display:flex; align-items:center;
+                      justify-content:center; font-size:36px; color:#fff;
+                      box-shadow:0 8px 25px rgba(245,124,0,.4);">
+            🧭
+          </div>
+
+          <h3 style="color:#a94e00; font-size:19px; font-weight:700; margin-bottom:15px; text-transform:none;">
+            Completeness of Vision
+          </h3>
+
+          <p style="color:#111; font-size:14px; line-height:1.6; margin-bottom:0;">
+            Comprehensive understanding of your business needs and future goals
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg mb-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+        <div class="block__35630 w-100"
+          style="padding:35px 20px; background:#fff; border-radius:20px;
+                 border:1px solid #f0f0f0; text-align:center;
+                 transition:all .4s cubic-bezier(.175,.885,.32,1.275);
+                 box-shadow:0 10px 30px rgba(0,0,0,.05);"
+          onmouseover="this.style.borderColor='#fb8c00'; this.style.transform='translateY(-12px)'; this.style.boxShadow='0 20px 40px rgba(0,0,0,.12)';"
+          onmouseout="this.style.borderColor='#f0f0f0'; this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,.05)';">
+
+          <div style="width:75px; height:75px; margin:0 auto 25px;
+                      background:linear-gradient(135deg,#a94e00,#f57c00);
+                      border-radius:50%; display:flex; align-items:center;
+                      justify-content:center; font-size:36px; color:#fff;
+                      box-shadow:0 8px 25px rgba(245,124,0,.4);">
+            ✔
+          </div>
+
+          <h3 style="color:#a94e00; font-size:19px; font-weight:700; margin-bottom:15px; text-transform:none;">
+            Proven Ability to Execute
+          </h3>
+
+          <p style="color:#111; font-size:14px; line-height:1.6; margin-bottom:0;">
+            Track record of delivering complex projects on time and within budget
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg mb-4 d-flex" data-aos="fade-up" data-aos-delay="200">
+        <div class="block__35630 w-100"
+          style="padding:35px 20px; background:#fff; border-radius:20px;
+                 border:1px solid #f0f0f0; text-align:center;
+                 transition:all .4s cubic-bezier(.175,.885,.32,1.275);
+                 box-shadow:0 10px 30px rgba(0,0,0,.05);"
+          onmouseover="this.style.borderColor='#fb8c00'; this.style.transform='translateY(-12px)'; this.style.boxShadow='0 20px 40px rgba(0,0,0,.12)';"
+          onmouseout="this.style.borderColor='#f0f0f0'; this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,.05)';">
+
+          <div style="width:75px; height:75px; margin:0 auto 25px;
+                      background:linear-gradient(135deg,#a94e00,#f57c00);
+                      border-radius:50%; display:flex; align-items:center;
+                      justify-content:center; font-size:36px; color:#fff;
+                      box-shadow:0 8px 25px rgba(245,124,0,.4);">
+            ☰
+          </div>
+
+          <h3 style="color:#a94e00; font-size:19px; font-weight:700; margin-bottom:15px; text-transform:none;">
+            Right Content Architecture
+          </h3>
+
+          <p style="color:#111; font-size:14px; line-height:1.6; margin-bottom:0;">
+            Strategic content frameworks that scale with your business growth
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg mb-4 d-flex" data-aos="fade-up" data-aos-delay="300">
+        <div class="block__35630 w-100"
+          style="padding:35px 20px; background:#fff; border-radius:20px;
+                 border:1px solid #f0f0f0; text-align:center;
+                 transition:all .4s cubic-bezier(.175,.885,.32,1.275);
+                 box-shadow:0 10px 30px rgba(0,0,0,.05);"
+          onmouseover="this.style.borderColor='#fb8c00'; this.style.transform='translateY(-12px)'; this.style.boxShadow='0 20px 40px rgba(0,0,0,.12)';"
+          onmouseout="this.style.borderColor='#f0f0f0'; this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,.05)';">
+
+          <div style="width:75px; height:75px; margin:0 auto 25px;
+                      background:linear-gradient(135deg,#a94e00,#f57c00);
+                      border-radius:50%; display:flex; align-items:center;
+                      justify-content:center; font-size:36px; color:#fff;
+                      box-shadow:0 8px 25px rgba(245,124,0,.4);">
+            ⚙
+          </div>
+
+          <h3 style="color:#a94e00; font-size:19px; font-weight:700; margin-bottom:15px; text-transform:none;">
+            Future-Ready Framework
+          </h3>
+
+          <p style="color:#111; font-size:14px; line-height:1.6; margin-bottom:0;">
+           Technology solutions designed for tomorrow's digital landscape
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg mb-4 d-flex" data-aos="fade-up" data-aos-delay="400">
+        <div class="block__35630 w-100"
+          style="padding:35px 20px; background:#fff; border-radius:20px;
+                 border:1px solid #f0f0f0; text-align:center;
+                 transition:all .4s cubic-bezier(.175,.885,.32,1.275);
+                 box-shadow:0 10px 30px rgba(0,0,0,.05);"
+          onmouseover="this.style.borderColor='#fb8c00'; this.style.transform='translateY(-12px)'; this.style.boxShadow='0 20px 40px rgba(0,0,0,.12)';"
+          onmouseout="this.style.borderColor='#f0f0f0'; this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,.05)';">
+
+          <div style="width:75px; height:75px; margin:0 auto 25px;
+                      background:linear-gradient(135deg,#a94e00,#f57c00);
+                      border-radius:50%; display:flex; align-items:center;
+                      justify-content:center; font-size:36px; color:#fff;
+                      box-shadow:0 8px 25px rgba(245,124,0,.4);">
+            👥
+          </div>
+
+          <h3 style="color:#a94e00; font-size:19px; font-weight:700; margin-bottom:15px; text-transform:none;">
+            Collaborative Approach
+          </h3>
+
+          <p style="color:#111; font-size:14px; line-height:1.6; margin-bottom:0;">
+            Partnership-driven methodology putting your success at the center
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Mobile first */
+  .custom-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* Desktop */
+  @media (min-width: 992px) {
+    .custom-container {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+  }
+</style>
+
+<div class="site-section" style="padding:60px 0; background:#ffffff; margin:0;">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-12 col-lg-6 order-2 order-lg-1"
+           data-aos="fade-right"
+           style="padding:20px 30px;">
+
+        <div style="width:100%; max-width:540px; margin:0 auto; color:#000;">
+
+          <h2 style="color:#a94e00; font-weight:700; font-size:clamp(24px,4vw,34px); margin-bottom:20px; line-height:1.3; text-transform:none;">
+            Innovation-Driven Digital Services
+          </h2>
+
+          <p style="line-height:1.8; font-size:clamp(15px,2vw,17px); margin-bottom:25px; color:#111;">
+            At PRGEEQ, we are committed to keeping pace with the evolution of new technologies,
+            integrating them seamlessly into our digital products. This dedication brings us
+            closer to our goal of contributing significantly to making
+            <strong>India the Digital Solutions Hub</strong> — a space that fosters creativity,
+            collaboration, and breakthrough ideas.
+          </p>
+
+          <p style="margin-bottom:18px; font-weight:600; font-size:clamp(15px,2vw,17px);">
+            Our premises are designed to:
+          </p>
+
+          <ul style="list-style:none; padding:0; margin:0; font-size:clamp(15px,2vw,17px); line-height:1.7;">
+
+            <li style="display:flex; align-items:flex-start; margin-bottom:18px;">
+              <i class="fa-solid fa-angles-right" style="color:#000; margin-right:12px; margin-top:6px;"></i>
+              <div>
+                <strong style="display:block; margin-bottom:4px;">
+                  Encourage Collaborative Experimentation
+                </strong>
+                Foster teamwork and innovative thinking through shared exploration
+                of new technologies and methodologies.
+              </div>
+            </li>
+
+            <li style="display:flex; align-items:flex-start; margin-bottom:18px;">
+              <i class="fa-solid fa-angles-right" style="color:#000; margin-right:12px; margin-top:6px;"></i>
+              <div>
+                <strong style="display:block; margin-bottom:4px;">
+                  Inspire Digital Innovation and Creativity
+                </strong>
+                Cultivate an environment where creative solutions and cutting-edge
+                digital innovations can flourish.
+              </div>
+            </li>
+
+            <li style="display:flex; align-items:flex-start;">
+              <i class="fa-solid fa-angles-right" style="color:#000; margin-right:12px; margin-top:6px;"></i>
+              <div>
+                <strong style="display:block; margin-bottom:4px;">
+                  Support a Culture of Learning, Inclusivity, and Progress
+                </strong>
+                Build inclusive spaces that promote continuous learning and drive
+                meaningful progress for all.
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-12 col-lg-6 order-1 order-lg-2"
+           data-aos="fade-left"
+           style="padding:20px 30px;">
+
+        <div style="
+            background-image:url('images/Why Hire PRGEEQ.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:100%;
+            height:100%;
+            min-height:350px;
+            border-radius:14px;">
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="site-section bg-light" style="padding: 100px 0; margin: 0; overflow: hidden;">
+  <div class="container">
+    <div class="row gx-lg-5 align-items-start">
+      
+      <div class="col-lg-5 mb-5 mb-lg-0">
+        <div class="pe-lg-4">
+          <div class="block-heading-1" data-aos="fade-up">
+            <h2 style="color: #a94e00; font-weight: 800; font-size: 2.8rem; line-height: 1.1; margin-bottom: 25px;text-transform:none; ">
+              Innovation Meets<br>Excellence
+            </h2>
+            <p style="color: #111; font-size: 1.1rem; line-height: 1.8;">
+              At PRGEEQ, innovation and excellence converge to reshape industries
+              and redefine possibilities. We combine cutting-edge technology with
+              strategic foresight to deliver 
+              <strong style="color: #000;">measurable impact and transformative results.</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-7">
+        <div class="ps-lg-4">
+          <h3 style="font-size: 1.2rem; font-weight: 800; color: #000; margin-bottom: 30px; text-transform: none; border-left: 4px solid #a94e00; padding-left: 15px;">
+            Our Value Proposition
+          </h3>
+
+          <div class="row">
+            
+            <div class="col-md-6">
+              <ul class="list-unstyled" style="padding: 0;">
+                <li class="mb-4" data-aos="fade-up" data-aos-delay="100">
+                  <div style="display: flex; align-items: baseline;">
+                    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 10px; font-size: 0.8rem;"></i>
+                    <strong style="color: #000;">Holistic Digital Transformation</strong>
+                  </div>
+                  <p style="margin: 5px 0 0 22px; font-size: 0.95rem; color: #111;">PRGEEQ offers comprehensive digital transformation solutions that encompass every aspect of a business, from strategy development to implementation, ensuring a seamless transition into the digital age.</p>
+                </li>
+
+                <li class="mb-4" data-aos="fade-up" data-aos-delay="150">
+                  <div style="display: flex; align-items: baseline;">
+                    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 10px; font-size: 0.8rem;"></i>
+                    <strong style="color: #000;">Global Expertise, Local Insight</strong>
+                  </div>
+                  <p style="margin: 5px 0 0 22px; font-size: 0.95rem; color: #111;">With a global team of experts and a deep understanding of local markets, PRGEEQ provides personalized strategies that combine international best practices with local insights for maximum impact.</p>
+                </li>
+
+                <li class="mb-4" data-aos="fade-up" data-aos-delay="200">
+                  <div style="display: flex; align-items: baseline;">
+                    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 10px; font-size: 0.8rem;"></i>
+                    <strong style="color: #000;">Results-Driven Approach</strong>
+                  </div>
+                  <p style="margin: 5px 0 0 22px; font-size: 0.95rem; color: #111;">PRGEEQ measures success by its clients' achievements. The company is dedicated to delivering tangible results and helping clients meet and exceed their business objectives.</p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-6">
+              <ul class="list-unstyled" style="padding: 0;">
+                <li class="mb-4" data-aos="fade-up" data-aos-delay="250">
+                  <div style="display: flex; align-items: baseline;">
+                    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 10px; font-size: 0.8rem;"></i>
+                    <strong style="color: #000;">Cutting-Edge Innovation</strong>
+                  </div>
+                  <p style="margin: 5px 0 0 22px; font-size: 0.95rem; color: #111;">PRGEEQ is at the forefront of innovation, continuously researching and adopting the latest technologies to help clients stay ahead of the curve and drive sustainable growth.</p>
+                </li>
+
+                <li class="mb-4" data-aos="fade-up" data-aos-delay="300">
+                  <div style="display: flex; align-items: baseline;">
+                    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 10px; font-size: 0.8rem;"></i>
+                    <strong style="color: #000;">Agility and Adaptability</strong>
+                  </div>
+                  <p style="margin: 5px 0 0 22px; font-size: 0.95rem; color: #111;">PRGEEQ understands that the business landscape is ever-changing. Its solutions are designed to be agile and adaptable, allowing clients to pivot and innovate in response to new challenges and opportunities.</p>
+                </li>
+
+                <li class="mb-4" data-aos="fade-up" data-aos-delay="350">
+                  <div style="display: flex; align-items: baseline;">
+                    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 10px; font-size: 0.8rem;"></i>
+                    <strong style="color: #000;">Sustainability and Social Responsibility</strong>
+                  </div>
+                  <p style="margin: 5px 0 0 22px; font-size: 0.95rem; color: #111;">PRGEEQ integrates sustainability and social responsibility into its solutions, helping clients make a positive impact on the environment and society while achieving their business goals.</p>
+                </li>
+              </ul>
+            </div>
+
+          </div> </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="site-section" style="padding: 50px 0; background-color: #ffffff; overflow: hidden; font-family: 'Roboto', sans-serif;">
+  <div class="container">
+    <div class="row align-items-center gx-lg-5">
+      
+      <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+        <div class="pe-lg-5">
+          <h2 style="color: #a94e00; font-weight: 800; font-size: 3rem; line-height: 1.1; margin-bottom: 25px; letter-spacing: -1px; text-transform:none;">
+            Global Digital<br>Excellence
+          </h2>
+          <p style="color: #111; font-size: 1.1rem; line-height: 1.8; margin-bottom: 30px;">
+            PRGEEQ provides <strong>end-to-end digital services</strong> to clients worldwide, 
+            driving enterprise transformation through next-generation content, accessibility, 
+            and software solutions.
+          </p>
+
+          <ul class="list-unstyled" style="margin: 0; padding: 0;">
+            <li style="margin-bottom: 18px; display: flex; align-items: center;">
+              <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.9rem;"></i>
+              <span style="font-weight: 700; color: #000; font-size: 1.05rem;">Next-Generation Content</span>
+            </li>
+            <li style="margin-bottom: 18px; display: flex; align-items: center;">
+              <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.9rem;"></i>
+              <span style="font-weight: 700; color: #000; font-size: 1.05rem;">Accessibility Solutions</span>
+            </li>
+            <li style="margin-bottom: 0; display: flex; align-items: center;">
+              <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.9rem;"></i>
+              <span style="font-weight: 700; color: #000; font-size: 1.05rem;">Software Solutions</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-left">
+        <img src="images/global digital exllence.jpg" alt="Global Digital Excellence" class="img-fluid rounded" style="width: 100%; border-radius: 8px;">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="site-section" style="padding: 50px 0; background-color: #f9f9f9; overflow: hidden; font-family: 'Roboto', sans-serif;">
+  <div class="container">
+    <div class="row align-items-center gx-lg-5">
+      
+     <div class="col-lg-6 mb-5 mb-lg-0 order-2 order-lg-1" data-aos="fade-right" 
+     style="margin-top: 20px;"> <!-- added margin-top for mobile -->
+
+  <img src="images/future innovation.avif" 
+       alt="Empowering Future Innovations" 
+       class="img-fluid rounded" 
+       style="width: 100%; border-radius: 8px;">
+</div>
+
+      <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+        <div class="ps-lg-5">
+          <h2 style="color: #a94e00; font-weight: 800; font-size: 3rem; line-height: 1.1; margin-bottom: 25px; letter-spacing: -1px; text-transform:none;">
+            Empowering Future<br>Innovations
+          </h2>
+          <p style="color: #111; font-size: 1.1rem; line-height: 1.8; margin-bottom: 25px;">
+            We blend advanced technology, accessibility best practices, and strategic insight to help businesses build 
+            <strong>inclusive, impactful, and future-ready solutions.</strong>
+          </p>
+
+          <h4 style="font-size: 1.25rem; font-weight: 800; color: #000; margin-bottom: 20px; text-transform: none;">
+            Transform Your Digital Journey
+          </h4>
+
+          <ul class="list-unstyled" style="margin: 0; padding: 0;">
+            <li style="margin-bottom: 15px; display: flex; align-items: baseline;">
+              <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.8rem;"></i>
+              <span style="color: #000;"><strong style="font-weight: 700;">Vision</strong> — Turning ideas into strategy.</span>
+            </li>
+            <li style="margin-bottom: 15px; display: flex; align-items: baseline;">
+              <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.8rem;"></i>
+              <span style="color: #000;"><strong style="font-weight: 700;">Reality</strong> — Executing with precision.</span>
+            </li>
+            <li style="margin-bottom: 0; display: flex; align-items: baseline;">
+              <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.8rem;"></i>
+              <span style="color: #000;"><strong style="font-weight: 700;">Success</strong> — Delivering lasting impact.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="site-section bg-light" id="contact-section">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12 text-center mb-5" data-aos="fade-up">
+        <div class="block-heading-1">
+         <span style="color:#C35214;font-weight:700; font-size: 50px;letter-spacing:.0em; text-transform:none;display: inline-block; margin-bottom: 10px;"><b>Get In Touch</b></span>
+          <p style="color:#000; margin-top:15px;">
+            We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+          </p>
+          
+          <h3 style="color:#a94e00; text-transform:none;"><b>Contact Us</b></h3>
+          <p style="color: #C35214;"><small>Fields marked with an asterisk (*) are mandatory.</small></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+<form id="contact-form">
+
+  <!-- First & Last Name -->
+  <div class="form-group row">
+
+    <div class="col-md-6 mb-4 mb-lg-0">
+      <label for="first_name" style="font-weight:600; margin-bottom:6px; display:block;">
+        First name <span style="color:red;">*</span>
+      </label>
+
+      <input type="text" name="first_name" id="first_name" class="form-control"
+        placeholder="Enter your first name"
+        style="border:2px solid #ddd; border-radius:8px; height:55px; padding:10px 15px; font-size:15px;"
+        onfocus="this.style.borderColor='#fb8c00'; this.style.boxShadow='0 0 0 3px rgba(251,140,0,0.15)';"
+        onblur="this.style.borderColor='#ddd'; this.style.boxShadow='none';">
+
+      <small class="text-danger d-none" id="firstNameError">
+        First name is required and should contain only alphabets.
+      </small>
+    </div>
+
+    <div class="col-md-6">
+      <label for="last_name" style="font-weight:600; margin-bottom:6px; display:block;">
+        Last name
+      </label>
+
+      <input type="text" name="last_name" id="last_name" class="form-control"
+        placeholder="Enter your last name"
+        style="border:2px solid #ddd; border-radius:8px; height:55px; padding:10px 15px; font-size:15px;"
+        onfocus="this.style.borderColor='#fb8c00'; this.style.boxShadow='0 0 0 3px rgba(251,140,0,0.15)';"
+        onblur="this.style.borderColor='#ddd'; this.style.boxShadow='none';">
+
+      <small class="text-danger d-none" id="lastNameError">
+        Last name should contain only alphabets.
+      </small>
+    </div>
+
+  </div>
+
+  <!-- Email -->
+  <div class="form-group">
+    <label for="email" style="font-weight:600; margin-bottom:6px; display:block;">
+      Email address <span style="color:red;">*</span>
+    </label>
+
+    <input type="text" name="email" id="email" class="form-control"
+      placeholder="Enter your email address"
+      style="border:2px solid #ddd; border-radius:8px; height:55px; padding:10px 15px; font-size:15px;"
+      onfocus="this.style.borderColor='#fb8c00'; this.style.boxShadow='0 0 0 3px rgba(251,140,0,0.15)';"
+      onblur="this.style.borderColor='#ddd'; this.style.boxShadow='none';">
+
+    <small class="text-danger d-none" id="emailError">
+      Enter valid email (example@gmail.com)
+    </small>
+  </div>
+
+  <!-- Phone -->
+  <div class="form-group">
+    <label for="phone" style="font-weight:600; margin-bottom:6px; display:block;">
+      Phone Number <span style="color:red;">*</span>
+    </label>
+
+    <input type="text" name="phone" id="phone" class="form-control"
+      placeholder="Enter 10 digit phone number"
+      maxlength="10"
+      style="border:2px solid #ddd; border-radius:8px; height:55px; padding:10px 15px; font-size:15px;"
+      onfocus="this.style.borderColor='#fb8c00'; this.style.boxShadow='0 0 0 3px rgba(251,140,0,0.15)';"
+      onblur="this.style.borderColor='#ddd'; this.style.boxShadow='none';">
+
+    <small class="text-danger d-none" id="phoneError">
+      Phone number must be exactly 10 digits.
+    </small>
+  </div>
+
+  <!-- Message -->
+  <div class="form-group">
+    <label for="message" style="font-weight:600; margin-bottom:6px; display:block;">
+      Write your message <span style="color:red;">*</span>
+    </label>
+
+    <textarea name="message" id="message"
+      class="form-control"
+      rows="6"
+      maxlength="200"
+      placeholder="Max 200 characters"
+      style="border:2px solid #ddd; border-radius:8px; padding:15px; font-size:15px; resize:none;"
+      onfocus="this.style.borderColor='#fb8c00'; this.style.boxShadow='0 0 0 3px rgba(251,140,0,0.15)';"
+      onblur="this.style.borderColor='#ddd'; this.style.boxShadow='none';"></textarea>
+
+    <small class="text-danger d-none" id="messageError">
+      Message is required (max 200 characters).
+    </small>
+  </div>
+
+  <!-- Checkbox -->
+  <div class="form-group mt-3">
+    <div class="form-check">
+      <input type="checkbox"
+        name="consent"
+        class="form-check-input"
+        id="consentCheck"
+        style="width:20px; height:20px; border:2px solid #a94e00; cursor:pointer;">
+        
+      <label class="form-check-label" for="consentCheck"
+        style="color:#000; margin-left:10px; cursor:pointer;">
+        I express my consent for <strong>PRGEEQ</strong> expert to reach me.
+      </label>
+    </div>
+
+    <small class="text-danger d-none" id="consentError">
+      You must give consent before submitting.
+    </small>
+  </div>
+
+  <!-- Submit Button -->
+  <div class="text-center mt-4">
+    <button type="submit" class="btn contact-btn py-3 px-5"
+      style="background:#a94e00; color:#fff; border:none; border-radius:8px; font-weight:600; transition:0.3s;"
+      onmouseover="this.style.background='#fb8c00'"
+      onmouseout="this.style.background='#a94e00'">
+      Send Message
+    </button>
+  </div>
+
+</form>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CUSTOM STYLES -->
+<style>
+/* Orange focus for inputs */
+#contact-form .form-control:focus {
+  border-color: #C35214 !important;
+  box-shadow: 0 0 0 0.2rem rgba(195,82,20,0.25) !important;
+}
+
+/* Custom Orange Button */
+.contact-btn {
+  background-color: #C35214;
+  border: 2px solid #C35214;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.contact-btn:hover,
+.contact-btn:focus,
+.contact-btn:active {
+  background-color: #a94410 !important;
+  border-color: #a94410 !important;
+  color: #ffffff !important;
+  box-shadow: 0 6px 15px rgba(195,82,20,0.4) !important;
+  outline: none !important;
+}
+</style>
+<footer class="site-footer" style="padding:35px 0 20px 0;">
+  <div class="container">
+    <div class="row">
+
+      <!-- Company Info -->
+      <div class="col-md-4">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px;">
+          PRGEEQ Global Solutions Private Limited.
+        </h2>
+        <p style="margin-bottom:4px; font-size:14px;">No 22, 3rd Block, 18th Cross,</p>
+        <p style="margin-bottom:4px; font-size:14px;">Vishwapriya Nagar, Bangalore - 560068</p>
+        <p style="margin-bottom:6px; font-size:14px;">Karnataka, India.</p>
+
+        <p style="margin-bottom:4px; font-size:14px;"><strong>Phone :</strong> +91 968 626 6966</p>
+        <p style="margin-bottom:8px; font-size:14px;"><strong>Email :</strong> contact@prgeeq.com</p>
+
+        <!-- Social Icons -->
+        <div style="margin-top:10px;">
+          <a href="https://x.com/PrgeeqGlobal"
+             style="padding-right:10px; display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Follow PRGEEQ on Twitter">
+            <span class="icon-twitter"></span>
+          </a>
+
+          <a href="https://www.youtube.com/@prgeeqglobalsolutions"
+             style="padding-right:10px; display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Subscribe to PRGEEQ on YouTube">
+            <span class="icon-youtube"></span>
+          </a>
+
+          <a href="https://www.linkedin.com/company/prgeeq-global-solutions-private-limited/?viewAsMember=true"
+             style="display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Connect with PRGEEQ on LinkedIn">
+            <span class="icon-linkedin"></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Useful Links -->
+      <div class="col-md-2">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px; text-transform:none; color:#ffffff !important;">
+          Useful Links
+        </h2>
+        <ul class="list-unstyled" style="padding-left:0; line-height:1.6;">
+
+          <li style="margin-bottom:4px;">
+            <a href="index.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Home
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="index.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              About Us
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Solutions
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="Terms.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Terms of Service
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="Terms.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Privacy Policy
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Our Services -->
+      <div class="col-md-2">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px; text-transform:none; color:#ffffff !important;">
+          Our Services
+        </h2>
+        <ul class="list-unstyled" style="padding-left:0; line-height:1.6;">
+
+          <li style="margin-bottom:4px;">
+            <a href="elearning_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              eLearning
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="multimidia_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Multimedia
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="localization_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Localization
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="software_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Software
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Location -->
+      <div class="col-md-4">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px;">
+          Our Location
+        </h2>
+        <div style="width:100%; height:130px; border-radius:8px; overflow:hidden;">
+          <iframe
+            title="Google Maps showing PRGEEQ office location"
+            src="https://www.google.com/maps?q=Vishwapriya%20Nagar%20Bangalore&output=embed"
+            width="100%"
+            height="130"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="row" style="padding-top:15px; margin-top:15px; text-align:center;">
+      <div class="col-md-12">
+        <div style="border-top:1px solid #000; padding-top:10px;">
+          <p class="copyright" style="margin:0; font-size:13px;">
+            © Copyright 2026 | All Rights Reserved | Designed by PRGEEQ
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  
+  <script src="js/main.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script>
+    (function(){
+      emailjs.init("jmMRifFOcmpJzSOTI");
+    })();
+
+document.getElementById("contact-form").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  let isValid = true;
+
+  let firstName = document.getElementById("first_name").value.trim();
+  let lastName = document.getElementById("last_name").value.trim();
+  let email = document.getElementById("email").value.trim();
+  let phone = document.getElementById("phone").value.trim();
+  let message = document.getElementById("message").value.trim();
+  let consent = document.getElementById("consentCheck").checked;
+
+  let nameRegex = /^[A-Za-z]+$/;
+  let emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
+  let phoneRegex = /^[0-9]{10}$/;
+
+  // FIRST NAME
+  if (!nameRegex.test(firstName)) {
+    document.getElementById("firstNameError").classList.remove("d-none");
+    isValid = false;
+  } else {
+    document.getElementById("firstNameError").classList.add("d-none");
+  }
+
+  // LAST NAME (optional)
+  if (lastName !== "" && !nameRegex.test(lastName)) {
+    document.getElementById("lastNameError").classList.remove("d-none");
+    isValid = false;
+  } else {
+    document.getElementById("lastNameError").classList.add("d-none");
+  }
+
+  // EMAIL
+  if (!emailRegex.test(email)) {
+    document.getElementById("emailError").classList.remove("d-none");
+    isValid = false;
+  } else {
+    document.getElementById("emailError").classList.add("d-none");
+  }
+
+  // PHONE
+  if (!phoneRegex.test(phone)) {
+    document.getElementById("phoneError").classList.remove("d-none");
+    isValid = false;
+  } else {
+    document.getElementById("phoneError").classList.add("d-none");
+  }
+
+  // MESSAGE
+  if (message === "" || message.length > 200) {
+    document.getElementById("messageError").classList.remove("d-none");
+    isValid = false;
+  } else {
+    document.getElementById("messageError").classList.add("d-none");
+  }
+
+  // CONSENT
+  if (!consent) {
+    document.getElementById("consentError").classList.remove("d-none");
+    isValid = false;
+  } else {
+    document.getElementById("consentError").classList.add("d-none");
+  }
+
+  // IF VALID → SEND EMAIL
+  if (isValid) {
+    emailjs.sendForm(
+      "service_f24ovme",
+      "template_2kasvjl",
+      this
+    ).then(function(response){
+      alert("Message sent successfully!");
+      document.getElementById("contact-form").reset();
+    }).catch(function(error){
+      console.log("EmailJS Error:", error);
+      alert("Failed to send message. Check console.");
+    });
+  }
+
+});
+</script>
+
+</body>
+    
+  </body>
+</html>

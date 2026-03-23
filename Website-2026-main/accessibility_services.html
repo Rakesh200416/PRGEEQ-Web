@@ -1,0 +1,2405 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Unearth — Website Template by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700" rel="stylesheet"> -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    /* ================= NAVBAR ================= */
+
+    .site-navbar {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1100;
+      background: #ffffff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 15px 0;
+    }
+
+    /* Desktop */
+    @media (min-width: 992px) {
+      .main-menu {
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      .main-menu > li {
+        margin-left: 5px;
+      }
+    }
+
+    /* ================= MOBILE NAV FIX ================= */
+
+    @media (max-width: 991px) {
+
+      .site-logo img {
+        height: 38px !important;
+      }
+
+      .site-mobile-menu {
+        width: 280px;
+        background: #ffffff;
+        box-shadow: 2px 0 25px rgba(0,0,0,0.15);
+      }
+
+      .site-mobile-menu .site-nav-wrap {
+        display: block;
+        padding: 15px 0;
+      }
+
+      .site-mobile-menu .site-nav-wrap li {
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #f1f1f1;
+      }
+
+      .site-mobile-menu .site-nav-wrap li a {
+        display: block;
+        width: 100%;
+        padding: 14px 22px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #212121;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+
+      .site-mobile-menu .site-nav-wrap li a:hover {
+        background: #C35214;
+        color: #ffffff;
+      }
+
+      /* Dropdown items indent */
+      .site-mobile-menu .dropdown li a {
+        padding-left: 45px;
+        font-size: 15px;
+        background: #fafafa;
+      }
+
+      /* ONLY Book Demo button */
+      .site-mobile-menu .book-demo-mobile a {
+        background: #C35214 !important;
+        color: #ffffff !important;
+        margin: 15px;
+        border-radius: 30px;
+        text-align: center;
+        font-weight: 600;
+      }
+
+      .site-menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+<div class="site-wrap" id="home-section">
+
+  <!-- MOBILE MENU -->
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+  <!-- HEADER -->
+   <header class="site-navbar js-sticky-header site-navbar-target" role="banner" 
+        style="background:#fff; padding:25px 0; box-shadow:0 2px 15px rgba(0,0,0,0.06); position:relative; z-index:999;">
+
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between">
+
+      <!-- LOGO -->
+      <div class="site-logo" style="display:flex; align-items:center;">
+        <a href="index.html">
+          <img src="images/PRGEEQ-Logo.png" alt="PRGEEQ" style="height:50px;">
+        </a>
+      </div>
+
+      <!-- NAVIGATION -->
+      <div class="d-flex align-items-center justify-content-end flex-grow-1">
+
+        <nav class="site-navigation text-right d-none d-lg-block" role="navigation">
+
+          <ul class="site-menu main-menu js-clone-nav"
+              style="list-style:none; margin:0; padding:0;">
+
+            <!-- HOME -->
+           <li class="active" style="display:inline-block;">
+  <a href="index.html"
+     style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}"> Home
+  </a>
+</li>
+
+            <!-- SOLUTIONS -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+                 style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Solutions
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li>
+                  <a href="Who_we_serve.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    Who We Serve
+                  </a>
+                </li>
+
+                <li>
+                  <a href="services.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    Services
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <!-- PRODUCT -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+                 style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Product
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li>
+                  <a href="LMS.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    LMS - NEUROLXP
+                  </a>
+                </li>
+
+                <li>
+                  <a href="E-Labs.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    GQ-Labs
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <!-- RESOURCES -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+               style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Resources
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li><a href="blogs.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Blogs</a></li>
+
+                <li><a href="Events.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Achievements</a></li>
+
+                <li><a href="help_Center.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Help Center</a></li>
+
+                <li><a href="careeres.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Careers</a></li>
+
+                <li><a href="testimonials.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Testimonials</a></li>
+
+              </ul>
+            </li>
+
+            <!-- CONTACT -->
+           <li style="display:inline-block;">
+  <a href="index.html#contact-section"
+     style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">Contact Us
+  </a>
+</li>
+
+            <!-- BOOK DEMO -->
+            <li style="display:inline-block;">
+              <a href="Book_a_demo.html"
+                style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Book a Demo
+              </a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <!-- MOBILE TOGGLE -->
+        <div class="d-inline-block d-lg-none ml-3">
+          <a href="#" class="site-menu-toggle js-menu-toggle">
+            <span class="icon-menu h3"></span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Chat Button -->
+<!-- Talk to Our Expert Button -->
+<a href="Talk_to_our_expert.html" style="text-decoration:none;">
+  <div id="chatToggle" style="
+    position:fixed;
+    top:50%;
+    right:-85px;
+    transform:translateY(-50%) rotate(-90deg);
+    transform-origin:center;
+    background:#a94e00;
+    color:#fff;
+    padding:12px 28px;
+    border-radius:30px 30px 0 0;
+    font-weight:600;
+    font-size:15px;
+    letter-spacing:0.5px;
+    cursor:pointer;
+    box-shadow:0 10px 25px rgba(0,0,0,0.25);
+    z-index:9999;
+    white-space:nowrap;
+    transition:0.3s;
+  ">
+    💬 Talk to Our Expert
+  </div>
+</a>
+
+<script>
+function adjustExpertButton() {
+  var btn = document.getElementById("chatToggle");
+
+  if (window.innerWidth <= 768) {
+    // Mobile View
+    btn.style.transform = "translateY(0)";
+    btn.style.top = "auto";
+    btn.style.bottom = "20px";
+    btn.style.right = "20px";
+    btn.style.borderRadius = "30px";
+    btn.style.padding = "10px 18px";
+    btn.style.fontSize = "14px";
+  } else {
+    // Desktop View
+    btn.style.top = "50%";
+    btn.style.bottom = "auto";
+    btn.style.right = "-85px";
+    btn.style.transform = "translateY(-50%) rotate(-90deg)";
+    btn.style.borderRadius = "30px 30px 0 0";
+    btn.style.padding = "12px 28px";
+    btn.style.fontSize = "15px";
+  }
+}
+
+adjustExpertButton();
+window.addEventListener("resize", adjustExpertButton);
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Accessibility Services and Inclusive Design Solutions",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/logo.png"
+  },
+  "description": "PRGEEQ offers professional accessibility services ensuring compliance with WCAG, Section 508, and ADA standards. Services include accessibility audits, alt text, captions, accessible document creation, and inclusive design consultation.",
+  "serviceType": "Accessibility and Inclusive Design Services",
+  "areaServed": {
+    "@type": "Place",
+    "name": "Global"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accessibility Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessibility Audits and Compliance",
+          "description": "Detailed audits to ensure digital content complies with WCAG and accessibility standards."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessible Document Remediation",
+          "description": "Conversion of PDFs, Word, and PowerPoint files into accessible formats suitable for assistive technologies."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Alt Text, Captions, and Transcripts",
+          "description": "Providing accurate alt text, captions, and transcripts for inclusive visual and auditory content."
+        }
+      }
+    ]
+  }
+}
+
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Document Accessibility Services",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/logo.png"
+  },
+  "description": "PRGEEQ offers professional document accessibility services ensuring WCAG, PDF/UA, and Section 508 compliance. We make digital documents inclusive, readable, and compliant for all users.",
+  "areaServed": "Global",
+  "serviceType": "Digital Accessibility",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accessibility Solutions",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessible PDF and Word Remediation",
+          "description": "Conversion and optimisation of PDFs and Word files to meet WCAG and PDF/UA standards."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessibility Testing and Validation",
+          "description": "Comprehensive testing of documents with assistive technologies to ensure usability for all users."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Training and Accessibility Workshops",
+          "description": "Capacity-building programmes to help organisations sustain accessibility practices."
+        }
+      }
+    ]
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "PRGEEQ"
+  },
+  "url": "https://www.prgeeq.com/services/document-accessibility"
+}
+
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Web Accessibility Services",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/logo.png"
+  },
+  "description": "PRGEEQ provides expert web accessibility services ensuring WCAG, Section 508, and ADA compliance. We help organisations build inclusive, accessible, and user-friendly websites for all users.",
+  "serviceType": "Web Accessibility",
+  "areaServed": "Global",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accessibility Solutions",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessibility Auditing and Testing",
+          "description": "Comprehensive evaluation of websites using WCAG, Section 508, and ADA standards to identify accessibility barriers."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Web Remediation and Optimisation",
+          "description": "Code and design improvements ensuring accessible, inclusive, and compliant web experiences."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessibility Training and Support",
+          "description": "Training programmes and ongoing support to empower teams to sustain web accessibility best practices."
+        }
+      }
+    ]
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "PRGEEQ"
+  },
+  "url": "https://www.prgeeq.com/services/web-accessibility"
+}
+
+</script>
+
+<body>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Accessibility Services and Inclusive Design Solutions",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/logo.png"
+  },
+  "description": "PRGEEQ offers professional accessibility services ensuring compliance with WCAG, Section 508, and ADA standards. Services include accessibility audits, alt text, captions, accessible document creation, and inclusive design consultation.",
+  "serviceType": "Accessibility and Inclusive Design Services",
+  "areaServed": {
+    "@type": "Place",
+    "name": "Global"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accessibility Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessibility Audits and Compliance",
+          "description": "Detailed audits to ensure digital content complies with WCAG and accessibility standards."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessible Document Remediation",
+          "description": "Conversion of PDFs, Word, and PowerPoint files into accessible formats suitable for assistive technologies."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Alt Text, Captions, and Transcripts",
+          "description": "Providing accurate alt text, captions, and transcripts for inclusive visual and auditory content."
+        }
+      }
+    ]
+  }
+}
+
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Document Accessibility Services",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/logo.png"
+  },
+  "description": "PRGEEQ offers professional document accessibility services ensuring WCAG, PDF/UA, and Section 508 compliance. We make digital documents inclusive, readable, and compliant for all users.",
+  "areaServed": "Global",
+  "serviceType": "Digital Accessibility",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accessibility Solutions",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessible PDF and Word Remediation",
+          "description": "Conversion and optimisation of PDFs and Word files to meet WCAG and PDF/UA standards."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessibility Testing and Validation",
+          "description": "Comprehensive testing of documents with assistive technologies to ensure usability for all users."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Training and Accessibility Workshops",
+          "description": "Capacity-building programmes to help organisations sustain accessibility practices."
+        }
+      }
+    ]
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "PRGEEQ"
+  },
+  "url": "https://www.prgeeq.com/services/document-accessibility"
+}
+
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Web Accessibility Services",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/logo.png"
+  },
+  "description": "PRGEEQ provides expert web accessibility services ensuring WCAG, Section 508, and ADA compliance. We help organisations build inclusive, accessible, and user-friendly websites for all users.",
+  "serviceType": "Web Accessibility",
+  "areaServed": "Global",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accessibility Solutions",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessibility Auditing and Testing",
+          "description": "Comprehensive evaluation of websites using WCAG, Section 508, and ADA standards to identify accessibility barriers."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Web Remediation and Optimisation",
+          "description": "Code and design improvements ensuring accessible, inclusive, and compliant web experiences."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessibility Training and Support",
+          "description": "Training programmes and ongoing support to empower teams to sustain web accessibility best practices."
+        }
+      }
+    ]
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "PRGEEQ"
+  },
+  "url": "https://www.prgeeq.com/services/web-accessibility"
+}
+
+</script>
+    
+
+<body>
+
+
+<!-- ================= MAIN OVERVIEW ================= -->
+
+<section class="site-section" style="padding:100px 0;">
+  <div class="container">
+
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-8 text-center" data-aos="fade-up">
+        <div class="block-heading-1">
+          <h2 style="color: #a94e00;text-transform:none;"><b>Accessibility Services and Solutions</b></h2>
+          <p style="color: #000;"><strong>Empowering Digital Inclusion through Accessibility</strong></p>
+          <p style="color: #000;">
+           At <strong>PRGEEQ</strong>, we believe that accessibility is not just a compliance requirement—it is the foundation of inclusive communication. Our comprehensive accessibility services are designed to make your digital content usable and enjoyable for everyone, including individuals with disabilities. We help organisations align with global accessibility standards such as <strong>WCAG, Section 508,</strong> and <strong>EN 301 549,</strong> ensuring full compliance and improved user experience across platforms.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= SUB SERVICES NAVIGATION ================= -->
+<section style="padding:0 0 50px 0; background:#f8f9fa; text-align:center; margin:0;">
+  <div class="container">
+    
+    <h2 style="margin:0 0 30px 0; color:#a94e00; text-transform:none;"">
+      <b>Our Accessibility Sub Services</b>
+    </h2>
+
+    <div>
+      <button onclick="showSub('doc')"
+              style="background:#a94e00;border:none;padding:12px 30px;font-weight:600;border-radius:30px;margin:10px;color:#fff;cursor:pointer;">
+        Document Accessibility
+      </button>
+
+      <button onclick="showSub('web')"
+              style="background:#a94e00;border:none;padding:12px 30px;font-weight:600;border-radius:30px;margin:10px;color:#fff;cursor:pointer;">
+        Web Accessibility
+      </button>
+
+      <button onclick="showSub('alt-text')"
+              style="background:#a94e00;border:none;padding:12px 30px;font-weight:600;border-radius:30px;margin:10px;color:#fff;cursor:pointer;">
+        Alt Text Services
+      </button>
+    </div>
+
+  </div>
+</section>
+<div class="row align-items-center" style="margin-bottom: 60px;">
+  <div class="col-lg-6" data-aos="fade-right">
+    <img src="images/Document Accessibility 3.jpg"
+         alt="Document Accessibility"
+         style="width:100%; height:400px; object-fit:cover; border-radius:12px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border: none;">
+  </div>
+
+  <div class="col-lg-6" data-aos="fade-left" style="padding-left: 50px;">
+    <h3 style="color:#a94e00; text-transform:none; font-weight: 700; margin-bottom: 20px;"><b>Our Unique Value Proposition</b></h3>
+    <p style="color: #000; line-height: 1.8; font-size: 1.05rem; margin-bottom: 0;">
+      Our accessibility expertise bridges technology, design, and human experience. 
+      We transform traditional content into <strong>accessible formats,</strong> 
+      enabling all users—regardless of ability—to interact seamlessly with your materials. 
+      From accessible documents and PDFs to inclusive websites and eLearning modules, 
+      our team ensures that accessibility is integrated from the planning phase to deployment.
+    </p>
+  </div>
+</div>
+
+<div class="row align-items-center" style="margin-bottom: 60px;">
+  <div class="col-lg-6 order-lg-1 order-2" data-aos="fade-right" style="padding-right: 50px;">
+    <h3 style="color:#a94e00; text-transform:none; font-weight: 700; margin-bottom: 20px;"><b>Inclusive Design – Accessibility from the Start</b></h3>
+    <p style="color: #000; line-height: 1.8; font-size: 1.05rem; margin-bottom: 0;">
+     We embrace the principles of <strong>inclusive design, </strong>ensuring that accessibility is woven into every stage of development. Our experts add <strong>alt text</strong> to images, provide <strong> accurate captions and transcripts</strong> for videos, implement <strong>keyboard-friendly navigation,</strong> and enhance <strong>screen-reader compatibility.</strong> This proactive approach guarantees that your digital presence supports universal usability.
+    </p>
+  </div>
+
+  <div class="col-lg-6 order-lg-2 order-1" data-aos="fade-left">
+    <img src="images/Web Accessibility 3.jpg"
+         alt="Inclusive Design"
+         style="width:100%; height:400px; object-fit:cover; border-radius:12px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border: none;">
+  </div>
+</div>
+
+<div class="row align-items-center" style="margin-bottom: 80px;">
+  <div class="col-lg-6" data-aos="fade-right">
+    <img src="images/Web Accessibility 4.jpg"
+         alt="Digital Equality"
+         style="width:100%; height:400px; object-fit:cover; border-radius:12px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border: none;">
+  </div>
+
+  <div class="col-lg-6" data-aos="fade-left" style="padding-left: 50px;">
+    <h3 style="color:#a94e00; text-transform:none; font-weight: 700; margin-bottom: 20px;"><b>Why Choose PRGEEQ for Accessibility Solutions</b></h3>
+    <p style="color: #000; line-height: 1.8; font-size: 1.05rem; margin-bottom: 0;">
+      Choosing PRGEEQ means choosing a partner committed to <strong>digital equality.</strong> Our services not only ensure compliance with international accessibility standards but also improve your brand reputation, increase audience engagement, and foster trust. By making your content accessible, you expand your reach, strengthen your social responsibility credentials, and create a digital environment where everyone can thrive.
+    </p>
+  </div>
+</div>
+
+<div class="row justify-content-center mt-5 mb-0">
+  <div class="col-md-10 text-center" data-aos="fade-up">
+    <div style="background: #fdf8f4; padding: 50px; border-radius: 24px;">
+      <h3 style="color:#a94e00; text-transform:none; font-weight: 700; margin-bottom: 10px;"><b>Key Highlights of Our Accessibility Solutions</b></h3>
+      <div style="width: 50px; height: 3px; background: #000; margin: 0 auto 35px auto;"></div>
+
+      <ul class="list-unstyled text-start" 
+    style="display:inline-block; text-align:left; color:#333; line-height: 2.2; font-size: 1.05rem; padding:0; margin:0;">
+  
+  <li style="display:flex; align-items:flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color:#000; margin-right:12px; margin-top:8px; font-size: 0.9rem;"></i>
+    <span>Compliance with WCAG 2.1 AA, ADA, and Section 508 standards.</span>
+  </li>
+
+  <li style="display:flex; align-items:flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color:#000; margin-right:12px; margin-top:8px; font-size: 0.9rem;"></i>
+    <span>Accessibility audits and remediation for web, mobile, and document content.</span>
+  </li>
+
+  <li style="display:flex; align-items:flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color:#000; margin-right:12px; margin-top:8px; font-size: 0.9rem;"></i>
+    <span>Alt text, captions, transcripts, and accessible document creation.</span>
+  </li>
+
+  <li style="display:flex; align-items:flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color:#000; margin-right:12px; margin-top:8px; font-size: 0.9rem;"></i>
+    <span>Training and consultation on accessibility best practices.</span>
+  </li>
+
+  <li style="display:flex; align-items:flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color:#000; margin-right:12px; margin-top:8px; font-size: 0.9rem;"></i>
+    <span>Integration of accessibility tools within design and development workflows.</span>
+  </li>
+
+</ul>
+    </div>
+  </div>
+</div>
+
+</section>
+</section>
+
+
+
+<!-- ================= DOCUMENT ACCESSIBILITY ================= -->
+
+<section id="doc" style="padding:100px 0; display:none; background:#ffffff;">
+  <div class="container">
+
+    <!-- ROW 1 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <img src="images/Document Accessibility 1.jpg"
+             alt="Accessibility."
+             style="width:100%;">
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Unlock the Full Potential of Your Digital Documents</b></h3>
+        <p style="color: #000;">
+          A web without accessibility is like a library with locked doors — knowledge should be open to everyone.
+          At <strong>PRGEEQ,</strong> we ensure your digital documents are fully accessible, inclusive, and compliant with international accessibility standards. Our solutions empower every user — regardless of ability — to interact, read, and navigate your content with ease.
+
+        </p>
+      </div>
+
+    </div>
+
+
+    <!-- ROW 2 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Empowering Inclusion Through Accessible Documents</b></h3>
+        <p style="color: #000;">
+         In today’s digital-first world, <strong>equal access to information </strong>is a basic human right. Our <strong>document accessibility services</strong> eliminate digital barriers, ensuring your content is <strong>legally compliant, screen-reader-friendly, </strong>and <strong>user-centred</strong>.
+         We design accessible documents that comply with <strong>WCAG 2.1, PDF/UA,</strong> and <strong>Section 508</strong> standards while enhancing usability, readability, and engagement. By embedding accessibility into every stage of document design, PRGEEQ enables organisations to deliver equitable access to information for all.
+
+        </p>
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <img src="images/Document Accessibility 2.jpg"
+             alt="Accessibility."
+             style="width:100%;">
+      </div>
+
+    </div>
+
+
+    <!-- CENTER CONTENT -->
+    <div class="row justify-content-center text-center mb-5">
+      <div class="col-lg-8" data-aos="fade-up">
+        
+        <h3 style="color:#a94e00; margin-bottom:25px;text-transform:none;">
+          <b>Our Comprehensive Approach to Document Accessibility</b>
+        </h3>
+
+        <p style="color: #000;">
+          Our process combines <strong>inclusive design, technical compliance, </strong>and<strong> quality assurance </strong> to deliver documents that are both functional and accessible.
+        </p>
+        
+       <div style="text-align: center;">
+  <ul style="
+      list-style: none; 
+      padding: 0; 
+      margin: 20px auto 0; 
+      line-height: 1.9; 
+      text-align: left; 
+      display: inline-block; 
+      color: #000;
+      font-size: 1.05rem;">
+    
+    <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+      <span><strong>Accessibility Audit – </strong> We assess existing documents for accessibility gaps using assistive technology testing.</span>
+    </li>
+
+    <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+      <span><strong>Remediation and Structuring – </strong>We apply proper tagging, logical reading order, headings, alt text, lists, and table structures.</span>
+    </li>
+
+    <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+      <span><strong>Content Enhancement – </strong>Our experts optimise text, contrast, and layout to meet WCAG and PDF/UA requirements.</span>
+    </li>
+
+    <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+      <span><strong>User-Centric Design –</strong> We prioritise readability, intuitive navigation, and seamless usability for all audiences.</span>
+    </li>
+
+    <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+      <span><strong>Quality Assurance Testing – </strong>Every document undergoes validation using screen readers and automated testing tools.</span>
+    </li>
+
+    <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+      <span><strong>Training and Support – </strong>We empower teams through accessibility workshops, ensuring long-term compliance.</span>
+    </li>
+
+    <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+      <span><strong>Localisation Services – </strong>We adapt accessible documents across languages and cultures for global inclusivity.</span>
+    </li>
+    
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+
+    <!-- FINAL ROW -->
+    <div class="row align-items-start" style="margin-top:60px;">
+
+      <!-- LEFT -->
+      <div class="col-lg-6 mb-4" data-aos="fade-right">
+        <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;"><b>
+          Why Choose PRGEEQ for Document Accessibility?</b>
+        </h3>
+        
+       <ul class="list-unstyled" 
+    style="list-style: none; padding: 0; margin: 0; line-height: 1.9; color: #000; font-size: 1.05rem;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>Expertise and Experience:</strong> Our specialists are proficient in accessibility standards, ensuring precise compliance and usability.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>Regulatory Compliance:</strong> We help you meet WCAG, PDF/UA, ADA, and Section 508 standards to avoid penalties and maintain credibility.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>Customised Solutions:</strong> Every project is tailored to your organisation’s unique goals, brand, and document ecosystem.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>User-Focused Design:</strong> We create accessible documents with logical structure, clear navigation, and enhanced readability.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>Quality Assurance:</strong> Rigorous validation guarantees fully accessible, error-free, and consistent results.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>Training and Continuous Support:</strong> We build your internal capability through accessible-design training and responsive technical assistance.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>Scalable and Global:</strong> Our solutions grow with your needs and support multiple languages and formats.</span>
+  </li>
+
+</ul>
+      </div>
+
+
+      <!-- RIGHT -->
+      <div class="col-lg-6 mb-4" data-aos="fade-left">
+        <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;"><b>
+          Industries We Serve</b>
+        </h3>
+
+        <p style="margin-bottom:15px; color:#000">
+          Our accessibility solutions cater to:
+        </p>
+        
+      <ul class="list-unstyled" 
+    style="list-style: none; padding: 0; margin: 0; line-height: 2.2; color: #000; font-size: 1.05rem;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span><strong>Education and e-Learning Providers</strong></span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span><strong>Government and Public Sector</strong></span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span><strong>Healthcare and Pharmaceuticals</strong></span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span><strong>Banking, Finance, and Insurance</strong></span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span><strong>Corporate Enterprises and Legal Firms</strong></span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span><strong>Technology and Software Organisations</strong></span>
+  </li>
+
+</ul>
+      </div>
+
+    </div>
+
+
+
+
+
+<section class="site-section bg-light" id="faq-section" style="padding:40px 0;">
+  <div class="container">
+
+    <!-- Heading -->
+    <div class="row justify-content-center text-center" style="margin-bottom:30px;">
+      <div class="col-md-7" data-aos="fade-up">
+
+        <p style="margin:0; color:#a94e00;text-transform:none;"><strong><b>Frequently Asked Questions</b></strong></p>
+      </div>
+    </div>
+
+    <!-- FAQ Wrapper -->
+    <div style="max-width:900px; margin:0 auto;">
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="200"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            1. What are document accessibility services and why are they important?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            Document accessibility services ensure that digital content — such as PDFs, Word, or PowerPoint files — can be used effectively by individuals with disabilities. They promote inclusivity, enhance user engagement, and ensure compliance with global accessibility laws.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="300"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            2. Which accessibility standards does PRGEEQ follow?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            Our work adheres to WCAG 2.1, PDF/UA, and Section 508 standards, guaranteeing compatibility with screen readers, assistive technologies, and regulatory frameworks.
+          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            3. What types of documents can PRGEEQ make accessible?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            We support all major document formats, including PDFs, Microsoft Word, PowerPoint, and Excel files, ensuring consistent accessibility across your entire digital ecosystem.
+        </div>
+      </div>
+
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#333;">
+            4. How can accessible documents benefit organisations?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+          Accessible documents strengthen your brand’s reputation for inclusivity, mitigate legal risk, and improve engagement and trust among all audiences, including employees, customers, and stakeholders.</p>
+        </div>
+      </div>
+
+       <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            5. What is the process for making documents accessible?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            Our process includes accessibility auditing, remediation, testing, and certification. We ensure that every document meets compliance standards and offers an inclusive user experience from start to finish.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+</section>
+
+
+
+<!-- ================= WEB ACCESSIBILITY ================= -->
+
+
+<section id="web" style="padding:100px 0; display:none; background:#ffffff;">
+  <div class="container">
+
+    <!-- ROW 1 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <img src="images/Web Accessibility 1.jpg"
+             alt="Accessibility."
+             style="width:100%;">
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Building Inclusive Digital Experiences for Everyone</b></h3>
+        <p style="color: #000;">
+          A web without accessibility is like a library with locked doors — knowledge should be open to all.
+          At<strong> PRGEEQ,</strong>  we help organisations design and develop websites that are accessible, compliant, and inclusive. Our expert team ensures your web content can be easily perceived, understood, navigated, and interacted with by all users — including those with disabilities.
+
+        </p>
+      </div>
+
+    </div>
+
+
+    <!-- ROW 2 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Empowering Equal Access in the Digital Space</b></h3>
+        <p style="color: #000;">
+      In a world where digital interaction defines daily life, web accessibility is no longer optional — it’s a responsibility. PRGEEQ’s <strong>Web Accessibility Services</strong> ensure your online platforms are fully aligned with global accessibility standards such as <strong>WCAG 2.1, Section 508, </strong>and <strong>ADA</strong> compliance.
+      We help you create inclusive digital experiences that not only meet legal obligations but also enhance usability and engagement for all users. Our focus extends beyond compliance to creating intuitive, user-centred websites that reflect your organisation’s commitment to inclusivity.
+
+        </p>
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <img src="images/Web Accessibility 2.jpg"
+             alt="Accessibility."
+             style="width:100%;">
+      </div>
+
+    </div>
+
+
+    <!-- CENTER CONTENT -->
+    <div class="row justify-content-center text-center mb-5">
+      <div class="col-lg-8" data-aos="fade-up">
+        
+        <h3 style="color:#a94e00; margin-bottom:25px;text-transform:none;">
+          <b>Our Approach to Web Accessibility</b>
+        </h3>
+
+        <p style="color: #000;">
+         Our approach combines <strong>inclusive design, rigorous testing,</strong> and <strong>long-term support</strong> to ensure accessibility is embedded throughout your digital ecosystem.
+        </p>
+        
+       <ul class="list-unstyled" 
+    style="list-style: none; padding: 0; margin: 20px auto 0; line-height: 1.9; color: #000; font-size: 1.05rem; display: inline-block; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>Comprehensive Accessibility Audit – </strong> We evaluate your website’s structure, design, content, and multimedia to identify accessibility barriers.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>Remediation and Implementation – </strong> Our experts address critical issues, modifying code, improving structure, and enhancing design for compliance.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>WCAG Adherence – </strong> We ensure conformance with WCAG guidelines, enabling keyboard navigation, clear text alternatives, and perceivable content.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>User-Centric Design –</strong> We enhance content clarity, ensure logical navigation, and prioritise predictable, easy-to-use layouts.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>Assistive Technology Testing – </strong>We test with screen readers, keyboard navigation, and other assistive tools to validate accessibility.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>Inclusive User Testing – </strong> Individuals with disabilities participate in live testing to ensure real-world usability.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>Training and Continuous Support – </strong> We train your team to maintain accessibility and integrate best practices into future web development.</span>
+  </li>
+
+</ul>
+
+      </div>
+    </div>
+
+
+    <!-- FINAL ROW -->
+    <div class="row align-items-start" style="margin-top:60px;">
+
+      <!-- LEFT -->
+      <div class="col-lg-6 mb-4" data-aos="fade-right">
+        <h3 style="color:#a94e00; margin-bottom:20px; text-transform:none;">
+         <b>Why Choose PRGEEQ for Web Accessibility?</b>
+        </h3>
+        
+       <ul class="list-unstyled" 
+    style="list-style: none; padding: 0; margin: 0; line-height: 1.9; color: #000; font-size: 1.05rem;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #a94e00; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>Certified Accessibility Experts: </strong> Our team holds <strong>CPACC, IAAP, </strong>and <strong>OAST</strong> certifications, ensuring deep knowledge of accessibility principles.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>Standards-Based Approach: </strong>We strictly follow <strong>WCAG 2.1, Section 508, </strong>and <strong>ADA </strong>frameworks to deliver compliant, accessible websites.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>Thorough Testing: </strong> We conduct both automated and manual testing to validate accessibility and usability across platforms.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>Timely Delivery: </strong> Our structured workflow ensures rapid assessment, remediation, and compliance within agreed timelines.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>Ongoing Support: </strong> We offer post-implementation assistance to help your digital assets remain accessible over time.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>Empowerment Through Training:</strong> PRGEEQ provides training and workshops to equip teams with the skills to manage accessibility independently.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.9rem;"></i>
+    <span><strong>Comprehensive Solutions: </strong> From audits to ongoing maintenance, we cover every stage of your web accessibility journey.</span>
+  </li>
+
+</ul>
+      </div>
+
+
+      <!-- RIGHT -->
+      <div class="col-lg-6 mb-4" data-aos="fade-left">
+        <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;">
+          <b>Industries We Serve</b>
+        </h3>
+
+        <p style="margin-bottom:15px; color:#000">
+          We provide accessibility services across diverse sectors, including:
+        </p>
+        
+       <ul class="list-unstyled" 
+    style="list-style: none; padding: 0; margin: 0; line-height: 2.2; color: #000; font-size: 1.05rem;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style=" margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span><strong>Government and Public Administration</strong></span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span><strong>Education and e-Learning Institutions</strong></span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style=" margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span><strong>Banking and Financial Services</strong></span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style=" margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span><strong>Healthcare and Pharmaceuticals</strong></span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style=" margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span><strong>Corporate and Legal Enterprises</strong></span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span><strong>E-commerce and Retail Platforms</strong></span>
+  </li>
+
+</ul> 
+      </div>
+
+    </div>
+
+
+
+
+
+<section class="site-section bg-light" id="faq-section" style="padding:40px 0;">
+  <div class="container">
+
+    <!-- Heading -->
+    <div class="row justify-content-center text-center" style="margin-bottom:30px;">
+      <div class="col-md-7" data-aos="fade-up">
+
+        <p style="margin:0; color:#a94e00;"><strong><b>Frequently Asked Questions</b></strong></p>
+      </div>
+    </div>
+
+    <!-- FAQ Wrapper -->
+    <div style="max-width:900px; margin:0 auto;">
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="200"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            1. What are PRGEEQ’s Web Accessibility Services and how do they help organisations?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            Our services include website audits, testing, and remediation to ensure compliance with global accessibility standards. We make your website usable by everyone, including individuals with disabilities.          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="300"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            2. Can PRGEEQ’s services handle large and complex websites?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            Yes. We work with websites of all sizes — from small business sites to large e-commerce platforms and government portals — tailoring our strategy to your structure and needs.          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+           3. How does web accessibility benefit organisations?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            Accessible websites enhance user satisfaction, widen audience reach, and ensure compliance with laws, reducing legal risk while improving overall brand reputation and trust.     </p>   </div>
+      </div>
+
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            4. Which standards does PRGEEQ follow?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            We adhere to WCAG 2.1, Section 508, and ADA standards, ensuring your web properties meet both international and regional accessibility requirements.    </p>    </div>
+      </div>
+
+       <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+           5. What is the process for improving website accessibility?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            Our process includes auditing, issue remediation, assistive-technology testing, and continuous monitoring — ensuring long-term accessibility and compliance.        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  </div>
+</section>
+
+
+
+<!-- ================= Alt text ACCESSIBILITY ================= -->
+
+
+<section id="alt-text" style="padding:100px 0; display:none; background:#ffffff;">
+  <div class="container">
+
+    <!-- ROW 1 -->
+    <div class="row align-items-center mb-5">
+
+      <div class="row align-items-center">
+
+  <!-- LEFT IMAGE -->
+  <div class="col-lg-6" data-aos="fade-right">
+    <img src="images/ai enabled.png"
+         alt="Accessibility."
+         style="width:100%;">
+  </div>
+
+  <!-- RIGHT CONTENT -->
+  <div class="col-lg-6" data-aos="fade-left">
+
+    <h3 style="color:#a94e00;text-transform:none;">
+      <b>Educational Alt Text Services for Enterprise Publishers & EdTech Companies</b>
+    </h3>
+
+    <p style="color:#000;">
+      High-Volume. Cost-Efficient. Human-Verified. Compliance-Aligned.
+    </p>
+
+    <p style="color:#000;">
+      PRGEEQ delivers enterprise-grade educational alt text services for publishers, EdTech platforms, and accessibility teams that require:
+    </p>
+
+    <!-- CLEAN BULLET LIST -->
+    <ul class="list-unstyled"
+        style="padding-left:0; margin:20px 0; color:#000; font-size:1.05rem; line-height:1.8;">
+
+      <li style="display:flex; align-items:flex-start; margin-bottom:14px;">
+        <i class="fa-solid fa-angles-right"
+           style="margin-right:12px; font-size:0.9rem; margin-top:4px;"></i>
+        <span>Lowest sustainable cost per image</span>
+      </li>
+
+      <li style="display:flex; align-items:flex-start; margin-bottom:14px;">
+        <i class="fa-solid fa-angles-right"
+           style="margin-right:12px; font-size:0.9rem; margin-top:4px;"></i>
+        <span>Large-volume production capacity</span>
+      </li>
+
+      <li style="display:flex; align-items:flex-start; margin-bottom:14px;">
+        <i class="fa-solid fa-angles-right"
+           style="margin-right:12px; font-size:0.9rem; margin-top:4px;"></i>
+        <span>WCAG & Section 508 alignment</span>
+      </li>
+
+      <li style="display:flex; align-items:flex-start; margin-bottom:14px;">
+        <i class="fa-solid fa-angles-right"
+           style="margin-right:12px; font-size:0.9rem; margin-top:4px;"></i>
+        <span>Consistent quality across textbook programs</span>
+      </li>
+
+      <li style="display:flex; align-items:flex-start;">
+        <i class="fa-solid fa-angles-right"
+           style="margin-right:12px; font-size:0.9rem; margin-top:4px;"></i>
+        <span>Vendor reliability without enterprise overhead</span>
+      </li>
+
+    </ul>
+
+    <p style="color:#000;">
+      We combine AI-assisted production with extensive human intelligence to deliver scalable, instructionally accurate alt text at predictable pricing.
+    </p>
+
+    <p style="color:#000;">
+      Automation reduces clerical load. Human oversight ensures compliance and precision.
+    </p>
+
+  </div>
+
+</div>
+
+   <div class="row align-items-center" style="margin-bottom: 60px;">
+
+  <div class="col-lg-6" data-aos="fade-right" style="padding-right: 40px;">
+    <h3 style="color:#a94e00; text-transform:none; font-weight: 700; margin-bottom: 20px;">
+      <b>The Real Problem: Why Most Alt Text Workflows Fail at Scale</b>
+    </h3>
+    
+    <p style="color: #000; line-height: 1.7; margin-bottom: 15px;">
+      Enterprise decision-makers typically face one of two costly models:
+    </p>
+    
+    <p style="color: #000; font-weight: 600; margin-bottom: 10px;">
+      Fully Manual Alt Text Writing:
+    </p>
+    
+    <p style="color: #000; margin-bottom: 15px;">Challenges include:</p>
+
+    <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 0 0 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem;">
+      
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem;"></i>
+        <span>High per-image costs</span>
+      </li>
+
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem;"></i>
+        <span>Slow turnaround for large textbook programs</span>
+      </li>
+
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem;"></i>
+        <span>Inconsistent terminology across multiple writers</span>
+      </li>
+
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem;"></i>
+        <span>Difficulty scaling during peak production cycles</span>
+      </li>
+
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem;"></i>
+        <span>Operational bottlenecks</span>
+      </li>
+
+    </ul>
+
+    <p style="color: #000; line-height: 1.7; font-weight: 500; border-left: 3px solid #a94e00; padding-left: 15px;">
+      Manual-only models are accurate — but often financially unsustainable at enterprise volume.
+    </p>
+  </div>
+
+  <div class="col-lg-6" data-aos="fade-left">
+    <img src="images/Alt Text Services 1.png"
+         alt="Scaling Alt Text Challenges"
+         style="width: 100%; height: auto; max-height: 450px; object-fit: contain;">
+  </div>
+
+</div>
+</div>
+
+<div class="row justify-content-center text-center" style="margin-bottom: 60px;">
+  <div class="col-lg-8" data-aos="fade-up">
+    
+    <h3 style="color:#a94e00; margin-bottom:25px; text-transform:none; font-weight:700;">
+      <b>Fully AI-Generated Alt Text</b>
+    </h3>
+
+    <p style="color: #000; line-height: 1.7;">
+      AI can produce captions quickly — but in educational publishing, speed without oversight creates risk. <br>
+      Common enterprise issues:
+    </p>
+    
+    <div style="text-align: center; margin-top: 20px;">
+      <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 0; line-height: 2.2; color: #000; font-size: 1.05rem; display: inline-block; text-align: left;">
+        
+        <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+          <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem;"></i>
+          <span>Misinterpreted math equations and symbolic notation</span>
+        </li>
+
+        <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+          <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem;"></i>
+          <span>Inconsistent descriptions across similar visuals</span>
+        </li>
+
+        <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+          <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem;"></i>
+          <span>Context-blind outputs that ignore instructional purpose</span>
+        </li>
+
+        <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+          <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem;"></i>
+          <span>Over-description of irrelevant details</span>
+        </li>
+
+        <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+          <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem;"></i>
+          <span>Under-description of key relationships</span>
+        </li>
+
+        <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+          <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem;"></i>
+          <span>Remediation costs after accessibility audits</span>
+        </li>
+
+      </ul>
+    </div>
+
+    <p style="color: #000; line-height: 1.7; margin-top: 25px; font-weight: 500; border-top: 2px solid #f2f2f2; padding-top: 20px; display: inline-block;">
+      AI-only models often reduce initial cost but increase downstream correction and compliance risk.
+    </p>
+
+  </div>
+</div>
+<div class="row align-items-center" style="margin-top:60px; margin-bottom: 60px;">
+
+  <div class="col-lg-6 mb-4" data-aos="fade-right" style="padding-right: 40px;">
+    <h3 style="color:#a94e00; margin-bottom:20px; text-transform:none; font-weight: 700;">
+      <b>PRGEEQ’s Hybrid Model: Designed for enterprises</b>
+    </h3>
+    
+    <p style="color: #000; margin-bottom: 10px;"><b>AI Efficiency + Human Intelligence</b><br>We use AI strategically to: </p>
+
+    <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 0 0 20px 0; line-height: 1.9; color: #000; font-size: 1.05rem;">
+      <li style="display: flex; align-items: flex-start; margin-bottom: 8px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+        <span>Structure first-pass drafts</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 8px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+        <span>Reduce repetitive clerical effort</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 8px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+        <span>Accelerate large-volume processing</span>
+      </li>
+    </ul>
+
+    <p style="color: #000; margin-bottom: 10px;">Then our trained specialists:</p>
+
+    <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 0 0 20px 0; line-height: 1.9; color: #000; font-size: 1.05rem;">
+      <li style="display: flex; align-items: flex-start; margin-bottom: 8px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+        <span>Review lesson context</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 8px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+        <span>Validate STEM and symbolic accuracy</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 8px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+        <span>Ensure terminology consistency</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 8px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+        <span>Align descriptions to instructional purpose</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 8px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+        <span>Verify accessibility support standards</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 8px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+        <span>Approve final output before delivery</span>
+      </li>
+    </ul>
+
+    <p style="color: #000; margin-bottom: 10px;">Every alt text entry receives human verification.<br>This model delivers:</p>
+
+    <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 0; line-height: 1.9; color: #000; font-size: 1.05rem;">
+      <li style="display: flex; align-items: flex-start; margin-bottom: 8px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+        <span>Lower cost than fully manual vendors</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 8px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+        <span>Higher reliability than AI-only providers</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 8px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+        <span>Reduced remediation cycles</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 8px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+        <span>Scalable production for textbook programs</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="col-lg-6 mb-4 text-center" data-aos="fade-left">
+  <img src="images/Alt text services.png" 
+       alt="Enterprise Hybrid Model"
+       style="width: 100%; height: auto; max-height: 500px; object-fit: contain; border: none; box-shadow: none;">
+</div>
+</div>
+
+<!-- SECTION 2 -->
+<div class="row align-items-center" style="margin-top:80px;">
+
+  <!-- LEFT IMAGE -->
+  <div class="col-lg-6 mb-4 text-center order-lg-1 order-2" data-aos="fade-right">
+    <img src="images/Alternative Text.png" alt="Educational Publishing"
+         style="width:100%; border-radius:12px; box-shadow:0 10px 25px rgba(0,0,0,0.08);">
+  </div>
+
+  <!-- RIGHT CONTENT -->
+  <div class="col-lg-6 mb-4 order-lg-2 order-1" data-aos="fade-left">
+    <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;">
+      <b>Built for High-Volume Educational Publishing</b>
+    </h3>
+
+    <p style="margin-bottom:15px; color:#000">We support:</p>
+
+   <ul class="list-unstyled" 
+    style="list-style: none; padding: 0; margin: 0; line-height: 2.2; color: #000; font-size: 1.05rem;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span>Multi-title textbook programs</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span>K–12 and Higher Education publishers</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span>STEM-heavy educational content</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span>LMS-integrated platforms</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span>EPUB and accessible PDF workflows</span>
+  </li>
+
+</ul>
+
+    <p style="color: #000;">Our infrastructure allows enterprise clients to process thousands of images per cycle while maintaining consistency and oversight.</p>
+  </div>
+</div>
+<div class="row align-items-start" style="margin-top:80px; margin-bottom: 60px;">
+
+  <div class="col-lg-6 mb-4" data-aos="fade-right" style="padding-right: 30px;">
+    <h3 style="color:#a94e00; margin-bottom:20px; text-transform:none; font-weight: 700;">
+      <b>STEM & Technical Alt Text Expertise</b>
+    </h3>
+
+    <p style="color: #000; line-height: 1.7;">
+      For math and science content, small symbolic errors change meaning. <br>
+      We provide verified alt text for:
+    </p>
+
+    <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem;">
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.85rem;"></i>
+        <span>Algebra, calculus, statistics, matrices</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.85rem;"></i>
+        <span>Graphs and coordinate systems</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.85rem;"></i>
+        <span>Chemistry structures and reaction pathways</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.85rem;"></i>
+        <span>Physics diagrams and labeled schematics</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.85rem;"></i>
+        <span>Biology and medical illustrations</span>
+      </li>
+    </ul>
+
+    <p style="color: #000; line-height: 1.7;">
+      AI frequently misreads superscripts, subscripts, negative signs, reaction arrows, and axes. 
+      Human subject-aware review prevents these errors.
+    </p>
+  </div>
+
+  <div class="col-lg-6 mb-4" data-aos="fade-left" style="padding-left: 30px;">
+    <h3 style="color:#a94e00; margin-bottom:20px; text-transform:none; font-weight: 700;">
+      <b>WCAG, ADA & Section 508 Support</b>
+    </h3>
+
+    <p style="margin-bottom:15px; color:#000; line-height: 1.7;">
+      Our educational alt text services support:
+    </p>
+
+    <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem;">
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.85rem;"></i>
+        <span>WCAG 2.x guidelines</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.85rem;"></i>
+        <span>ADA compliance expectations</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.85rem;"></i>
+        <span>Section 508 procurement requirements</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.85rem;"></i>
+        <span>EPUB accessibility standards</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.85rem;"></i>
+        <span>Accessible PDF workflows</span>
+      </li>
+    </ul>
+
+    <p style="color: #000; line-height: 1.7;">
+      While accessibility compliance depends on full publishing workflows, 
+      our structured review process significantly reduces audit risk and remediation costs.
+    </p>
+  </div>
+
+</div>
+
+
+<!-- SECTION 5 -->
+<div class="row align-items-center" style="margin-top:80px; margin-bottom: 60px;">
+
+  <div class="col-lg-6 mb-4" data-aos="fade-right" style="padding-right: 40px;">
+    <h3 style="color:#a94e00; margin-bottom:20px; text-transform:none; font-weight: 700;">
+      <b>Cost Efficiency Without Sacrificing Control</b>
+    </h3>
+
+    <p style="color: #000; line-height: 1.7;">Enterprise buyers require predictable pricing.<br>We offer:</p>
+
+    <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem;">
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.85rem;"></i>
+        <span>Transparent per-image pricing</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.85rem;"></i>
+        <span>Volume-based pricing tiers</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.85rem;"></i>
+        <span>Lower operational overhead than large accessibility vendors</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.85rem;"></i>
+        <span>Dedicated coordination support</span>
+      </li>
+      <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+        <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.85rem;"></i>
+        <span>Defined turnaround timelines</span>
+      </li>
+    </ul>
+
+    <p style="color: #000; line-height: 1.7; font-weight: 500; border-left: 3px solid #a94e00; padding-left: 15px;">
+      As a specialized B2B-focused company, we operate with lean efficiency — allowing competitive pricing without compromising quality control.
+    </p>
+  </div>
+
+  <div class="col-lg-6 mb-4 text-center" data-aos="fade-left">
+    <img src="images/WCAG Accessibility.png" alt="Cost Efficiency"
+         style="width: 100%; height: auto; max-height: 450px; object-fit: contain; border: none; box-shadow: none;">
+  </div>
+</div>
+
+
+<div class="row" style="margin-top:80px; justify-content:center;">
+
+  <div class="col-lg-8 col-md-10 mb-4" data-aos="fade-up" style="text-align:center;">
+
+    <h3 style="color:#a94e00; margin-bottom:35px; text-transform:none; font-weight:bold;">
+      Our Structured Enterprise Process
+    </h3>
+
+    <div style="display: inline-block; text-align: left; max-width: 450px; width: 100%; margin: 0 auto;">
+
+      <ul class="list-unstyled" 
+    style="list-style: none; padding: 0; margin: 0 0 25px 0; line-height: 2.2; color: #000; font-size: 1.1rem;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span>Volume & Scope Assessment</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span>Free Sample (Refined Until Approved)</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span>Workflow Alignment</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span>AI-Assisted Drafting – cut off clerical load.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span>Human Editorial & STEM Verification</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span>Consistency & Compliance Review</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span>Batch Delivery in Required Format</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 10px; font-size: 0.9rem;"></i>
+    <span>Ongoing Production Support</span>
+  </li>
+
+</ul>
+
+    </div>
+
+    <p style="margin-top:20px; color:#777; font-style: italic; max-width: 600px; margin-left: auto; margin-right: auto;color:#000">
+      We refine your free sample until quality meets your internal standards before any commitment.
+    </p>
+
+  </div>
+
+</div>
+<section class="site-section bg-light" id="faq-section" style="padding:40px 0;">
+  <div class="container">
+
+    <!-- Heading -->
+    <div class="row justify-content-center text-center" style="margin-bottom:30px;">
+      <div class="col-md-7" data-aos="fade-up">
+
+        <p style="margin:0; color:#a94e00;"><strong><b>Frequently Asked Questions</b></strong></p>
+      </div>
+    </div>
+
+    <!-- FAQ Wrapper -->
+    <div style="max-width:900px; margin:0 auto;">
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="200"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+           1. Can you handle large-scale textbook programs?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            Yes. Our hybrid workflow is designed for high-volume educational publishing environments. </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="300"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            2. How do you keep costs lower than fully manual vendors?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            AI-assisted structuring reduces clerical drafting time, allowing us to allocate human expertise where it matters most — validation, context alignment, and compliance review.  </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+           3. How are you different from AI alt text generators?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            AI generates drafts. We deliver verified educational understanding.  </p>   </div>
+      </div>
+
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            4. Do you specialize in STEM alt text services?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            Yes. We provide subject-aware review for math equations, scientific diagrams, and technical visuals.  </p>    </div>
+      </div>
+
+       <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+           5. How many alt-text entries have you completed to date?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+          <ul><li>Manual Entry: 80,000+</li>
+             <li>Fully AI-Generated: 20,000+</li>
+             <li>Hybrid (AI + Human Review): 400,000+ </li> </ul> </div>
+      </div>
+      <p style="color: #000;"><b>Request a Free High-Volume Sample</b>Evaluate cost, quality, and workflow before engagement.
+        Send sample textbook pages or image batches and receive professionally written, human-verified alt text — refined until it aligns with your operational and compliance expectations.
+        <b>Email: contact@prgeeq.com</b> </p>
+    </div>
+  </div>
+</section>
+
+
+  </div>
+</section>
+
+
+
+
+<!-- ================= INLINE JAVASCRIPT ================= -->
+
+<script>
+function showSub(section) {
+
+  var docSection = document.getElementById("doc");
+  var webSection = document.getElementById("web");
+  var altSection = document.getElementById("alt-text");
+
+  // Hide all first
+  docSection.style.display = "none";
+  webSection.style.display = "none";
+  altSection.style.display = "none";
+
+  // Show only selected section
+  if(section === "doc") {
+    docSection.style.display = "block";
+  } 
+  else if(section === "web") {
+    webSection.style.display = "block";
+  } 
+  else if(section === "alt-text") {
+    altSection.style.display = "block";
+  }
+
+  // Smooth scroll
+  document.getElementById(section).scrollIntoView({
+    behavior: "smooth"
+  });
+}
+</script>
+
+</section>
+
+<!-- ================= WEB ACCESSIBILITY ================= -->
+
+<!-- AOS JS -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/aos.js"></script>
+
+<script>
+  AOS.init({
+    duration: 800,
+    easing: 'ease-out-cubic',
+    once: true
+  });
+</script>
+
+</body>
+
+<footer class="site-footer" style="padding:35px 0 20px 0;">
+  <div class="container">
+    <div class="row">
+
+      <!-- Company Info -->
+      <div class="col-md-4">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px;">
+          PRGEEQ Global Solutions Private Limited.
+        </h2>
+        <p style="margin-bottom:4px; font-size:14px;">No 22, 3rd Block, 18th Cross,</p>
+        <p style="margin-bottom:4px; font-size:14px;">Vishwapriya Nagar, Bangalore - 560068</p>
+        <p style="margin-bottom:6px; font-size:14px;">Karnataka, India.</p>
+
+        <p style="margin-bottom:4px; font-size:14px;"><strong>Phone :</strong> +91 968 626 6966</p>
+        <p style="margin-bottom:8px; font-size:14px;"><strong>Email :</strong> contact@prgeeq.com</p>
+
+        <!-- Social Icons -->
+        <div style="margin-top:10px;">
+          <a href="https://x.com/PrgeeqGlobal"
+             style="padding-right:10px; display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Follow PRGEEQ on Twitter">
+            <span class="icon-twitter"></span>
+          </a>
+
+          <a href="https://www.youtube.com/@prgeeqglobalsolutions"
+             style="padding-right:10px; display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Subscribe to PRGEEQ on YouTube">
+            <span class="icon-youtube"></span>
+          </a>
+
+          <a href="https://www.linkedin.com/company/prgeeq-global-solutions-private-limited/?viewAsMember=true"
+             style="display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Connect with PRGEEQ on LinkedIn">
+            <span class="icon-linkedin"></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Useful Links -->
+      <div class="col-md-2">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px; text-transform:none; color:#ffffff !important;">
+          Useful Links
+        </h2>
+        <ul class="list-unstyled" style="padding-left:0; line-height:1.6;">
+
+          <li style="margin-bottom:4px;">
+            <a href="index.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Home
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="index.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              About Us
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Solutions
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="Terms.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Terms of Service
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="Terms.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Privacy Policy
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Our Services -->
+      <div class="col-md-2">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px; text-transform:none; color:#ffffff !important;">
+          Our Services
+        </h2>
+        <ul class="list-unstyled" style="padding-left:0; line-height:1.6;">
+
+          <li style="margin-bottom:4px;">
+            <a href="elearning_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              eLearning
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="multimidia_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Multimedia
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="localization_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Localization
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="software_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Software
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Location -->
+      <div class="col-md-4">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px;">
+          Our Location
+        </h2>
+        <div style="width:100%; height:130px; border-radius:8px; overflow:hidden;">
+          <iframe
+            title="Google Maps showing PRGEEQ office location"
+            src="https://www.google.com/maps?q=Vishwapriya%20Nagar%20Bangalore&output=embed"
+            width="100%"
+            height="130"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="row" style="padding-top:15px; margin-top:15px; text-align:center;">
+      <div class="col-md-12">
+        <div style="border-top:1px solid #000; padding-top:10px;">
+          <p class="copyright" style="margin:0; font-size:13px;">
+            © Copyright 2026 | All Rights Reserved | Designed by PRGEEQ
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>

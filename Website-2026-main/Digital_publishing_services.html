@@ -1,0 +1,2096 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Unearth — Website Template by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700" rel="stylesheet"> -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    /* ================= NAVBAR ================= */
+
+    .site-navbar {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1100;
+      background: #ffffff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 15px 0;
+    }
+
+    /* Desktop */
+    @media (min-width: 992px) {
+      .main-menu {
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      .main-menu > li {
+        margin-left: 5px;
+      }
+    }
+
+    /* ================= MOBILE NAV FIX ================= */
+
+    @media (max-width: 991px) {
+
+      .site-logo img {
+        height: 38px !important;
+      }
+
+      .site-mobile-menu {
+        width: 280px;
+        background: #ffffff;
+        box-shadow: 2px 0 25px rgba(0,0,0,0.15);
+      }
+
+      .site-mobile-menu .site-nav-wrap {
+        display: block;
+        padding: 15px 0;
+      }
+
+      .site-mobile-menu .site-nav-wrap li {
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #f1f1f1;
+      }
+
+      .site-mobile-menu .site-nav-wrap li a {
+        display: block;
+        width: 100%;
+        padding: 14px 22px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #212121;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+
+      .site-mobile-menu .site-nav-wrap li a:hover {
+        background: #C35214;
+        color: #ffffff;
+      }
+
+      /* Dropdown items indent */
+      .site-mobile-menu .dropdown li a {
+        padding-left: 45px;
+        font-size: 15px;
+        background: #fafafa;
+      }
+
+      /* ONLY Book Demo button */
+      .site-mobile-menu .book-demo-mobile a {
+        background: #C35214 !important;
+        color: #ffffff !important;
+        margin: 15px;
+        border-radius: 30px;
+        text-align: center;
+        font-weight: 600;
+      }
+
+      .site-menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+<div class="site-wrap" id="home-section">
+
+  <!-- MOBILE MENU -->
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+  <!-- HEADER -->
+   <header class="site-navbar js-sticky-header site-navbar-target" role="banner" 
+        style="background:#fff; padding:25px 0; box-shadow:0 2px 15px rgba(0,0,0,0.06); position:relative; z-index:999;">
+
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between">
+
+      <!-- LOGO -->
+      <div class="site-logo" style="display:flex; align-items:center;">
+        <a href="index.html">
+          <img src="images/PRGEEQ-Logo.png" alt="PRGEEQ" style="height:50px;">
+        </a>
+      </div>
+
+      <!-- NAVIGATION -->
+      <div class="d-flex align-items-center justify-content-end flex-grow-1">
+
+        <nav class="site-navigation text-right d-none d-lg-block" role="navigation">
+
+          <ul class="site-menu main-menu js-clone-nav"
+              style="list-style:none; margin:0; padding:0;">
+
+            <!-- HOME -->
+           <li class="active" style="display:inline-block;">
+  <a href="index.html"
+     style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}"> Home
+  </a>
+</li>
+
+            <!-- SOLUTIONS -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+                 style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Solutions
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li>
+                  <a href="Who_we_serve.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    Who We Serve
+                  </a>
+                </li>
+
+                <li>
+                  <a href="services.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    Services
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <!-- PRODUCT -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+                 style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Product
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li>
+                  <a href="LMS.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    LMS - NEUROLXP
+                  </a>
+                </li>
+
+                <li>
+                  <a href="E-Labs.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    GQ-Labs
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <!-- RESOURCES -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+               style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Resources
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li><a href="blogs.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Blogs</a></li>
+
+                <li><a href="Events.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Achievements</a></li>
+
+                <li><a href="help_Center.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Help Center</a></li>
+
+                <li><a href="careeres.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Careers</a></li>
+
+                <li><a href="testimonials.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Testimonials</a></li>
+
+              </ul>
+            </li>
+
+            <!-- CONTACT -->
+           <li style="display:inline-block;">
+  <a href="index.html#contact-section"
+     style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">Contact Us
+  </a>
+</li>
+
+            <!-- BOOK DEMO -->
+            <li style="display:inline-block;">
+              <a href="Book_a_demo.html"
+                style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Book a Demo
+              </a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <!-- MOBILE TOGGLE -->
+        <div class="d-inline-block d-lg-none ml-3">
+          <a href="#" class="site-menu-toggle js-menu-toggle">
+            <span class="icon-menu h3"></span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Chat Button -->
+<!-- Talk to Our Expert Button -->
+<a href="Talk_to_our_expert.html" style="text-decoration:none;">
+  <div id="chatToggle" style="
+    position:fixed;
+    top:50%;
+    right:-85px;
+    transform:translateY(-50%) rotate(-90deg);
+    transform-origin:center;
+    background:#a94e00;
+    color:#fff;
+    padding:12px 28px;
+    border-radius:30px 30px 0 0;
+    font-weight:600;
+    font-size:15px;
+    letter-spacing:0.5px;
+    cursor:pointer;
+    box-shadow:0 10px 25px rgba(0,0,0,0.25);
+    z-index:9999;
+    white-space:nowrap;
+    transition:0.3s;
+  ">
+    💬 Talk to Our Expert
+  </div>
+</a>
+
+<script>
+function adjustExpertButton() {
+  var btn = document.getElementById("chatToggle");
+
+  if (window.innerWidth <= 768) {
+    // Mobile View
+    btn.style.transform = "translateY(0)";
+    btn.style.top = "auto";
+    btn.style.bottom = "20px";
+    btn.style.right = "20px";
+    btn.style.borderRadius = "30px";
+    btn.style.padding = "10px 18px";
+    btn.style.fontSize = "14px";
+  } else {
+    // Desktop View
+    btn.style.top = "50%";
+    btn.style.bottom = "auto";
+    btn.style.right = "-85px";
+    btn.style.transform = "translateY(-50%) rotate(-90deg)";
+    btn.style.borderRadius = "30px 30px 0 0";
+    btn.style.padding = "12px 28px";
+    btn.style.fontSize = "15px";
+  }
+}
+
+adjustExpertButton();
+window.addEventListener("resize", adjustExpertButton);
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Digital Publishing Solutions",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com",
+    "logo": "https://www.prgeeq.com/assets/logo.png"
+  },
+  "description": "PRGEEQ provides end-to-end digital publishing services, enabling accessible and multi-channel content distribution across print, digital, and mobile platforms.",
+  "areaServed": {
+    "@type": "Place",
+    "name": "Global"
+  },
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "price": "Contact for quote",
+    "priceCurrency": "INR"
+  },
+  "keywords": [
+    "digital publishing",
+    "accessible publishing",
+    "multi-channel publishing",
+    "content distribution",
+    "PRGEEQ publishing services"
+  ],
+  "mainEntityOfPage": "https://www.prgeeq.com/digital-publishing"
+}
+
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Accessibility Solutions",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com"
+  },
+  "description": "PRGEEQ offers WCAG-compliant accessibility solutions including audits, training, and design services to ensure inclusive digital experiences for all users.",
+  "serviceType": "Digital Accessibility and Compliance Services",
+  "areaServed": "Worldwide",
+  "audience": {
+    "@type": "EducationalOrganization",
+    "name": "Corporate, Academic, and Government Institutions"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accessibility Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessibility Audits and Compliance Review",
+          "description": "Comprehensive evaluation of websites, LMS, and digital assets for WCAG, ADA, and Section 508 compliance."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessible Content Development",
+          "description": "Creation and remediation of accessible documents, e-learning materials, and multimedia resources."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessibility Training and Consultation",
+          "description": "Custom workshops and staff training on inclusive design and accessibility best practices."
+        }
+      }
+    ]
+  },
+  "mainEntityOfPage": "https://www.prgeeq.com/accessibility-solutions",
+  "inLanguage": "en-GB"
+}
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Kindle Conversion Services",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com"
+  },
+  "description": "PRGEEQ provides professional Kindle and Mobipocket conversion services for publishers, converting books, PDFs, and manuscripts into accessible, Kindle-ready eBooks.",
+  "serviceType": "eBook and Digital Publishing Services",
+  "areaServed": "Worldwide",
+  "audience": {
+    "@type": "EducationalOrganization",
+    "name": "Publishers, Authors, and Educational Institutions"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Kindle Conversion Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "PDF to Kindle Conversion",
+          "description": "Convert PDF documents and scanned books into high-quality, error-free Kindle eBooks with clickable tables of contents and responsive layouts."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Manuscript and Word File Conversion",
+          "description": "Transform Word and text manuscripts into Kindle-compatible formats with precise formatting and style preservation."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "InDesign and XML to Kindle",
+          "description": "Convert complex InDesign or XML-based layouts into accessible Kindle eBooks with high-quality formatting."
+        }
+      }
+    ]
+  },
+  "mainEntityOfPage": "https://www.prgeeq.com/kindle-conversion-services",
+  "inLanguage": "en-GB"
+}
+
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Proofreading Solutions",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com"
+  },
+  "description": "PRGEEQ provides professional proofreading and editing services for academic, corporate, and publishing clients. We refine grammar, clarity, and formatting for publication success.",
+  "serviceType": "Editing and Proofreading Services",
+  "areaServed": "Worldwide",
+  "audience": {
+    "@type": "EducationalOrganization",
+    "name": "Authors, Publishers, Researchers, and Students"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Proofreading and Editing Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Premium Editing",
+          "description": "Comprehensive language and structural editing that improves tone, flow, and logical clarity for publication-ready manuscripts."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Advanced Editing",
+          "description": "Detailed linguistic proofreading focused on grammar, formatting, and style consistency to meet international publishing standards."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Academic Proofreading",
+          "description": "Proofreading services for dissertations, journal articles, essays, and research papers ensuring clarity, coherence, and accuracy."
+        }
+      }
+    ]
+  },
+  "mainEntityOfPage": "https://www.prgeeq.com/proofreading-services",
+  "inLanguage": "en-GB"
+}
+
+
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Research Content Solutions",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com"
+  },
+  "description": "PRGEEQ provides strategic research content solutions for publishers and academic institutions, offering editing, production, data insights, and digital publishing support.",
+  "serviceType": "Research Content Development and Publishing Support",
+  "areaServed": "Worldwide",
+  "audience": {
+    "@type": "EducationalOrganization",
+    "name": "Publishers, Universities, and Research Institutions"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Research Content Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Language and Production Editing",
+          "description": "Comprehensive pre-submission and production editing services including artwork management, auto-pagination, and publication formatting."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Content Research and Analytics",
+          "description": "Research and analysis of content trends, competitor benchmarking, and data-driven strategy formulation for publishers."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Peer Review and Publishing Operations",
+          "description": "End-to-end support for peer review management, editorial workflows, and content digitisation for journals and books."
+        }
+      }
+    ]
+  },
+  "mainEntityOfPage": "https://www.prgeeq.com/research-content-services",
+  "inLanguage": "en-GB"
+}
+
+</script>
+<body>
+
+
+
+<!-- ================= MAIN OVERVIEW ================= -->
+
+<section class="site-section" style="padding:100px 0;">
+ <div class="container" style="max-width: 1200px; margin-top: 60px;">
+  <div class="row align-items-start">
+
+    <div class="col-lg-6 mb-5" data-aos="fade-right" style="padding-right: 40px;">
+      <div class="block-heading-1">
+        <h2 style="color: #a94e00; text-transform:none; font-weight: 700; margin-bottom: 20px;">
+          <b>Digital Publishing</b>
+        </h2>
+        <p style="color: #a94e00; font-weight: 600; font-size: 1.1rem; margin-bottom: 15px;">
+          Empowering Content for a Connected World
+        </p>
+        <p style="color: #000; line-height: 1.7; margin-bottom: 15px;">
+          PRGEEQ’s <strong>Digital Publishing Solutions</strong> redefine how content is created, managed, and delivered. With years of proven expertise in the publishing industry, we provide <strong>end-to-end services</strong> — from content strategy and design to multi-channel distribution and performance analytics.
+        </p>
+        <p style="color: #000; line-height: 1.7;">
+          We bring efficiency and innovation to every stage of publishing. By combining automation, digital workflow systems, and accessibility standards, we ensure that every publication is inclusive, discoverable, and ready for global audiences.
+        </p>
+      </div>
+    </div>
+    
+
+    <div class="col-lg-6 mb-5" data-aos="fade-left" style="padding-left: 40px; border-left: 1px solid #f2f2f2;">
+      <div class="block-heading-1">
+        <h3 style="color:#a94e00; text-transform:none; font-weight: 700; margin-bottom: 25px;">
+          <b>Key Highlights of Our Publishing Services</b>
+        </h3>
+
+       <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 0; line-height: 1.8; color: #000; font-size: 1.05rem; text-transform: none !important;">
+          
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+    <span style="color: #000; text-transform: none !important;"><strong>Comprehensive Publishing Lifecycle:</strong> We manage the complete process — from content creation and design to distribution — ensuring speed and quality.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+    <span style="color: #000; text-transform: none !important;"><strong>Multi-channel Content Delivery:</strong> We publish across print, digital, mobile, e-book, and learning platforms to maximise engagement.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+    <span style="color: #000; text-transform: none !important;"><strong>Accessibility Compliance:</strong> Every publication meets WCAG and Benetech standards with accessible structures and alt text.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+    <span style="color: #000; text-transform: none !important;"><strong>Customised Solutions:</strong> Scalable and adaptable services for educational, academic, trade, and corporate publishing.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+    <span style="color: #000; text-transform: none !important;"><strong>Global Reach:</strong> Multi-format delivery and translation capabilities to help you extend content to international markets.</span>
+  </li>
+
+</ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- ================= sub services OVERVIEW ================= -->
+<section style="padding:0 0 50px 0; background:#f8f9fa; text-align:center; margin:0;">
+  <div class="container">
+    
+    <h2 style="margin:0 0 30px 0; color:#a94e00; text-transform:none;">
+      <b>Our Digital Publishing Sub Services</b>
+    </h2>
+
+    <div>
+      <button onclick="showSub('Accessibility_Solutions')"
+              style="background:#a94e00;border:none;padding:12px 30px;font-weight:600;border-radius:30px;margin:10px;color:#fff;cursor:pointer;">
+        Accessibility Solutions
+      </button>
+
+      <button onclick="showSub('kindle')"
+              style="background:#a94e00;border:none;padding:12px 30px;font-weight:600;border-radius:30px;margin:10px;color:#fff;cursor:pointer;">
+        Kindle Conversion Services
+      </button>
+
+      <button onclick="showSub('Proofreading')"
+              style="background:#a94e00;border:none;padding:12px 30px;font-weight:600;border-radius:30px;margin:10px;color:#fff;cursor:pointer;">
+        Proofreading Solutions
+      </button>
+
+      <button onclick="showSub('Research')"
+              style="background:#a94e00;border:none;padding:12px 30px;font-weight:600;border-radius:30px;margin:10px;color:#fff;cursor:pointer;">
+        Research Content Solutions
+      </button>
+
+    </div>
+
+
+   
+  </div>
+</section>
+
+   <div class="container" style="max-width: 1200px; margin-top: 60px;">
+
+  <div class="row align-items-center" style="margin-bottom: 60px;">
+    <div class="col-lg-6 mb-4" data-aos="fade-right">
+      <img src="images/Research Content 3.jpg"
+           alt="PRGEEQ Unique Value Proposition"
+           style="width: 100%; height: auto; max-height: 400px; object-fit: contain; border: none; box-shadow: none;">
+    </div>
+
+    <div class="col-lg-6 mb-4" data-aos="fade-left" style="padding-left: 40px;">
+      <h3 style="color:#a94e00; text-transform:none; font-weight: 700; margin-bottom: 20px;">
+        <b>Our Unique Value Proposition</b>
+      </h3>
+      <p style="color: #000; line-height: 1.7; margin-bottom: 15px;">
+        PRGEEQ bridges creativity with technology. Our digital publishing ecosystem integrates AI-driven workflows, cloud-based collaboration tools, and automated quality checks that save time and reduce production costs.
+      </p>
+      <p style="color: #000; line-height: 1.7; font-weight: 500; border-left: 3px solid #a94e00; padding-left: 15px;">
+        We ensure every publication aligns with global best practices — combining accessibility, interactivity, and discoverability for measurable audience impact.
+      </p>
+    </div>
+  </div>
+
+  <div class="row align-items-center" style="margin-bottom: 60px;">
+    <div class="col-lg-6 mb-4" data-aos="fade-right" style="padding-right: 40px;">
+      <h3 style="color:#a94e00; text-transform:none; font-weight: 700; margin-bottom: 20px;">
+        <b>Multi-channel Content Distribution</b>
+      </h3>
+      <p style="color: #000; line-height: 1.7;">
+        Our distribution strategy ensures your content is available wherever your readers are. From <strong>traditional print channels</strong> to <strong>digital libraries, academic databases,</strong> and <strong>mobile applications,</strong> we make sure your publications achieve maximum reach and visibility.
+      </p>
+      <p style="color: #000; line-height: 1.7; font-style: italic; margin-top: 15px;">
+        Our metadata optimisation and digital rights management (DRM) integration ensure secure, searchable, and efficient content delivery.
+      </p>
+    </div>
+
+    <div class="col-lg-6 mb-4 text-center" data-aos="fade-left">
+      <img src="images/Research Content 4.jpg"
+           alt="Multi-channel Content Distribution"
+           style="width: 100%; height: auto; max-height: 400px; object-fit: contain; border: none; box-shadow: none;">
+    </div>
+  </div>
+
+  <div class="row align-items-center" style="margin-bottom: 60px;">
+    <div class="col-lg-6 mb-4" data-aos="fade-right">
+      <img src="images/LMS 4.jpg"
+           alt="Why Choose PRGEEQ Publishing Solutions"
+           style="width: 100%; height: auto; max-height: 400px; object-fit: contain; border: none; box-shadow: none;">
+    </div>
+
+    <div class="col-lg-6 mb-4" data-aos="fade-left" style="padding-left: 40px;">
+      <h3 style="color:#a94e00; text-transform:none; font-weight: 700; margin-bottom: 25px;">
+        <b>Why Choose PRGEEQ’s Publishing Solutions</b>
+      </h3>
+      
+      <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 0; line-height: 1.8; color: #000; font-size: 1.05rem;">
+        
+        <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+          <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+          <span>We combine <strong>industry experience, technological innovation,</strong> and <strong>accessibility expertise</strong> to deliver publishing solutions that meet the highest international standards.</span>
+        </li>
+
+        <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+          <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+          <span>Our inclusive publishing approach guarantees your content is <strong>readable, accessible, and discoverable</strong> by all audiences, including those using assistive technologies.</span>
+        </li>
+
+        <li style="display: flex; align-items: flex-start;">
+          <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
+          <span>With PRGEEQ as your partner, you can focus on storytelling and knowledge sharing while we handle the technical precision behind professional publishing.</span>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+</section>
+</section>
+
+
+
+<!-- =================  ACCESSIBILITY ================= -->
+
+<section id="Accessibility_Solutions" style="padding:100px 0; display:none; background:#ffffff;">
+  <div class="container">
+
+    <!-- ROW 1 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <img src="images/Document Accessibility 2.jpg"
+             alt="Document Accessibility."
+             style="width:100%;">
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Building an Inclusive Digital Experience for All</b></h3>
+        <p style="color: #000;">
+        At <strong>PRGEEQ, </strong> we are dedicated to ensuring that education, technology, and opportunity are accessible to everyone. Accessibility is not a single feature but a <strong>comprehensive framework of inclusive design principles </strong>and <strong>user-experience best practices </strong>that support equal participation for all users—regardless of visual, auditory, cognitive, or mobility challenges.<br><br>
+        A <strong>Learning Management System (LMS) </strong>that aligns with <strong>WCAG (Web Content Accessibility Guidelines) </strong>and global accessibility frameworks establishes the foundation for an <strong>inclusive learning and development ecosystem.</strong> By integrating accessibility into every stage of design and development, organisations can ensure equitable and consistent learning outcomes for all employees.
+
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="row justify-content-center text-center mb-5">
+      <div class="col-lg-8" data-aos="fade-up">
+        
+        <h3 style="color:#a94e00; margin-bottom:25px;text-transform:none;"><b>
+          Understanding Accessibility Standards</b>
+        </h3>
+        
+       <ul class="list-unstyled" 
+    style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem; text-transform: none !important;">
+  
+  <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 1.8; color: #000; font-size: 1.05rem; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px; text-transform: none !important; text-align: left;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important; display: block;">
+      <strong>WCAG (Web Content Accessibility Guidelines):</strong> A globally recognised standard for creating accessible digital content, also aligned with <strong>ISO/IEC 40500:2012.</strong>
+    </span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 15px; text-transform: none !important; text-align: left;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important; display: block;">
+      <strong>ADA (Americans with Disabilities Act):</strong> A civil rights law ensuring equal opportunity for individuals with disabilities.
+    </span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important; text-align: left;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important; display: block;">
+      <strong>Section 508 (U.S. Federal Standard):</strong> Mandates that government websites and communications be accessible to users with disabilities.
+    </span>
+  </li>
+
+</ul>
+
+</ul>
+
+      </div>
+    </div>
+
+
+    <!-- ROW 2 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Our Approach to Accessibility Services</b></h3>
+        <p style="color: #000;">
+         We provide comprehensive accessibility solutions designed to create a seamless and inclusive user experience. Our services include:
+        </p>
+<ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;">Consistent and intuitive <strong>user interfaces (UI)</strong> and iconography</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;">Use of <strong>high-contrast colour palettes</strong> for improved visibility</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Accessible text editors</strong> that support screen-reader compatibility</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Accessible multi-select lists</strong> and form elements</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;">Development of <strong>accessible course content</strong> aligned with WCAG standards</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Screen-reader-friendly instructional materials</strong> and navigation aids</span>
+  </li>
+
+</ul>
+
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <img src="images/Web Accessibility 2.jpg"
+             alt="Web Accessibility."
+             style="width:100%;">
+      </div>
+
+    </div>
+<!-- FINAL ROW -->
+<div class="row justify-content-center" style="margin-top:60px;">
+
+  <!-- CENTERED COLUMN -->
+  <div class="col-lg-8 col-md-10 mx-auto text-center" data-aos="fade-up">
+    
+    <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;">
+     <b> Why Choose PRGEEQ for Accessibility?</b>
+    </h3>
+
+    <p style="line-height:1.8; color:#000">
+      Our expert team helps you achieve compliance, usability, and inclusion. We can:
+    </p>
+   <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Evaluate</strong> your current digital accessibility from both user and organisational perspectives</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Audit</strong> websites, digital assets, and e-learning platforms against accessibility benchmarks</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Recommend</strong> improvements based on international and national accessibility standards</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Train</strong> your teams to understand, implement, and maintain accessibility compliance</span>
+  </li>
+
+</ul>
+
+    <p style="line-height:1.8; margin-top:20px; color:#000">
+      With PRGEEQ as your accessibility partner, you ensure that every learner, employee, and customer can engage with your content and services equitably.
+    </p>
+
+  </div>
+
+</div>
+
+    
+
+
+<section class="site-section bg-light" id="faq-section" style="padding:40px 0;">
+  <div class="container">
+
+    <!-- Heading -->
+    <div class="row justify-content-center text-center" style="margin-bottom:30px;">
+      <div class="col-md-7" data-aos="fade-up">
+
+        <p style="margin:0; color:#a94e00;"><strong><b>Frequently Asked Questions</b></strong></p>
+      </div>
+    </div>
+
+    <!-- FAQ Wrapper -->
+    <div style="max-width:900px; margin:0 auto;">
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="200"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+           1. What is accessibility in digital publishing, and why is it important?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            Accessibility ensures that digital and printed content is usable by individuals with disabilities. It is vital because it promotes inclusivity, meets legal requirements, and enables organisations to reach a wider, more diverse audience.          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="300"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            2. What types of accessibility services does PRGEEQ provide?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+             We offer accessibility audits, document remediation, accessible content creation, captioning, and assistive-technology integration. Our goal is to make all digital assets compliant and user-friendly for everyone.          </p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            3. How does PRGEEQ maintain accessibility across multiple devices and platforms?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+           We implement and test according to <strong>WCAG</strong> standards, ensuring content functions seamlessly with assistive technologies across web, mobile, and desktop environments. </p>       </div>
+      </div>
+
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            4. Is PRGEEQ experienced with legal accessibility compliance frameworks like ADA and Section 508?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+          Yes. Our specialists are well-versed in international regulations including ADA, WCAG, and Section 508, ensuring that your digital content remains legally compliant and ethically inclusive.</p>
+        </div>
+      </div>
+
+       <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            5. What are the key benefits of accessibility services for publishers and organisations?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            Accessibility enhances reach, improves user experience, supports compliance, strengthens brand reputation, and demonstrates a strong commitment to inclusivity and corporate responsibility.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+</section>
+
+
+<!-- ================= Kindle Conversion Services ================= -->
+
+<section id="kindle" style="padding:100px 0; display:none; background:#ffffff;">
+  <div class="container">
+
+    <!-- ROW 1 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <img src="images/Kindle conversion 1.jpg"
+             alt="Kindle conversion."
+             style="width:100%;">
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Transform Your Content into Kindle-Ready Digital Books</b></h3>
+        <p style="color: #000;">
+     The world of publishing has evolved dramatically, and <strong>Kindle eBooks</strong> have revolutionised the way people read and access information. At <strong>PRGEEQ, </strong>we provide <strong>high-quality, cost-effective Kindle and Mobipocket conversion services</strong>, converting your manuscripts and print books into formats optimised for the <strong>Amazon Kindle platform </strong>and compatible mobile devices.
+     We support a wide variety of input formats, including <strong>hard copies, Word, PDF, HTML, XML, InDesign, </strong>and <strong>QuarkXPress</strong> files. Our conversions comply with <strong>OEB </strong>and <strong>XHTML standards,</strong> ensuring accessibility, consistency, and an intuitive reading experience across all Kindle-enabled devices.
+    Every <strong>PDF to Kindle conversion </strong>we deliver is <strong>error-free, meticulously formatted, </strong>and completed within defined deadlines. We also optimise Kindle eBooks for <strong>seamless navigation, </strong>including <strong>clickable tables of contents, linked chapters,</strong> and <strong>responsive page layouts</strong>—enhancing accessibility and user satisfaction.
+
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="row justify-content-center text-center mb-5">
+      <div class="col-lg-8" data-aos="fade-up">
+        
+        <h3 style="color:#a94e00; margin-bottom:25px;text-transform:none;">
+         <b>Our Approach to Kindle Conversion</b>
+        </h3>
+        <p style="color: #000;">Choosing PRGEEQ as your Kindle conversion partner means gaining access to expert craftsmanship and reliable delivery. Whether you have digital manuscripts or scanned physical books, we transform your content into professional, reader-ready Kindle eBooks.</p>
+        <p style="color: #000;">Our Kindle conversion process includes:</p>
+      <div style="display: flex; justify-content: center; width: 100%; margin: 40px 0;">
+  <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 0; line-height: 2.2; color: #000; font-size: 1.05rem; text-transform: none !important; text-align: left; display: inline-block;">
+    
+    <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+      <span style="text-transform: none !important;">Conversion of <strong>hard copies</strong> and <strong>HTML files</strong></span>
+    </li>
+
+    <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+      <span style="text-transform: none !important;">Processing of <strong>PDF files</strong> and <strong>scanned images</strong></span>
+    </li>
+
+    <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+      <span style="text-transform: none !important;">Integration of <strong>Adobe InDesign</strong> and <strong>XML</strong> content</span>
+    </li>
+
+    <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+      <span style="text-transform: none !important;">Conversion from <strong>Microsoft Word</strong> and <strong>QuarkXPress</strong> files</span>
+    </li>
+
+    <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+      <span style="text-transform: none !important;">Formatting for <strong>OEB, XHTML,</strong> and <strong>Kindle-friendly</strong> structures</span>
+    </li>
+
+    <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+      <span style="text-transform: none !important;"><strong>Built-in navigational aids</strong> for a superior user experience</span>
+    </li>
+
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+
+    <!-- ROW 2 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Why Choose PRGEEQ for Kindle Conversion?</b></h3>
+
+        <p style="color:#000">At PRGEEQ, we are not just converters—we are <strong>publishing technology experts</strong> who prioritise quality, compliance, and confidentiality. Our solutions combine efficiency, accuracy, and an in-depth understanding of publishing standards.
+        </p>
+
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <img src="images/Kindle conversion 3.jpg"
+             alt="Kindle conversion."
+             style="width:100%;">
+      </div>
+
+    </div>
+
+   <!-- FINAL ROW -->
+<div class="row justify-content-center" style="margin-top:60px;">
+
+  <!-- CENTERED COLUMN -->
+  <div class="col-lg-8 col-md-10 mx-auto text-center" data-aos="fade-up">
+    
+    <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;">
+      <b>Our strengths include:</b>
+    </h3>
+        
+   <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;">Use of <strong>state-of-the-art techniques</strong> for precise format conversions</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>High-quality assurance culture</strong> integrated throughout the workflow</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;">Adherence to <strong>international compliance standards</strong></span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Rigorous two-stage quality control (QC)</strong> before delivery</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Dedicated project managers</strong> for transparent communication</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Strict content privacy and data protection policies</strong></span>
+  </li>
+
+</ul>
+
+    <p style="line-height:1.8; margin-top:20px; color:#000">
+      With over a decade of experience, we ensure your Kindle-ready books meet global quality benchmarks while retaining the integrity and beauty of your original design.
+    </p>
+
+  </div>
+
+</div>
+</div>
+
+
+
+<section class="site-section bg-light" id="faq-section" style="padding:40px 0;">
+  <div class="container">
+
+    <!-- Heading -->
+    <div class="row justify-content-center text-center" style="margin-bottom:30px;">
+      <div class="col-md-7" data-aos="fade-up">
+
+        <p style="margin:0; color:#a94e00;"><strong><b>Frequently Asked Questions</b></strong></p>
+      </div>
+    </div>
+
+    <!-- FAQ Wrapper -->
+    <div style="max-width:900px; margin:0 auto;">
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="200"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+           1. What is Kindle conversion and why is it essential for publishers?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+           Kindle conversion is the process of adapting written content into a format compatible with Amazon Kindle devices and apps. It enables publishers to reach millions of global readers, expand digital distribution, and enhance revenue potential.</p>      </div>
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="300"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            2. What types of content can PRGEEQ convert into Kindle format?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            We convert books, manuscripts, novels, academic publications, and magazines into Kindle-supported formats. Each project is optimised for readability, structure, and accessibility.</p>
+        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#333;">
+            3. How does PRGEEQ handle formatting and layout during conversion?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+          Our team preserves your original design integrity by ensuring accurate formatting, consistent fonts, optimised images, and adaptive layouts suitable for Kindle’s dynamic display.</p>       </div>
+      </div>
+
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+           4. Can PRGEEQ assist with cover design and metadata optimisation?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+          Yes. We also provide cover design, metadata enhancement, and search optimisation services to improve the discoverability and market appeal of your Kindle publications.</p>
+        </div>
+      </div>
+
+       <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            5. How can publishers benefit from PRGEEQ’s Kindle conversion services?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+           Publishers gain global reach, increased readership, and cost-efficient scalability. By partnering with PRGEEQ, you make your content Kindle-ready, accessible, and engaging for readers worldwide.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  </section>
+  </div>
+</section>
+
+
+
+
+
+<!-- =================  Proofreading Solutions ================= -->
+
+<section id="Proofreading" style="padding:100px 0; display:none; background:#ffffff;">
+  <div class="container">
+
+    <!-- ROW 1 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <img src="images/Proof reading 1.jpg"
+             alt="Proof reading."
+             style="width:100%;">
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Perfecting Every Word for Publication Success</b></h3>
+        <p style="color: #000;">
+       At <strong>PRGEEQ,</strong> our editors ensure that every document is <strong>error-free, polished, and professionally formatted</strong>. We refine grammar, improve clarity, and enhance readability to ensure your writing flows seamlessly from start to finish. Whether you are an academic, researcher, or business professional, our goal is to make your work precise, persuasive, and publication-ready.<br><br>
+       Our highly rated <strong>editing and proofreading services</strong> empower you to submit your work with confidence, knowing it meets international linguistic and formatting standards. From manuscripts and journal submissions to academic essays and corporate reports, PRGEEQ offers solutions tailored to your content, purpose, and audience.<br><br>
+       We support you through every stage of your publishing journey—<strong>from language editing to translation, journal selection to research promotion</strong>—helping you achieve global visibility and publishing success.
+
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="row justify-content-center text-center mb-5">
+      <div class="col-lg-8" data-aos="fade-up">
+        
+        <h3 style="color:#a94e00; margin-bottom:25px;text-transform:none;">
+          <b>What Makes Us the Preferred Choice</b>
+        </h3>
+        
+       <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Inclusive for everyone –</strong> supporting students, researchers, and professionals.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Expert pairing –</strong> matched with subject-specialist editors for your discipline.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Client-centred control –</strong> your work, your preferences, your voice.</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Innovation in publishing –</strong> adopting smart tools and accessibility-driven workflows.</span>
+  </li>
+
+</ul>
+
+      </div>
+    </div>
+
+
+    <!-- ROW 2 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Our Approach to Proofreading Solutions</b></h3>
+        <p style="color: #000;">
+          PRGEEQ provides a structured, multi-layered editing approach designed to elevate your content’s quality and impact.        </p>
+          <h4 style="color: #000;text-transform:none;">Premium Editing:</h4>
+          <p style="color: #000;">A comprehensive language and structural edit that enhances clarity, tone, and logical flow—ensuring your manuscript reads like a native-English publication. Ideal for authors targeting international journals.</p>
+
+          <h4 style="color: #000;text-transform:none;">Advanced Editing:</h4>
+          <p style="color: #000;">A detailed review focused on linguistic precision, formatting accuracy, and adherence to global publication standards. Perfect for research papers, dissertations, and corporate communications.</p>
+   
+          <p style="color: #000;">Our process includes:</p>
+       <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;">Multiple rounds of editing and internal review</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;">Consistent application of academic or organisational style guides</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;">Accessibility and readability checks for inclusive publishing</span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;">Transparent tracking of all editorial changes</span>
+  </li>
+
+</ul>
+
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <img src="images/Kindle conversion 2.jpg"
+             alt="Proof reading."
+             style="width:100%;">
+      </div>
+
+    </div>
+<!-- FINAL ROW -->
+<div class="row justify-content-center" style="margin-top:60px;">
+
+  <!-- CENTERED COLUMN -->
+  <div class="col-lg-8 col-md-10 mx-auto text-center" data-aos="fade-up">
+    
+    <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;">
+      <b>Why Choose PRGEEQ</b>
+    </h3>
+
+    <p style="line-height:1.8; color:#000">
+      We are your trusted partners for high-quality editorial support across a variety of formats:
+    </p>
+        
+   <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Dissertations and Theses</strong></span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Research Papers and Journal Articles</strong></span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Essays and Assignments</strong></span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Personal Statements and Admission Essays</strong></span>
+  </li>
+
+</ul>
+
+    <p style="line-height:1.8; margin-top:20px; color:#000">
+      Our editorial experts ensure your content not only meets publication standards but also leaves a lasting impression on reviewers and readers alike.
+    </p>
+
+  </div>
+
+</div>
+
+
+
+<section class="site-section bg-light" id="faq-section" style="padding:40px 0;">
+  <div class="container">
+
+    <!-- Heading -->
+    <div class="row justify-content-center text-center" style="margin-bottom:30px;">
+      <div class="col-md-7" data-aos="fade-up">
+
+        <p style="margin:0; color:#a94e00;"><strong><b>Frequently Asked Questions</b></strong></p>
+      </div>
+    </div>
+
+    <!-- FAQ Wrapper -->
+    <div style="max-width:900px; margin:0 auto;">
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="200"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+           1. What does proofreading entail, and why is it important for publishers?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            Proofreading involves meticulously reviewing content to correct grammar, punctuation, spelling, and formatting errors. It ensures professionalism, readability, and accuracy—crucial for maintaining credibility and reader satisfaction.</p>        </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="300"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#333;">
+            2. What types of content can PRGEEQ proofread?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            We handle academic papers, books, magazines, journals, marketing materials, and corporate reports, tailoring our approach to meet each publisher’s or author’s requirements.   </p>     </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            3. How does PRGEEQ ensure accuracy and quality control?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+          Our proofreaders follow a rigorous, multi-stage review process, adhering to style guides, conducting multiple passes, and using digital tracking tools to maintain full transparency and precision. </p>       </div>
+      </div>
+
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            4. Can publishers provide specific style guidelines or preferences?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+           Yes. We encourage publishers to share their style manuals, brand guides, or formatting preferences. Our editors align all corrections and refinements with your established voice and standards.    </p>    </div>
+      </div>
+
+       <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            5. How do publishers benefit from PRGEEQ’s proofreading services?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            Our services enhance clarity, ensure compliance with publication norms, and improve the overall professionalism of your content—leading to better reader engagement and increased credibility   </p>     </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+</section>
+
+
+<!-- =================  research ================= -->
+
+<section id="Research" style="padding:100px 0; display:none; background:#ffffff;">
+  <div class="container">
+
+    <!-- ROW 1 -->
+    <div class="row align-items-center mb-5">
+
+      <!-- LEFT IMAGE -->
+      <div class="col-lg-6" data-aos="fade-right">
+        <img src="images/Research Content 1.jpg"
+             alt="Research Content."
+             style="width:100%; border-radius:12px; border:3px solid #a94e00;">
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Empowering Research Publishing with Intelligent Content Strategy</b></h3>
+        <p style="color: #000;">
+       In today’s competitive landscape, content is the <strong>ultimate key to staying ahead. At PRGEEQ,</strong> we partner with leading publishers, academic institutions, and content platforms to deliver <strong>strategic research content solutions</strong> that enhance visibility, streamline workflows, and drive measurable impact.<br><br>
+        We work with <strong>commercial publishers, university presses, open-access platforms, and academic associations</strong> supporting a diverse range of outputs—<strong>journals, books, MRWs (Major Reference Works), conference proceedings, and database products</strong>.
+      Our services are designed to handle <strong>millions of pages annually,</strong> offering everything from <strong>pre-submission language editing</strong> to <strong>production editing, auto-pagination, web-based artwork, and transfer-desk services</strong>—all supported by robust technology and experienced professionals.<br><br>
+       Beyond publishing support, <strong>content research</strong> provides valuable competitive insights, enabling organisations to understand market trends and develop more targeted, reliable, and forward-looking business strategies.
+
+        </p>
+      </div>
+
+    </div>
+
+     <div class="row justify-content-center text-center mb-5">
+      <div class="col-lg-8" data-aos="fade-up">
+        
+        <h3 style="color:#a94e00; margin-bottom:25px;text-transform:none;">
+          <b>Our Approach to Research Content</b>
+        </h3>
+        
+       <p style="color: #000;">Our process is built around <strong>efficiency, scalability, and technological innovation</strong>. Once the transition volume is determined, our clients can simply relax while we ensure flawless execution and timely delivery—regardless of time zones.<br>
+         We leverage <Strong>AI-enabled tools, automation, and data-driven analytics</Strong> to optimise accuracy, turnaround time, and content performance.
+         Our professionals, driven by a <strong>customer-first philosophy,</strong> ensure that every project aligns with your publishing vision and operational objectives.
+        </p>
+
+      </div>
+    </div>
+
+    <div class="row justify-content-center text-center mb-5">
+      <div class="col-lg-8" data-aos="fade-up">
+        
+        <h3 style="color:#a94e00; margin-bottom:25px;text-transform:none;">
+          <b>Why Choose PRGEEQ</b>
+        </h3>
+        <p style="color: #000;">We specialise in <strong>enabling new content monetisation opportunities,</strong> whether through <strong>backlist digitisation</strong> or <strong>forward-flow content enhancement</strong>.
+          Our solutions bridge the gap between content development and commercial success.
+        </p>
+        <p style="color: #000;">Our key expertise areas include:</p>
+       <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Peer Review Management, Data and Insights</strong></span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Publishing, Digital Experience and Operations</strong></span>
+  </li>
+
+  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span style="text-transform: none !important;"><strong>Editorial and Production Management</strong></span>
+  </li>
+
+</ul>
+        <p style="color:#000">By combining innovation with editorial precision, PRGEEQ ensures that research content becomes both <strong>discoverable and impactful</strong> across global publishing ecosystems.</p>
+
+      </div>
+    </div>
+
+
+<section class="site-section bg-light" id="faq-section" style="padding:40px 0;">
+  <div class="container">
+
+    <!-- Heading -->
+    <div class="row justify-content-center text-center" style="margin-bottom:30px;">
+      <div class="col-md-7" data-aos="fade-up">
+
+        <p style="margin:0; color:#a94e00;"><strong><b>Frequently Asked Questions</b></strong></p>
+      </div>
+    </div>
+
+    <!-- FAQ Wrapper -->
+    <div style="max-width:900px; margin:0 auto;">
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="200"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+           1. What types of research content services do you offer for publishers?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            PRGEEQ offers a wide range of services including <strong>content creation, data analysis, data visualisation, abstracting, indexing, literature reviews, and manuscript editing</strong>, covering the full lifecycle of research publishing.    </p>    </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="300"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#333;">
+            2. How do you ensure the quality and accuracy of research content?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+           Our team of <strong>researchers, subject experts, and editors</strong> follows rigorous review protocols, cross-checking data and adhering to international publishing standards to ensure credibility and precision.    </p>    </div>
+      </div>
+
+      <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            3. Can you assist with content preparation for academic journals?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+           Yes. We prepare manuscripts for <strong>academic journals, books, and conference proceedings,</strong> ensuring compliance with formatting and style guidelines to enhance acceptance rates.</p>       </div>
+      </div>
+
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            4. How does PRGEEQ protect data and confidentiality?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+          We follow strict data privacy policies, backed by secure infrastructure and confidentiality agreements (NDAs). Our team is trained to handle research content responsibly and securely.</p>
+        </div>
+      </div>
+
+       <!-- FAQ Item -->
+      <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button
+          onclick="
+            var a=this.nextElementSibling;
+            var q=this.querySelector('.q');
+            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            a.style.display = a.style.display==='block' ? 'none' : 'block';
+          "
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+           5. What research content formats do you support?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            We support <strong>scholarly articles, reports, theses, dissertations, case studies, and conference papers,</strong> and can tailor our workflow to suit any academic or professional format.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+</section>
+
+
+
+
+
+
+<!-- ================= INLINE JAVASCRIPT ================= -->
+<script>
+function showSub(id) {
+
+  // Hide all sub sections
+  var sections = document.querySelectorAll('#Accessibility_Solutions, #Digital_Publishing, #Flash, #Kindle, #Proofreading, #Research');
+  sections.forEach(function(section){
+    section.style.display = "none";
+  });
+
+  // Show selected
+  var selected = document.getElementById(id);
+  if(selected){
+    selected.style.display = "block";
+    selected.scrollIntoView({ behavior: "smooth" });
+  }
+}
+</script>
+
+
+
+
+
+<!-- ================= WEB ACCESSIBILITY ================= -->
+
+<!-- AOS JS -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/aos.js"></script>
+
+<script>
+  AOS.init({
+    duration: 800,
+    easing: 'ease-out-cubic',
+    once: true
+  });
+</script>
+
+</body>
+
+<footer class="site-footer" style="padding:35px 0 20px 0;">
+  <div class="container">
+    <div class="row">
+
+      <!-- Company Info -->
+      <div class="col-md-4">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px;">
+          PRGEEQ Global Solutions Private Limited.
+        </h2>
+        <p style="margin-bottom:4px; font-size:14px;">No 22, 3rd Block, 18th Cross,</p>
+        <p style="margin-bottom:4px; font-size:14px;">Vishwapriya Nagar, Bangalore - 560068</p>
+        <p style="margin-bottom:6px; font-size:14px;">Karnataka, India.</p>
+
+        <p style="margin-bottom:4px; font-size:14px;"><strong>Phone :</strong> +91 968 626 6966</p>
+        <p style="margin-bottom:8px; font-size:14px;"><strong>Email :</strong> contact@prgeeq.com</p>
+
+        <!-- Social Icons -->
+        <div style="margin-top:10px;">
+          <a href="https://x.com/PrgeeqGlobal"
+             style="padding-right:10px; display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Follow PRGEEQ on Twitter">
+            <span class="icon-twitter"></span>
+          </a>
+
+          <a href="https://www.youtube.com/@prgeeqglobalsolutions"
+             style="padding-right:10px; display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Subscribe to PRGEEQ on YouTube">
+            <span class="icon-youtube"></span>
+          </a>
+
+          <a href="https://www.linkedin.com/company/prgeeq-global-solutions-private-limited/?viewAsMember=true"
+             style="display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Connect with PRGEEQ on LinkedIn">
+            <span class="icon-linkedin"></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Useful Links -->
+      <div class="col-md-2">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px; text-transform:none; color:#ffffff !important;">
+          Useful Links
+        </h2>
+        <ul class="list-unstyled" style="padding-left:0; line-height:1.6;">
+
+          <li style="margin-bottom:4px;">
+            <a href="index.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Home
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="index.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              About Us
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Solutions
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="Terms.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Terms of Service
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="Terms.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Privacy Policy
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Our Services -->
+      <div class="col-md-2">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px; text-transform:none; color:#ffffff !important;">
+          Our Services
+        </h2>
+        <ul class="list-unstyled" style="padding-left:0; line-height:1.6;">
+
+          <li style="margin-bottom:4px;">
+            <a href="elearning_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              eLearning
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="multimidia_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Multimedia
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="localization_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Localization
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="software_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Software
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Location -->
+      <div class="col-md-4">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px;">
+          Our Location
+        </h2>
+        <div style="width:100%; height:130px; border-radius:8px; overflow:hidden;">
+          <iframe
+            title="Google Maps showing PRGEEQ office location"
+            src="https://www.google.com/maps?q=Vishwapriya%20Nagar%20Bangalore&output=embed"
+            width="100%"
+            height="130"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="row" style="padding-top:15px; margin-top:15px; text-align:center;">
+      <div class="col-md-12">
+        <div style="border-top:1px solid #000; padding-top:10px;">
+          <p class="copyright" style="margin:0; font-size:13px;">
+            © Copyright 2026 | All Rights Reserved | Designed by PRGEEQ
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>

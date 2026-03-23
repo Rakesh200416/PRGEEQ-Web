@@ -1,0 +1,925 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Unearth — Website Template by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700" rel="stylesheet"> -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    /* ================= NAVBAR ================= */
+
+    .site-navbar {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1100;
+      background: #ffffff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 15px 0;
+    }
+
+    /* Desktop */
+    @media (min-width: 992px) {
+      .main-menu {
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      .main-menu > li {
+        margin-left: 5px;
+      }
+    }
+
+    /* ================= MOBILE NAV FIX ================= */
+
+    @media (max-width: 991px) {
+
+      .site-logo img {
+        height: 38px !important;
+      }
+
+      .site-mobile-menu {
+        width: 280px;
+        background: #ffffff;
+        box-shadow: 2px 0 25px rgba(0,0,0,0.15);
+      }
+
+      .site-mobile-menu .site-nav-wrap {
+        display: block;
+        padding: 15px 0;
+      }
+
+      .site-mobile-menu .site-nav-wrap li {
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #f1f1f1;
+      }
+
+      .site-mobile-menu .site-nav-wrap li a {
+        display: block;
+        width: 100%;
+        padding: 14px 22px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #212121;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+
+      .site-mobile-menu .site-nav-wrap li a:hover {
+        background: #C35214;
+        color: #ffffff;
+      }
+
+      /* Dropdown items indent */
+      .site-mobile-menu .dropdown li a {
+        padding-left: 45px;
+        font-size: 15px;
+        background: #fafafa;
+      }
+
+      /* ONLY Book Demo button */
+      .site-mobile-menu .book-demo-mobile a {
+        background: #C35214 !important;
+        color: #ffffff !important;
+        margin: 15px;
+        border-radius: 30px;
+        text-align: center;
+        font-weight: 600;
+      }
+
+      .site-menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+<div class="site-wrap" id="home-section">
+
+  <!-- MOBILE MENU -->
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+  <!-- HEADER -->
+   <header class="site-navbar js-sticky-header site-navbar-target" role="banner" 
+        style="background:#fff; padding:25px 0; box-shadow:0 2px 15px rgba(0,0,0,0.06); position:relative; z-index:999;">
+
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between">
+
+      <!-- LOGO -->
+      <div class="site-logo" style="display:flex; align-items:center;">
+        <a href="index.html">
+          <img src="images/PRGEEQ-Logo.png" alt="PRGEEQ" style="height:50px;">
+        </a>
+      </div>
+
+      <!-- NAVIGATION -->
+      <div class="d-flex align-items-center justify-content-end flex-grow-1">
+
+        <nav class="site-navigation text-right d-none d-lg-block" role="navigation">
+
+          <ul class="site-menu main-menu js-clone-nav"
+              style="list-style:none; margin:0; padding:0;">
+
+            <!-- HOME -->
+           <li class="active" style="display:inline-block;">
+  <a href="index.html"
+     style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}"> Home
+  </a>
+</li>
+
+            <!-- SOLUTIONS -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+                 style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Solutions
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li>
+                  <a href="Who_we_serve.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    Who We Serve
+                  </a>
+                </li>
+
+                <li>
+                  <a href="services.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    Services
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <!-- PRODUCT -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+                 style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Product
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li>
+                  <a href="LMS.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    LMS - NEUROLXP
+                  </a>
+                </li>
+
+                <li>
+                  <a href="E-Labs.html"
+                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
+                    GQ-Labs
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <!-- RESOURCES -->
+            <li class="has-children" style="position:relative; display:inline-block;">
+              <a href="#"
+               style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Resources
+              </a>
+
+              <ul class="dropdown arrow-top"
+                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+
+                <li><a href="blogs.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Blogs</a></li>
+
+                <li><a href="Events.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Achievements</a></li>
+
+                <li><a href="help_Center.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Help Center</a></li>
+
+                <li><a href="careeres.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Careers</a></li>
+
+                <li><a href="testimonials.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
+                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Testimonials</a></li>
+
+              </ul>
+            </li>
+
+            <!-- CONTACT -->
+           <li style="display:inline-block;">
+  <a href="index.html#contact-section"
+     style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">Contact Us
+  </a>
+</li>
+
+            <!-- BOOK DEMO -->
+            <li style="display:inline-block;">
+              <a href="Book_a_demo.html"
+                style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
+                Book a Demo
+              </a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <!-- MOBILE TOGGLE -->
+        <div class="d-inline-block d-lg-none ml-3">
+          <a href="#" class="site-menu-toggle js-menu-toggle">
+            <span class="icon-menu h3"></span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Chat Button -->
+<!-- Talk to Our Expert Button -->
+<a href="Talk_to_our_expert.html" style="text-decoration:none;">
+  <div id="chatToggle" style="
+    position:fixed;
+    top:50%;
+    right:-85px;
+    transform:translateY(-50%) rotate(-90deg);
+    transform-origin:center;
+    background:#a94e00;
+    color:#fff;
+    padding:12px 28px;
+    border-radius:30px 30px 0 0;
+    font-weight:600;
+    font-size:15px;
+    letter-spacing:0.5px;
+    cursor:pointer;
+    box-shadow:0 10px 25px rgba(0,0,0,0.25);
+    z-index:9999;
+    white-space:nowrap;
+    transition:0.3s;
+  ">
+    💬 Talk to Our Expert
+  </div>
+</a>
+
+<script>
+function adjustExpertButton() {
+  var btn = document.getElementById("chatToggle");
+
+  if (window.innerWidth <= 768) {
+    // Mobile View
+    btn.style.transform = "translateY(0)";
+    btn.style.top = "auto";
+    btn.style.bottom = "20px";
+    btn.style.right = "20px";
+    btn.style.borderRadius = "30px";
+    btn.style.padding = "10px 18px";
+    btn.style.fontSize = "14px";
+  } else {
+    // Desktop View
+    btn.style.top = "50%";
+    btn.style.bottom = "auto";
+    btn.style.right = "-85px";
+    btn.style.transform = "translateY(-50%) rotate(-90deg)";
+    btn.style.borderRadius = "30px 30px 0 0";
+    btn.style.padding = "12px 28px";
+    btn.style.fontSize = "15px";
+  }
+}
+
+adjustExpertButton();
+window.addEventListener("resize", adjustExpertButton);
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "GeeQLearn LMS",
+  "operatingSystem": "Web, Windows, macOS, Android, iOS",
+  "applicationCategory": "EducationalApplication",
+  "description": "GeeQLearn LMS by PRGEEQ is an AI-powered, accessible, and interactive learning platform offering personalised education, gamification, analytics, and collaboration tools.",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com"
+  },
+  "featureList": [
+    "AI and Machine Learning-based Personalisation",
+    "Gamification and Interactive Learning",
+    "Content Repository and Intelligent Search",
+    "Accessibility and Inclusive Design",
+    "Forums and Social Learning",
+    "Comprehensive Analytics and Reporting"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "GBP",
+    "description": "Custom pricing available upon request",
+    "availability": "https://schema.org/InStock"
+  },
+  "mainEntityOfPage": "https://www.prgeeq.com/geeqlms",
+  "inLanguage": "en-GB"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "GeeQLearn LMS",
+  "operatingSystem": "Web, Windows, macOS, Android, iOS",
+  "applicationCategory": "EducationalApplication",
+  "description": "GeeQLearn LMS by PRGEEQ is an AI-powered, accessible, and interactive learning platform offering personalised education, gamification, analytics, and collaboration tools.",
+  "provider": {
+    "@type": "Organization",
+    "name": "PRGEEQ Global Solutions Private Limited",
+    "url": "https://www.prgeeq.com"
+  },
+  "featureList": [
+    "AI and Machine Learning-based Personalisation",
+    "Gamification and Interactive Learning",
+    "Content Repository and Intelligent Search",
+    "Accessibility and Inclusive Design",
+    "Forums and Social Learning",
+    "Comprehensive Analytics and Reporting"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "GBP",
+    "description": "Custom pricing available upon request",
+    "availability": "https://schema.org/InStock"
+  },
+  "mainEntityOfPage": "https://www.prgeeq.com/geeqlms",
+  "inLanguage": "en-GB"
+}
+</script>
+
+<body>
+<section class="site-section" style="padding:100px 0;">
+  <div class="container">
+
+    <!-- ================= MAIN HEADING ================= -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-8 text-center" data-aos="fade-up">
+        <div class="block-heading-1">
+          <h2 style="color:#a94e00;text-transform:none;"><b>Learning Management System (LMS) - NEUROLXP</b></h2>
+          <p style="color:#000"> <strong>Redefine excellence</strong></p>
+          <p style="color:#000">
+           Redefining the modern educational landscape, encompasses a holistic approach to learning that nurtures learners' intellectual, emotional, and social growth, preparing them not only for success but for responsible and impactful contributions to society.
+          </p>
+          <p style="color:#000">
+            Empowering Minds to Unlock the Power of Learning Anywhere, Anytime with NeuroLXP.<br>
+            NeuroLXP Learning Management System (LMS) is your pathway to a modern and efficient educational experience. Designed to empower both educators and learners, NeuroLXP offers a seamless and user-friendly platform that makes the learning journey engaging, accessible, and personalized.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ================= WHY CHOOSE ================= -->
+    <div class="row align-items-center mb-5">
+
+      <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+        <img src="images/Gamification & Interactivities_2.jpg"
+             alt="Gamification & Interactivities."
+             style="width:100%;">
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-left">
+        <!-- <h3 style="color:#a94e00;text-transform:none;"><b>Why Choose GeeQLearn LMS</b></h3> -->
+        <ul style="padding-left:20px; color:#000">
+          <li>Seamless Learning Experience</li>
+          <li>Future-Ready Customizations</li>
+          <li>AI-Powered Content Curation</li>
+        </ul>
+        <p style="color:#000">
+          NeuroLXP is more than just an LMS; it's a dynamic learning platform. Whether you're an individual looking to upskill, an entrepreneur seeking growth, or an enterprise aiming for innovation, we have the solutions you need. <strong>NeuroLXP is your future-ready solution.</strong>
+        </p>
+      </div>
+
+    </div>
+
+
+    <!-- ================= KEY HIGHLIGHTS TITLE ================= -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-8 text-center">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Key Highlights of NeuroLXP LMS Platform</b></h3>
+      </div>
+    </div>
+
+
+    <!-- ================= AI PERSONALISATION ================= -->
+    <div class="row align-items-center mb-5">
+
+      <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+        <h4 style="color:#a94e00;text-transform:none;"><b>AI Personalisation</b></h4>
+        <p style="color:#000">
+          Our Artificial intelligence and Machine Learning modules offer personalized learning experiences by analyzing student behavior and adjusting content accordingly. This is vital for catering to individual learning styles and paces
+        </p>
+        <p style="color:#000">
+          NeuroLXP utilizes Artificial Intelligence (AI) to deliver a truly dynamic and adaptive learning experience. AI algorithms analyze each learner's progress, strengths, and areas for improvement in real-time. This means that the platform can continuously adjust the curriculum to ensure that every learner is challenged at the right level, offering a customized educational journey.
+        </p>
+        <p style="color: #000;">
+          Personalization is more than just a buzzword on NeuroLXP; it's the foundation of the learning experience. Learners can set their own goals and preferences, guiding the platform to curate content, assessments, and resources that align with their ambitions. Whether you're a visual learner, a kinetic learner, or somewhere in between, NeuroLXP adapts to your learning style.
+        </p>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-left">
+        <img src="images/AI & Personalization_2.jpg"
+             alt="AI & Personalization."
+             style="width:100%;">
+      </div>
+
+    </div>
+
+
+    <!-- ================= GAMIFICATION ================= -->
+    <div class="row align-items-center mb-5">
+
+      <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+        <img src="images/Gamification & Interactivities_3.jpg"
+             alt="Gamification & Interactivities."
+             style="width:100%;">
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-left">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Gamification</b></h3>
+        <p style="color:#000">
+          Gamification and interactivities in learning represent a dynamic shift in education. Gone are the days of passive lectures and tedious textbook reading. Instead, learning becomes an exciting journey filled with challenges, rewards, and active participation.
+        </p>
+        <p style="color:#000">
+          Gamification on NeuroLXP infuses elements of game design into the learning process. Learners embark on educational adventures where they earn points, achieve badges, and compete on leaderboards. Whether it's mastering a new language, delving into complex math concepts, or exploring history, gamification motivates learners to conquer challenges, track their progress, and celebrate their accomplishments. It turns learning into a thrilling quest for knowledge.
+        </p>
+        <p style="color:#000">
+          Interactivities on NeuroLXP take learning beyond the confines of textbooks. Learners don't just passively consume information; they actively participate in their education. With a diverse range of interactive modules, learners solve puzzles, conduct experiments, engage in simulations, collaborate with peers, and navigate real-world scenarios. This hands-on approach ensures that knowledge is not only acquired but also comprehended, applied, and retained.
+        </p>
+      </div>
+
+    </div>
+
+
+    <!-- ================= CONTENT REPOSITORY ================= -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-8 text-center" data-aos="fade-up">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Content Repository</b></h3>
+        <p style="color:#000">NeuroLXP’s Content Repository and Search feature is your gateway to a vast universe of knowledge and resources, meticulously organized and instantly accessible. It's where you embark on your learning adventure, exploring a treasure trove of educational content.</p>
+        <p style="color:#000">Our Content Repository is a digital library brimming with a diverse range of resources. From textbooks and video lectures to interactive simulations and multimedia presentations, it's all here. Every resource is carefully curated to ensure its quality and relevance</p>
+        <p style="color: #000;">NeuroLXP’s Content Repository and Search feature is more than a library; it's a gateway to endless possibilities. Dive in, explore, and discover the knowledge that piques your curiosity and fuels your educational journey. It's your personal reservoir of wisdom, ready to be explored whenever you're ready to learn.</p>
+      </div>
+    </div>
+
+
+    <!-- ================= ACCESSIBILITY ================= -->
+    <div class="row align-items-center mb-5">
+
+      <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+        <h4 style="color:#a94e00;text-transform:none;"><b>Accessibility Compliant platform</b></h4>
+        <p style="color:#000">At NeuroLXP, we believe that learning should be inclusive and accessible to all. That's why we've prioritized Accessibility as a core feature of our platform. With our commitment to accessibility, we ensure that every learner, regardless of their abilities, can engage with our platform and access the world of knowledge.</p>
+        <p style="color: #000;">
+          NeuroLXP’s design philosophy centers around universal accessibility. Our platform is meticulously crafted to be intuitive and user-friendly for everyone, including individuals with disabilities.
+        </p>
+        <p style="color:#000">
+          At NeuroLXP, we firmly believe that every individual deserves access to quality education and the opportunity to expand their horizons. Our Accessibility feature is a testament to that commitment, ensuring that no learner is left behind, and everyone can embrace the joy of learning.
+        </p>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-left">
+        <img src="images/AI & Personalization_3.jpg"
+             alt="AI & Personalization."
+             style="width:100%;">
+      </div>
+
+    </div>
+
+
+    <!-- ================= FORUMS ================= -->
+    <div class="row align-items-center mb-5">
+
+      <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+        <img src="images/Forums & Social Learning 1.jpg"
+             alt="Forums & Social Learning."
+             style="width:100%;">
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-left">
+        <h3 style="color:#a94e00;text-transform:none;"><b>Social Learning</b></h3>
+        <p style="color:#000">
+          NeuroLXP’s Forums and Social Learning feature is where education transforms into a vibrant, collaborative community. It's more than just a platform—it's a place where learners connect, share knowledge, and grow together.
+        </p>
+        <p style="color:#000">
+          Our forums are buzzing with activity, hosting discussions on a wide range of topics. Whether you're exploring a new subject or diving deep into a niche interest, you'll find a community eager to engage, learn, and exchange ideas.
+        </p>
+        <p style="color: #000;">
+          Social learning isn't limited to discussions. On NeuroLXP, you can collaborate on projects, research, and assignments with fellow learners. It's a hands-on approach that fosters teamwork and real-world problem-solving skills.
+        </p>
+        <p style="color: #000;">NeuroLXP’s Forums and Social Learning feature isn't just about education; it's about building a supportive and collaborative learning ecosystem. It's where knowledge meets connection, and where every member of our community has a voice and a place to thrive.</p>
+      </div>
+
+    </div>
+
+
+    <!-- ================= ANALYTICS ================= -->
+    <div class="row align-items-center">
+
+      <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+        <h4 style="color:#a94e00;text-transform:none;"><b>Analytics and Reporting</b></h4>
+        <p style="color:#000;">
+          NeuroLXP’s Analytics and Reporting feature is your window into the world of data-driven learning. It empowers learners, educators, and administrators with valuable insights, allowing for informed decisions, personalized improvement, and the optimization of the learning experience.
+        </p>
+        <p style="color: #000;">
+          Dive deep into your learning journey with comprehensive analytics. Understand your strengths, areas for improvement, and learning patterns. Our analytics reveal the whole picture, providing you with the data you need to succeed.
+        </p>
+        <p style="color: #000;">
+          Our reporting feature doesn't just show you data; it interprets it. Receive personalized feedback and recommendations based on your learning behavior. Discover how to study smarter, set goals, and achieve them effectively.
+        </p>
+        <p style="color: #000;">NeuroLXP’s Analytics and Reporting feature isn't just about numbers; it's about empowerment. It's about giving you the tools you need to take control of your learning, make informed decisions, and achieve your educational goals.</p>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-left">
+        <img src="images/Analytics & Reporting 3.jpg"
+             alt="Analytics & Reporting."
+             style="width:100%;">
+      </div>
+
+    </div>
+
+
+  </div>
+</section>
+
+
+
+<!-- 
+<section class="site-section bg-light" id="faq-section" style="padding:40px 0;">
+  <div class="container"> -->
+
+    <!-- Heading -->
+    <!-- <div class="row justify-content-center text-center" style="margin-bottom:30px;">
+      <div class="col-md-7" data-aos="fade-up">
+        <p style="margin:0; color:#a94e00;"><strong><b>Frequently Asked Questions (FAQs)</b></strong></p>
+      </div>
+    </div> -->
+
+    <!-- FAQ Wrapper -->
+    <!-- <div style="max-width:900px; margin:0 auto;"> -->
+
+      <!-- FAQ 1 -->
+      <!-- <div data-aos="fade-up" data-aos-delay="200"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button onclick="var a=this.nextElementSibling; var q=this.querySelector('.q'); q.style.color = a.style.display==='block' ? '#333' : '#f4a261'; a.style.display = a.style.display==='block' ? 'none' : 'block';"
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            1. What is a Learning Management System (LMS), and how does GeeQLearn benefit institutions and organisations?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            A Learning Management System (LMS) is a digital platform for creating, managing, and delivering educational or training programmes. GeeQLearn enhances learning efficiency, engagement, and performance tracking for schools, universities, and corporates alike.
+          </p>
+        </div>
+      </div> -->
+
+      <!-- FAQ 2 -->
+      <!-- <div data-aos="fade-up" data-aos-delay="300"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button onclick="var a=this.nextElementSibling; var q=this.querySelector('.q'); q.style.color = a.style.display==='block' ? '#333' : '#f4a261'; a.style.display = a.style.display==='block' ? 'none' : 'block';"
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+            2. Can GeeQLearn be customised to match an organisation’s needs or branding?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            Yes. GeeQLearn offers extensive customisation options — from user interface branding to tailored course structures and integration with third-party tools.
+          </p>
+        </div>
+      </div> -->
+
+      <!-- FAQ 3 -->
+      <!-- <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button onclick="var a=this.nextElementSibling; var q=this.querySelector('.q'); q.style.color = a.style.display==='block' ? '#333' : '#f4a261'; a.style.display = a.style.display==='block' ? 'none' : 'block';"
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+           3. How does GeeQLearn improve the learning experience for users?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            It combines accessibility, interactivity, and personalisation to ensure engaging, inclusive, and adaptive learning experiences — available anytime, anywhere.
+          </p>
+        </div>
+      </div> -->
+
+      <!-- FAQ 4 -->
+      <!-- <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button onclick="var a=this.nextElementSibling; var q=this.querySelector('.q'); q.style.color = a.style.display==='block' ? '#333' : '#f4a261'; a.style.display = a.style.display==='block' ? 'none' : 'block';"
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+           4. Does GeeQLearn integrate with other platforms and tools?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            Yes. It supports integration with external content providers, HR systems, and analytics tools, allowing seamless interoperability and enhanced productivity.
+          </p>
+        </div>
+      </div> -->
+
+      <!-- FAQ 5 -->
+      <!-- <div data-aos="fade-up" data-aos-delay="400"
+        style="background:#fff; border-radius:10px; margin-bottom:20px; box-shadow:0 8px 25px rgba(0,0,0,0.06);">
+        <button onclick="var a=this.nextElementSibling; var q=this.querySelector('.q'); q.style.color = a.style.display==='block' ? '#333' : '#f4a261'; a.style.display = a.style.display==='block' ? 'none' : 'block';"
+          style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
+          <span class="q" style="color:#000;">
+          5. What kind of support and training does PRGEEQ provide for GeeQLearn clients?
+          </span>
+          <span style="font-size:22px; color:#a94e00;">&#8250;</span>
+        </button>
+        <div style="padding:0 26px 22px; display:none;">
+          <p style="margin:0; color:#000; line-height:1.7;">
+            We offer comprehensive onboarding, technical support, and user training to ensure smooth adoption and maximum platform utilisation for educators and learners.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section> -->
+
+</body>
+
+
+
+<footer class="site-footer" style="padding:35px 0 20px 0;">
+  <div class="container">
+    <div class="row">
+
+      <!-- Company Info -->
+      <div class="col-md-4">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px;">
+          PRGEEQ Global Solutions Private Limited.
+        </h2>
+        <p style="margin-bottom:4px; font-size:14px;">No 22, 3rd Block, 18th Cross,</p>
+        <p style="margin-bottom:4px; font-size:14px;">Vishwapriya Nagar, Bangalore - 560068</p>
+        <p style="margin-bottom:6px; font-size:14px;">Karnataka, India.</p>
+
+        <p style="margin-bottom:4px; font-size:14px;"><strong>Phone :</strong> +91 968 626 6966</p>
+        <p style="margin-bottom:8px; font-size:14px;"><strong>Email :</strong> contact@prgeeq.com</p>
+
+        <!-- Social Icons -->
+        <div style="margin-top:10px;">
+          <a href="https://x.com/PrgeeqGlobal"
+             style="padding-right:10px; display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Follow PRGEEQ on Twitter">
+            <span class="icon-twitter"></span>
+          </a>
+
+          <a href="https://www.youtube.com/@prgeeqglobalsolutions"
+             style="padding-right:10px; display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Subscribe to PRGEEQ on YouTube">
+            <span class="icon-youtube"></span>
+          </a>
+
+          <a href="https://www.linkedin.com/company/prgeeq-global-solutions-private-limited/?viewAsMember=true"
+             style="display:inline-block; transition:0.3s ease;"
+             onmouseover="this.style.transform='scale(1.2)'"
+             onmouseout="this.style.transform='scale(1)'"
+             aria-label="Connect with PRGEEQ on LinkedIn">
+            <span class="icon-linkedin"></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Useful Links -->
+      <div class="col-md-2">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px; text-transform:none; color:#ffffff !important;">
+          Useful Links
+        </h2>
+        <ul class="list-unstyled" style="padding-left:0; line-height:1.6;">
+
+          <li style="margin-bottom:4px;">
+            <a href="index.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Home
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="index.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              About Us
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Solutions
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="Terms.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Terms of Service
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="Terms.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Privacy Policy
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Our Services -->
+      <div class="col-md-2">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px; text-transform:none; color:#ffffff !important;">
+          Our Services
+        </h2>
+        <ul class="list-unstyled" style="padding-left:0; line-height:1.6;">
+
+          <li style="margin-bottom:4px;">
+            <a href="elearning_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              eLearning
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="multimidia_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Multimedia
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="localization_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Localization
+            </a>
+          </li>
+
+          <li style="margin-bottom:4px;">
+            <a href="software_services.html"
+               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
+               onmouseover="this.style.transform='scale(1.08)'"
+               onmouseout="this.style.transform='scale(1)'">
+              Software
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Location -->
+      <div class="col-md-4">
+        <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px;">
+          Our Location
+        </h2>
+        <div style="width:100%; height:130px; border-radius:8px; overflow:hidden;">
+          <iframe
+            title="Google Maps showing PRGEEQ office location"
+            src="https://www.google.com/maps?q=Vishwapriya%20Nagar%20Bangalore&output=embed"
+            width="100%"
+            height="130"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="row" style="padding-top:15px; margin-top:15px; text-align:center;">
+      <div class="col-md-12">
+        <div style="border-top:1px solid #000; padding-top:10px;">
+          <p class="copyright" style="margin:0; font-size:13px;">
+            © Copyright 2026 | All Rights Reserved | Designed by PRGEEQ
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>

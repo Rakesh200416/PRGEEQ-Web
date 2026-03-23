@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Book a Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    :root {
+      --primary-color: #a94e00;
+      --secondary-color: #a94e00;
+      --bg-overlay: rgba(0, 0, 0, 0.65);
+      --text-main: #000;
+      --radius: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: #111;
+      height: 100vh;
+    }
+
+    /* Overlay - Full screen scrollable for long forms on short phones */
+    .demo-overlay {
+      position: fixed;
+      inset: 0;
+      background: var(--bg-overlay);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+      overflow-y: auto; /* Allows scrolling if modal is taller than screen */
+      z-index: 1000;
+    }
+
+    /* Modal Container */
+    .demo-modal {
+      width: 100%;
+      max-width: 900px;
+      background: #ffffff;
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+      position: relative;
+      margin: auto; /* Centers in the scrollable overlay */
+    }
+
+    /* Header - Fluid Font Size */
+    .demo-header {
+      background: var(--primary-color);
+      color: #ffffff;
+      padding: 24px 5%;
+      font-size: clamp(20px, 4vw, 26px); /* Responsive font sizing */
+      font-weight: 600;
+    }
+
+    /* Close Button - Better touch target */
+    .close-btn {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: none;
+      background: var(--secondary-color);
+      color: #fff;
+      font-size: 24px;
+      line-height: 1;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: background 0.2s;
+      z-index: 10;
+    }
+
+    .close-btn:hover { background: #cf5b3d; }
+
+    /* Body Spacing */
+    .demo-body {
+      padding: clamp(20px, 5%, 40px);
+    }
+
+    /* Info Box */
+    .info-box {
+      background: #fff4e8;
+      color: var(--secondary-color);
+      padding: 12px 16px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      margin-bottom: 24px;
+      border-left: 4px solid var(--secondary-color);
+    }
+
+    /* Form Grid - Desktop: 3 columns | Tablet: 2 columns | Mobile: 1 column */
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin-bottom: 15px;
+    }
+
+    .demo-input,
+    .demo-textarea {
+      width: 100%;
+      padding: 14px;
+      font-size: 16px; /* Prevents iOS auto-zoom on focus */
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      outline: none;
+      transition: all 0.2s ease;
+    }
+
+    .demo-input:focus,
+    .demo-textarea:focus {
+      border-color: var(--primary-color);
+      box-shadow: 0 0 0 3px rgba(244,162,97,0.15);
+    }
+
+    .demo-textarea {
+      min-height: 120px;
+      resize: vertical;
+      margin-bottom: 20px;
+    }
+
+    /* Consent Box - Better alignment */
+    .consent-box {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 15px;
+      background: #fafafa;
+      border-radius: 10px;
+      font-size: 14px;
+      color: var(--text-main);
+      margin-bottom: 25px;
+      cursor: pointer;
+    }
+
+    .consent-box input {
+      width: 18px;
+      height: 18px;
+      margin-top: 2px;
+      accent-color: var(--primary-color);
+    }
+
+    /* Submit Button */
+    .submit-btn {
+      width: 100%;
+      padding: 16px;
+      background: var(--primary-color);
+      color: #ffffff;
+      border: none;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .submit-btn:hover {
+      background: var(--secondary-color);
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(231,111,81,0.3);
+    }
+
+    /* Responsive Breakpoints */
+
+    /* Tablet (iPad/Medium Screens) */
+    @media (max-width: 992px) {
+      .form-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    /* Mobile (Phones) */
+    @media (max-width: 600px) {
+      .form-grid {
+        grid-template-columns: 1fr; /* Stack inputs */
+      }
+      
+      .demo-overlay {
+        padding: 10px; /* More room for modal */
+      }
+
+      .demo-modal {
+        border-radius: 12px;
+      }
+
+      .demo-header {
+        padding: 20px 15px;
+      }
+      
+      /* Make inputs slightly larger for thumbs */
+      .demo-input, .submit-btn {
+        padding: 15px;
+      }
+    }
+
+    /* Landscape mode fix for small phones */
+    @media (max-height: 500px) {
+      .demo-modal { margin-top: 20px; }
+      .demo-header { padding: 15px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="demo-overlay">
+    <div class="demo-modal">
+      <div class="demo-header">Book a Demo</div>
+      <button class="close-btn" onclick="closeDemo()" aria-label="Close Modal">×</button>
+
+      <div class="demo-body">
+        <div class="info-box">
+          ℹ Fields marked with an asterisk (*) are mandatory.
+        </div>
+   <form id="demo-form">
+
+  <input type="hidden" name="form_type" value="Demo Request">
+
+  <div class="form-grid">
+
+    <!-- Full Name -->
+    <div>
+      <label style="display:block; font-weight:600; margin-bottom:6px;">
+        Full Name <span style="color:red;">*</span>
+      </label>
+      <input class="demo-input" type="text" name="full_name" placeholder="Enter your full name" required>
+    </div>
+
+    <!-- Email -->
+    <div>
+      <label style="display:block; font-weight:600; margin-bottom:6px;">
+        Email ID <span style="color:red;">*</span>
+      </label>
+      <input class="demo-input" type="email" name="email" placeholder="Enter your email ID" required>
+    </div>
+
+    <!-- Phone -->
+    <div>
+      <label style="display:block; font-weight:600; margin-bottom:6px;">
+        Mobile Number <span style="color:red;">*</span>
+      </label>
+      <input class="demo-input" type="tel" name="phone" placeholder="Enter your mobile number" required>
+    </div>
+
+  </div>
+
+  <!-- Interest -->
+  <div style="margin-top:20px;">
+    <label style="display:block; font-weight:600; margin-bottom:6px;">
+      Any Specific Area of Interest <span style="color:red;">*</span>
+    </label>
+    <textarea class="demo-textarea" name="interest" placeholder="Write your interest here" required></textarea>
+  </div>
+
+  <!-- Consent -->
+  <label class="consent-box" style="display:flex; align-items:center; margin-top:15px; cursor:pointer;">
+    <input type="checkbox" required style="margin-right:8px;">
+    <span>
+      I express my consent for PRGEEQ expert to reach me 
+      <span style="color:red;">*</span>
+    </span>
+  </label>
+
+  <button type="submit" class="submit-btn">
+    Submit Demo Request
+  </button>
+
+</form>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function closeDemo() {
+      // If used in a real site, you might want to hide a div instead
+      if (window.history.length > 1) {
+        window.history.back();
+      } else {
+        document.querySelector('.demo-overlay').style.display = 'none';
+      }
+    }
+
+    function handleSubmit(e) {
+      e.preventDefault();
+      alert("Demo Request Submitted Successfully!");
+      // Logic for form processing goes here
+      return false;
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init("jmMRifFOcmpJzSOTI");
+    })();
+    </script>
+
+ <script>
+window.addEventListener("load", function() {
+  const form = document.getElementById("demo-form");
+
+  form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    // Get input values
+    const fullName = form.full_name.value.trim();
+    const email = form.email.value.trim();
+    const phone = form.phone.value.trim();
+
+    // Full name validation (alphabets only)
+    const nameRegex = /^[A-Za-z\s]+$/;
+    if (!nameRegex.test(fullName)) {
+      alert("Full Name must contain alphabets only.");
+      form.full_name.focus();
+      return false;
+    }
+
+    // Email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      alert("Please enter a valid email address.");
+      form.email.focus();
+      return false;
+    }
+
+    // Phone validation (exactly 10 digits)
+    const phoneRegex = /^\d{10}$/;
+    if (!phoneRegex.test(phone)) {
+      alert("Mobile Number must be exactly 10 digits.");
+      form.phone.focus();
+      return false;
+    }
+
+    // If all validations pass, send via EmailJS
+    emailjs.sendForm(
+      "service_f24ovme",
+      "template_2kasvjl",
+      form
+    ).then(function() {
+      alert("Demo request sent successfully!");
+      form.reset();
+    }, function(error) {
+      alert("Failed to send demo request.");
+      console.log("Error:", error);
+    });
+  });
+});
+</script>
+
+</body>
+</html>
