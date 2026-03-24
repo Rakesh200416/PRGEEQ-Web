@@ -149,6 +149,37 @@
       padding: 0 !important;
     }
 
+    /* Force Key Highlights font family to match Digital Publishing section */
+    .key-highlights-section,
+    .key-highlights-section h3,
+    .key-highlights-section p,
+    .key-highlights-section ul,
+    .key-highlights-section li,
+    .key-highlights-section span,
+    .key-highlights-section strong {
+      font-family: "Roboto", sans-serif !important;
+      font-weight: 400 !important;
+      text-transform: none !important;
+    }
+
+    .key-highlights-section h3 {
+      font-family: "Oswald", sans-serif !important;
+      font-weight: 700 !important;
+      text-transform: none !important;
+    }
+
+    /* Force all FAQ headings centered */
+    .faq-heading {
+      text-align: center !important;
+      display: block !important;
+      width: 100% !important;
+      margin: 0 auto !important;
+    }
+
+    .key-highlights-section strong {
+      font-weight: 400 !important;
+    }
+
   </style>
 </head>
 
@@ -614,45 +645,45 @@ window.addEventListener("resize", adjustExpertButton);
     </div>
     
 
-    <div class="col-lg-6 mb-5" data-aos="fade-left" style="padding-left: 40px; border-left: 1px solid #f2f2f2;">
+    <div class="col-lg-6 mb-5 key-highlights-section" data-aos="fade-left" style="padding-left: 40px; border-left: 1px solid #f2f2f2;">
       <div class="block-heading-1">
         <h3 style="color:#a94e00; text-transform:none; font-weight: 700; margin-bottom: 25px;">
-          <b>Key Highlights of Our Publishing Services</b>
+          Key Highlights of Our Publishing Services
  </h3>
-<ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.8; color: #000; font-size: 16px; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+<ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.8; color: #000; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
   
   <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
     <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 2px; font-size: 0.9rem; flex-shrink: 0;"></i>
-    <span style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
-      <strong style="font-weight: 700;">Comprehensive Publishing Lifecycle:</strong> We manage the complete process — from content creation and design to distribution — ensuring speed and quality.
+    <span style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6; font-weight: normal;">
+      Comprehensive Publishing Lifecycle: We manage the complete process — from content creation and design to distribution — ensuring speed and quality.
     </span>
   </li>
 
   <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
     <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 2px; font-size: 0.9rem; flex-shrink: 0;"></i>
-    <span style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
-      <strong style="font-weight: 700;">Multi-channel Content Delivery:</strong> We publish across print, digital, mobile, e-book, and learning platforms to maximise engagement.
+    <span style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6; font-weight: normal;">
+      Multi-channel Content Delivery: We publish across print, digital, mobile, e-book, and learning platforms to maximise engagement.
     </span>
   </li>
 
   <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
     <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 2px; font-size: 0.9rem; flex-shrink: 0;"></i>
-    <span style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
-      <strong style="font-weight: 700;">Accessibility Compliance:</strong> Every publication meets WCAG and Benetech standards with accessible structures and alt text.
+    <span style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6; font-weight: normal;">
+      Accessibility Compliance: Every publication meets WCAG and Benetech standards with accessible structures and alt text.
     </span>
   </li>
 
  <li style="display: flex; align-items: flex-start; text-transform: none !important; margin-bottom:15px;">
   <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 2px; font-size: 0.9rem; flex-shrink: 0;"></i>
-  <span style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
-    <strong style="font-weight: 700;">Customised Solutions:</strong> Scalable and adaptable services for educational, academic, trade, and corporate publishing.
+  <span style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6; font-weight: normal;">
+    Customised Solutions: Scalable and adaptable services for educational, academic, trade, and corporate publishing.
   </span>
 </li>
 
 <li style="display: flex; align-items: flex-start; text-transform: none !important;">
   <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 2px; font-size: 0.9rem; flex-shrink: 0;"></i>
-  <span style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
-    <strong style="font-weight: 700;">Global Reach:</strong> Multi-format delivery and translation capabilities to help you extend content to international markets.
+  <span style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6; font-weight: normal;">
+    Global Reach: Multi-format delivery and translation capabilities to help you extend content to international markets.
   </span>
 </li>
 
@@ -730,6 +761,21 @@ window.addEventListener("resize", adjustExpertButton);
       justify-content: flex-start !important;
       margin-left: 0 !important;
       text-align: justify !important;
+    }
+
+    /* Ensure Key Highlights section uses same font family as Digital Publishing */
+    .key-highlights-section,
+    .key-highlights-section h3,
+    .key-highlights-section p,
+    .key-highlights-section ul,
+    .key-highlights-section li,
+    .key-highlights-section span {
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 400 !important;
+    }
+
+    .key-highlights-section h3 {
+      font-weight: 700 !important;
     }
 
     /* Center all images */
@@ -931,7 +977,7 @@ window.addEventListener("resize", adjustExpertButton);
     <div class="row justify-content-center text-center mb-5">
       <div class="col-lg-8" data-aos="fade-up">
         
-        <h3 style="color:#a94e00; margin-bottom:25px;text-transform:none;padding-left: 50px; "><b>
+        <h3 style="color:#a94e00; margin-bottom:25px;text-transform:none; text-align: center;"><b>
           Understanding Accessibility Standards</b>
         </h3>
         
@@ -966,7 +1012,7 @@ window.addEventListener("resize", adjustExpertButton);
 
   <li style="display: flex; align-items: flex-start;">
     <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i>
-in every section where the poits are the the arro    <span>
+    <span>
       <strong>Section 508 (U.S. Federal Standard):</strong> Mandates that government websites and communications be accessible to users with disabilities.
     </span>
   </li>
@@ -1038,11 +1084,11 @@ in every section where the poits are the the arro    <span>
   <!-- CENTERED COLUMN -->
   <div class="col-lg-8 col-md-10 mx-auto text-center" data-aos="fade-up">
     
-    <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;">
+    <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none; text-align: center;">
      <b> Why Choose PRGEEQ for Accessibility?</b>
     </h3>
 
-    <p style="line-height:1.8; color:#000">
+    <p style="line-height:1.8; color:#000; text-align: center;">
       Our expert team helps you achieve compliance, usability, and inclusion. We can:
     </p>
    <ul class="list-unstyled" 
@@ -1096,7 +1142,7 @@ in every section where the poits are the the arro    <span>
     <div class="row justify-content-center text-center" style="margin-bottom:30px;">
       <div class="col-md-7" data-aos="fade-up">
 
-        <p style="margin:0; color:#a94e00; font-size:20px;"><strong><b>Frequently Asked Questions</b></strong></p>
+        <p class="faq-heading" style="margin:0; color:#a94e00; font-size:20px;"><strong><b>Frequently Asked Questions</b></strong></p>
       </div>
     </div>
 
@@ -1356,7 +1402,7 @@ in every section where the poits are the the arro    <span>
     <div class="row justify-content-center text-center" style="margin-bottom:30px;">
       <div class="col-12 col-md-7" data-aos="fade-up">
 
-        <p style="margin:0; color:#a94e00; font-size:20px; text-align:center; line-height:1.2; word-wrap:break-word;"><strong><b>Frequently Asked Questions</b></strong></p>
+        <p class="faq-heading" style="margin:0; color:#a94e00; font-size:20px; text-align:center; line-height:1.2; word-wrap:break-word;"><strong><b>Frequently Asked Questions</b></strong></p>
       </div>
     </div>
 
@@ -1677,7 +1723,7 @@ in every section where the poits are the the arro    <span>
     <div class="row justify-content-center text-center" style="margin-bottom:30px;">
       <div class="col-md-7" data-aos="fade-up">
 
-        <p style="margin:0; color:#a94e00;font-size:20px;"><strong><b>Frequently Asked Questions</b></strong></p>
+        <p class="faq-heading" style="margin:0; color:#a94e00;font-size:20px;"><strong><b>Frequently Asked Questions</b></strong></p>
       </div>
     </div>
 
@@ -1892,7 +1938,7 @@ in every section where the poits are the the arro    <span>
     <div class="row justify-content-center text-center" style="margin-bottom:30px;">
       <div class="col-12" data-aos="fade-up">
 
-        <p class="faq-heading-proofreading" style="margin:0; color:#a94e00; font-size:20px; text-align:center; line-height:1.2; word-wrap:break-word;"><strong><b>Frequently Asked Questions</b></strong></p>
+        <p class="faq-heading faq-heading-proofreading" style="margin:0; color:#a94e00; font-size:20px; text-align:center; line-height:1.2; word-wrap:break-word;"><strong><b>Frequently Asked Questions</b></strong></p>
       </div>
     </div>
 
@@ -1904,12 +1950,14 @@ in every section where the poits are the the arro    <span>
       @media (max-width: 768px) {
         .faq-heading-proofreading {
           font-size: 18px;
+          text-align: center !important;
         }
       }
       @media (max-width: 480px) {
         .faq-heading-proofreading {
           font-size: 16px;
           padding: 0 12px;
+          text-align: center !important;
         }
       }
     </style>
