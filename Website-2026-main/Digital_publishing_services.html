@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
  <head>
-  <title>Unearth — Website Template by Colorlib</title>
+  <title>PRGEEQ Global Solutions Private Limited</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700" rel="stylesheet"> -->
@@ -21,6 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
+ 
   <style>
 
     html, body {
@@ -119,6 +120,35 @@
       }
     }
 
+    p {
+      text-align: justify;
+    }
+
+    /* Ensure all list-icon bullets align baseline with text across the page */
+    .list-unstyled li {
+      display: flex !important;
+      align-items: baseline !important;
+      margin-bottom: 12px !important;
+    }
+
+    .list-unstyled li i.fa-angles-right {
+      align-self: baseline !important;
+      margin-top: 0 !important;
+      line-height: 1 !important;
+      position: static !important;
+      top: auto !important;
+      transform: none !important;
+      vertical-align: baseline !important;
+    }
+
+    .list-unstyled li span {
+      display: inline !important; 
+      line-height: 1.4 !important;
+      vertical-align: baseline !important;
+      margin-top: 0 !important;
+      padding: 0 !important;
+    }
+
   </style>
 </head>
 
@@ -135,173 +165,136 @@
     </div>
     <div class="site-mobile-menu-body"></div>
   </div>
+<header class="site-navbar js-sticky-header site-navbar-target" role="banner" 
+        style="background:#fff; padding: 0; box-shadow:0 2px 15px rgba(0,0,0,0.06); position:relative; z-index:999;">
 
-  <!-- HEADER -->
-   <header class="site-navbar js-sticky-header site-navbar-target" role="banner" 
-        style="background:#fff; padding:25px 0; box-shadow:0 2px 15px rgba(0,0,0,0.06); position:relative; z-index:999;">
+  <div style="padding: 12px 0;">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between">
 
-  <div class="container">
-    <div class="d-flex align-items-center justify-content-between">
-
-      <!-- LOGO -->
-      <div class="site-logo" style="display:flex; align-items:center;">
-        <a href="index.html">
-          <img src="images/PRGEEQ-Logo.png" alt="PRGEEQ" style="height:50px;">
-        </a>
-      </div>
-
-      <!-- NAVIGATION -->
-      <div class="d-flex align-items-center justify-content-end flex-grow-1">
-
-        <nav class="site-navigation text-right d-none d-lg-block" role="navigation">
-
-          <ul class="site-menu main-menu js-clone-nav"
-              style="list-style:none; margin:0; padding:0;">
-
-            <!-- HOME -->
-           <li class="active" style="display:inline-block;">
-  <a href="index.html"
-     style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
-     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
-     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}"> Home
-  </a>
-</li>
-
-            <!-- SOLUTIONS -->
-            <li class="has-children" style="position:relative; display:inline-block;">
-              <a href="#"
-                 style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
-     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
-     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
-                Solutions
-              </a>
-
-              <ul class="dropdown arrow-top"
-                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
-
-                <li>
-                  <a href="Who_we_serve.html"
-                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
-                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
-                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
-                    Who We Serve
-                  </a>
-                </li>
-
-                <li>
-                  <a href="services.html"
-                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
-                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
-                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
-                    Services
-                  </a>
-                </li>
-
-              </ul>
-            </li>
-
-            <!-- PRODUCT -->
-            <li class="has-children" style="position:relative; display:inline-block;">
-              <a href="#"
-                 style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
-     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
-     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
-                Product
-              </a>
-
-              <ul class="dropdown arrow-top"
-                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
-
-                <li>
-                  <a href="LMS.html"
-                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
-                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
-                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
-                    LMS - NEUROLXP
-                  </a>
-                </li>
-
-                <li>
-                  <a href="E-Labs.html"
-                     style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
-                     onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
-                     onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">
-                    GQ-Labs
-                  </a>
-                </li>
-
-              </ul>
-            </li>
-
-            <!-- RESOURCES -->
-            <li class="has-children" style="position:relative; display:inline-block;">
-              <a href="#"
-               style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
-     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
-     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
-                Resources
-              </a>
-
-              <ul class="dropdown arrow-top"
-                  style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
-
-                <li><a href="blogs.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
-                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
-                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Blogs</a></li>
-
-                <li><a href="Events.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
-                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
-                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Achievements</a></li>
-
-                <li><a href="help_Center.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
-                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
-                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Help Center</a></li>
-
-                <li><a href="careeres.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
-                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
-                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Careers</a></li>
-
-                <li><a href="testimonials.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
-                       onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}"
-                       onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Testimonials</a></li>
-
-              </ul>
-            </li>
-
-            <!-- CONTACT -->
-           <li style="display:inline-block;">
-  <a href="index.html#contact-section"
-     style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
-     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
-     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">Contact Us
-  </a>
-</li>
-
-            <!-- BOOK DEMO -->
-            <li style="display:inline-block;">
-              <a href="Book_a_demo.html"
-                style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
-     onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
-     onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">
-                Book a Demo
-              </a>
-            </li>
-
-          </ul>
-        </nav>
-
-        <!-- MOBILE TOGGLE -->
-        <div class="d-inline-block d-lg-none ml-3">
-          <a href="#" class="site-menu-toggle js-menu-toggle">
-            <span class="icon-menu h3"></span>
+        <div class="site-logo" style="display:flex; align-items:center;">
+          <a href="index.html">
+            <img src="images/PRGEEQ-Logo.png" alt="PRGEEQ Logo" style="height:50px;">
           </a>
         </div>
 
+        <div class="d-flex align-items-center ml-auto">
+
+          <nav class="site-navigation text-right d-none d-lg-block" role="navigation">
+            <ul class="site-menu main-menu js-clone-nav" style="list-style:none; margin:0; padding:0;">
+
+              <li class="active" style="display:inline-block;">
+                <a href="index.html"
+                   style="color:#000; padding:8px 20px; border-radius:30px; margin-left:10px; font-weight:600; text-decoration:none; border:2px solid transparent; box-sizing:border-box; transition:0.3s;" 
+                   onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+                   onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}"> Home
+                </a>
+              </li>
+
+              <li class="has-children" style="position:relative; display:inline-block;">
+                <a href="#" style="color:#000; padding:8px 20px; border-radius:30px; margin-left:10px; font-weight:600; text-decoration:none; border:2px solid transparent; transition:0.3s;"
+                   onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+                   onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}"> Solutions </a>
+                <ul class="dropdown arrow-top" style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+                  <li><a href="Who_we_serve.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;" 
+                         onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}" 
+                         onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Who We Serve</a></li>
+                  <li><a href="services.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                         onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}" 
+                         onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Services</a></li>
+                </ul>
+              </li>
+
+              <li class="has-children" style="position:relative; display:inline-block;">
+                <a href="#" style="color:#000; padding:8px 20px; border-radius:30px; margin-left:10px; font-weight:600; text-decoration:none; border:2px solid transparent; transition:0.3s;"
+                   onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+                   onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}"> Product </a>
+                <ul class="dropdown arrow-top" style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+                  <li><a href="LMS.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                         onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}" 
+                         onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">NeuroLXP</a></li>
+                  <li><a href="E-Labs.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                         onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}" 
+                         onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">GQ-Labs</a></li>
+                </ul>
+              </li>
+
+              <li class="has-children" style="position:relative; display:inline-block;">
+                <a href="#" style="color:#000; padding:8px 24px; border-radius:30px; margin-left:15px; font-weight:600; text-decoration:none; border:2px solid transparent; transition:0.3s;"
+                   onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+                   onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}"> Resources </a>
+                <ul class="dropdown arrow-top" style="background:#fff; padding:10px 0; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+                  <li><a href="blogs.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                         onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}" 
+                         onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Blogs</a></li>
+                  <li><a href="Events.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                         onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}" 
+                         onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Achievements</a></li>
+                  <li><a href="help_Center.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                         onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}" 
+                         onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Help Center</a></li>
+                  <li><a href="careeres.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                         onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}" 
+                         onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Careers</a></li>
+                  <li><a href="testimonials.html" style="display:block; padding:8px 20px; border-radius:20px; color:#000; text-decoration:none; transition:0.3s;"
+                         onmouseover="if(window.innerWidth>992){this.style.background='#C35214';this.style.color='#fff';}" 
+                         onmouseout="if(window.innerWidth>992){this.style.background='transparent';this.style.color='#000';}">Testimonials</a></li>
+                </ul>
+              </li>
+
+              <li style="display:inline-block;">
+                <a href="index.html#contact-section" style="color:#000; padding:8px 20px; border-radius:30px; margin-left:10px; font-weight:600; text-decoration:none; border:2px solid transparent; transition:0.3s;"
+                   onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+                   onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}">Contact Us</a>
+              </li>
+
+              <li style="display:inline-block;">
+                <a href="Book_a_demo.html" style="color:#000; padding:8px 20px; border-radius:30px; margin-left:10px; font-weight:600; text-decoration:none; border:2px solid transparent; transition:0.3s;"
+                   onmouseover="if(window.innerWidth>992){ this.style.borderColor='#C35214'; this.style.color='#C35214';}"
+                   onmouseout="if(window.innerWidth>992){ this.style.borderColor='transparent'; this.style.color='#000';}"> Book a Demo </a>
+              </li>
+
+            </ul>
+          </nav>
+
+          <div class="d-inline-block d-lg-none ml-3">
+            <a href="#" class="site-menu-toggle js-menu-toggle">
+              <span class="icon-menu h3"></span>
+            </a>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
-</header>
 
+   <div class="breadcrumb-container" style="background: #fff; padding: 6px 0; border-top: 1px solid #f1f1f1;">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb-list" style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: flex-end; align-items: center; font-family: 'Roboto', sans-serif; font-size: 13px;">
+          
+          <li class="breadcrumb-item">
+            <a href="index.html" style="text-decoration: none; color: #C35214; font-weight: 500;">Home</a>
+          </li>
+
+          <li class="breadcrumb-separator" style="padding: 0 8px; color: #bbb;">/</li>
+
+          
+          <li class="breadcrumb-item">
+            <a href="services.html" style="text-decoration: none; color: #C35214; font-weight: 500;"> Our Services</a>
+          </li>
+
+          <li class="breadcrumb-separator" style="padding: 0 8px; color: #bbb;">/</li>
+          
+          <li class="breadcrumb-item active" style="color: #777;">
+             Digital Publishing
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+</header>
 <!-- Chat Button -->
 <!-- Talk to Our Expert Button -->
 <a href="Talk_to_our_expert.html" style="text-decoration:none;">
@@ -592,15 +585,15 @@ window.addEventListener("resize", adjustExpertButton);
   "inLanguage": "en-GB"
 }
 
-</script>
+</script>    
 <body>
 
 
 
 <!-- ================= MAIN OVERVIEW ================= -->
 
-<section class="site-section" style="padding:100px 0;">
- <div class="container" style="max-width: 1200px; margin-top: 60px;">
+<section class="site-section bg-light" id="pricing-section" style="padding-top:0;">
+ <div class="container" style="max-width: 1200px; margin-top: 20px;">
   <div class="row align-items-start">
 
     <div class="col-lg-6 mb-5" data-aos="fade-right" style="padding-right: 40px;">
@@ -625,34 +618,43 @@ window.addEventListener("resize", adjustExpertButton);
       <div class="block-heading-1">
         <h3 style="color:#a94e00; text-transform:none; font-weight: 700; margin-bottom: 25px;">
           <b>Key Highlights of Our Publishing Services</b>
-        </h3>
-
-       <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 0; line-height: 1.8; color: #000; font-size: 1.05rem; text-transform: none !important;">
-          
-  <li style="display: flex; align-items: flex-start; margin-bottom: 15px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
-    <span style="color: #000; text-transform: none !important;"><strong>Comprehensive Publishing Lifecycle:</strong> We manage the complete process — from content creation and design to distribution — ensuring speed and quality.</span>
+ </h3>
+<ul class="list-unstyled" style="list-style: none; padding: 0; margin: 30px 0; line-height: 1.8; color: #000; font-size: 16px; font-family: 'Roboto', sans-serif; text-transform: none !important; text-align: left;">
+  
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 2px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <span style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Comprehensive Publishing Lifecycle:</strong> We manage the complete process — from content creation and design to distribution — ensuring speed and quality.
+    </span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; margin-bottom: 15px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
-    <span style="color: #000; text-transform: none !important;"><strong>Multi-channel Content Delivery:</strong> We publish across print, digital, mobile, e-book, and learning platforms to maximise engagement.</span>
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 2px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <span style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Multi-channel Content Delivery:</strong> We publish across print, digital, mobile, e-book, and learning platforms to maximise engagement.
+    </span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; margin-bottom: 15px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
-    <span style="color: #000; text-transform: none !important;"><strong>Accessibility Compliance:</strong> Every publication meets WCAG and Benetech standards with accessible structures and alt text.</span>
+  <li style="display: flex; align-items: flex-start; margin-bottom: 20px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 2px; font-size: 0.9rem; flex-shrink: 0;"></i>
+    <span style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+      <strong style="font-weight: 700;">Accessibility Compliance:</strong> Every publication meets WCAG and Benetech standards with accessible structures and alt text.
+    </span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; margin-bottom: 15px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
-    <span style="color: #000; text-transform: none !important;"><strong>Customised Solutions:</strong> Scalable and adaptable services for educational, academic, trade, and corporate publishing.</span>
-  </li>
+ <li style="display: flex; align-items: flex-start; text-transform: none !important; margin-bottom:15px;">
+  <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 2px; font-size: 0.9rem; flex-shrink: 0;"></i>
+  <span style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+    <strong style="font-weight: 700;">Customised Solutions:</strong> Scalable and adaptable services for educational, academic, trade, and corporate publishing.
+  </span>
+</li>
 
-  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
-    <span style="color: #000; text-transform: none !important;"><strong>Global Reach:</strong> Multi-format delivery and translation capabilities to help you extend content to international markets.</span>
-  </li>
+<li style="display: flex; align-items: flex-start; text-transform: none !important;">
+  <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 15px; margin-top: 2px; font-size: 0.9rem; flex-shrink: 0;"></i>
+  <span style="margin: 0; text-transform: none !important; color: #000; line-height: 1.6;">
+    <strong style="font-weight: 700;">Global Reach:</strong> Multi-format delivery and translation capabilities to help you extend content to international markets.
+  </span>
+</li>
 
 </ul>
       </div>
@@ -662,8 +664,117 @@ window.addEventListener("resize", adjustExpertButton);
 </div>
 
 
+<style>
+  /* Hover effect for Digital Publishing Sub-Service buttons */
+  .pub-service-btn {
+    background: #a94e00;
+    border: 2px solid #a94e00;
+    padding: 12px 30px;
+    font-weight: 600;
+    border-radius: 30px;
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Makes the hover smooth */
+    display: inline-block;
+    outline: none;
+  }
 
-<!-- ================= sub services OVERVIEW ================= -->
+  .pub-service-btn:hover {
+    background: #fff !important;   /* White background on hover */
+    color: #a94e00 !important;      /* Brown text on hover */
+    transform: translateY(-3px);   /* Slight lift effect */
+    box-shadow: 0 5px 15px rgba(169, 78, 0, 0.3); /* Soft shadow */
+  }
+
+  .pub-service-btn:active {
+    transform: translateY(-1px);   /* Click effect */
+  }
+
+  /* ================= MOBILE RESPONSIVENESS ================= */
+  @media (max-width: 991px) {
+    /* Text and padding adjustments for mobile */
+    [style*="padding-right: 40px"] {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+      text-align: justify !important;
+    }
+    
+    [style*="padding-left: 40px"] {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      text-align: justify !important;
+      border-left: none !important;
+      border-top: 1px solid #f2f2f2 !important;
+      padding-top: 20px !important;
+      margin-top: 20px !important;
+    }
+
+    /* Justify all headings and paragraphs in containers */
+    .col-lg-6 h2,
+    .col-lg-6 h3 {
+      text-align: center !important;
+    }
+
+    .col-lg-6 p {
+      text-align: justify !important;
+    }
+
+    /* Justify all lists on mobile */
+    .col-lg-6 ul {
+      text-align: justify !important;
+      padding-left: 0 !important;
+    }
+
+    .col-lg-6 li {
+      justify-content: flex-start !important;
+      margin-left: 0 !important;
+      text-align: justify !important;
+    }
+
+    /* Center all images */
+    .col-lg-6 img,
+    .text-center img {
+      margin: 0 auto !important;
+      display: block !important;
+    }
+
+    /* Adjust container padding on mobile */
+    .site-section {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+
+    /* Mobile-friendly row spacing */
+    .row {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    .col-lg-6 {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+  }
+
+  @media (max-width: 768px) {
+    /* Smaller screens */
+    [style*="padding-right: 40px"],
+    [style*="padding-left: 40px"] {
+      padding: 0 15px !important;
+      text-align: justify !important;
+    }
+
+    .col-lg-6 p {
+      text-align: justify !important;
+    }
+
+    .col-lg-6 {
+      margin-bottom: 30px !important;
+    }
+  }
+</style>
+
 <section style="padding:0 0 50px 0; background:#f8f9fa; text-align:center; margin:0;">
   <div class="container">
     
@@ -672,41 +783,34 @@ window.addEventListener("resize", adjustExpertButton);
     </h2>
 
     <div>
-      <button onclick="showSub('Accessibility_Solutions')"
-              style="background:#a94e00;border:none;padding:12px 30px;font-weight:600;border-radius:30px;margin:10px;color:#fff;cursor:pointer;">
+      <button onclick="showSub('Accessibility_Solutions')" class="pub-service-btn">
         Accessibility Solutions
       </button>
 
-      <button onclick="showSub('kindle')"
-              style="background:#a94e00;border:none;padding:12px 30px;font-weight:600;border-radius:30px;margin:10px;color:#fff;cursor:pointer;">
+      <button onclick="showSub('kindle')" class="pub-service-btn">
         Kindle Conversion Services
       </button>
 
-      <button onclick="showSub('Proofreading')"
-              style="background:#a94e00;border:none;padding:12px 30px;font-weight:600;border-radius:30px;margin:10px;color:#fff;cursor:pointer;">
+      <button onclick="showSub('Proofreading')" class="pub-service-btn">
         Proofreading Solutions
       </button>
 
-      <button onclick="showSub('Research')"
-              style="background:#a94e00;border:none;padding:12px 30px;font-weight:600;border-radius:30px;margin:10px;color:#fff;cursor:pointer;">
+      <button onclick="showSub('Research')" class="pub-service-btn">
         Research Content Solutions
       </button>
-
     </div>
 
-
-   
   </div>
 </section>
 
    <div class="container" style="max-width: 1200px; margin-top: 60px;">
 
   <div class="row align-items-center" style="margin-bottom: 60px;">
-    <div class="col-lg-6 mb-4" data-aos="fade-right">
-      <img src="images/Research Content 3.jpg"
-           alt="PRGEEQ Unique Value Proposition"
-           style="width: 100%; height: auto; max-height: 400px; object-fit: contain; border: none; box-shadow: none;">
-    </div>
+   <div class="col-lg-6 mb-4" data-aos="fade-right">
+  <img src="images/Research Content 3.jpg"
+       alt="PRGEEQ Unique Value Proposition"
+       style="width: 100%; height: auto; max-height: 400px; object-fit: contain; border-radius: 24px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+</div>
 
     <div class="col-lg-6 mb-4" data-aos="fade-left" style="padding-left: 40px;">
       <h3 style="color:#a94e00; text-transform:none; font-weight: 700; margin-bottom: 20px;">
@@ -722,31 +826,44 @@ window.addEventListener("resize", adjustExpertButton);
   </div>
 
   <div class="row align-items-center" style="margin-bottom: 60px;">
-    <div class="col-lg-6 mb-4" data-aos="fade-right" style="padding-right: 40px;">
-      <h3 style="color:#a94e00; text-transform:none; font-weight: 700; margin-bottom: 20px;">
+    <div class="col-lg-6 mb-4 order-2 order-lg-1" data-aos="fade-right" style="padding-right: 40px; padding: 0 20px;">
+      <h3 style="color:#a94e00; text-transform:none; font-weight: 700; margin-bottom: 20px; text-align: center;">
         <b>Multi-channel Content Distribution</b>
       </h3>
-      <p style="color: #000; line-height: 1.7;">
+      <p style="color: #000; line-height: 1.7; text-align: center;">
         Our distribution strategy ensures your content is available wherever your readers are. From <strong>traditional print channels</strong> to <strong>digital libraries, academic databases,</strong> and <strong>mobile applications,</strong> we make sure your publications achieve maximum reach and visibility.
       </p>
-      <p style="color: #000; line-height: 1.7; font-style: italic; margin-top: 15px;">
+      <p style="color: #000; line-height: 1.7; font-style: italic; margin-top: 15px; text-align: center;">
         Our metadata optimisation and digital rights management (DRM) integration ensure secure, searchable, and efficient content delivery.
       </p>
     </div>
 
-    <div class="col-lg-6 mb-4 text-center" data-aos="fade-left">
-      <img src="images/Research Content 4.jpg"
-           alt="Multi-channel Content Distribution"
-           style="width: 100%; height: auto; max-height: 400px; object-fit: contain; border: none; box-shadow: none;">
-    </div>
+   <div class="col-lg-6 mb-4 text-center order-1 order-lg-2" data-aos="fade-left">
+  <img src="images/Research Content 4.jpg"
+       alt="Multi-channel Content Distribution"
+       style="width: 100%; 
+              max-width: 500px;
+              height: 270px; 
+              object-fit: cover; 
+              border-radius: 24px; 
+              box-shadow: 0 10px 30px rgba(0,0,0,0.08); 
+              margin: 0 auto; 
+              display: block;">
+</div>
   </div>
 
   <div class="row align-items-center" style="margin-bottom: 60px;">
-    <div class="col-lg-6 mb-4" data-aos="fade-right">
-      <img src="images/LMS 4.jpg"
-           alt="Why Choose PRGEEQ Publishing Solutions"
-           style="width: 100%; height: auto; max-height: 400px; object-fit: contain; border: none; box-shadow: none;">
-    </div>
+   <div class="col-lg-6 mb-4" data-aos="fade-right">
+  <img src="images/LMS 4.jpg"
+       alt="Why Choose PRGEEQ Publishing Solutions"
+       style="width: 90%; 
+              height: 320px; 
+              object-fit: cover; 
+              border-radius: 24px; 
+              box-shadow: 0 10px 30px rgba(0,0,0,0.08); 
+              display: block; 
+              margin: 0 auto;">
+</div>
 
     <div class="col-lg-6 mb-4" data-aos="fade-left" style="padding-left: 40px;">
       <h3 style="color:#a94e00; text-transform:none; font-weight: 700; margin-bottom: 25px;">
@@ -756,21 +873,18 @@ window.addEventListener("resize", adjustExpertButton);
       <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 0; line-height: 1.8; color: #000; font-size: 1.05rem;">
         
         <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
-          <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
-          <span>We combine <strong>industry experience, technological innovation,</strong> and <strong>accessibility expertise</strong> to deliver publishing solutions that meet the highest international standards.</span>
+          <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; align-self: flex-start;"></i>
+          <span style="margin-top:0; line-height:1.4;">We combine <strong>industry experience, technological innovation,</strong> and <strong>accessibility expertise</strong> to deliver publishing solutions that meet the highest international standards.</span>
         </li>
 
         <li style="display: flex; align-items: flex-start; margin-bottom: 15px;">
-          <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
-          <span>Our inclusive publishing approach guarantees your content is <strong>readable, accessible, and discoverable</strong> by all audiences, including those using assistive technologies.</span>
+          <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; align-self: flex-start;"></i>
+          <span style="margin-top:0; line-height:1.4;">Our inclusive publishing approach guarantees your content is <strong>readable, accessible, and discoverable</strong> by all audiences, including those using assistive technologies.</span>
         </li>
 
         <li style="display: flex; align-items: flex-start;">
-          <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem;"></i>
-          <span>With PRGEEQ as your partner, you can focus on storytelling and knowledge sharing while we handle the technical precision behind professional publishing.</span>
-        </li>
-
-      </ul>
+          <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; align-self: flex-start;"></i>
+          <span style="margin-top:0; line-height:1.4;">With PRGEEQ as your partner, you can focus on storytelling and knowledge sharing while we handle the technical precision behind professional publishing.</span>
     </div>
   </div>
 
@@ -783,23 +897,28 @@ window.addEventListener("resize", adjustExpertButton);
 
 <!-- =================  ACCESSIBILITY ================= -->
 
-<section id="Accessibility_Solutions" style="padding:100px 0; display:none; background:#ffffff;">
+<section id="Accessibility_Solutions" style="padding:0px 0; display:none; background:#ffffff;">
   <div class="container">
+
+        <h3 style="color:#a94e00;text-transform:none; padding:20px; text-align:center"><b> Accessibility Solutions</b></h3>
+
 
     <!-- ROW 1 -->
     <div class="row align-items-center mb-5">
 
       <!-- LEFT IMAGE -->
-      <div class="col-lg-6" data-aos="fade-right">
-        <img src="images/Document Accessibility 2.jpg"
-             alt="Document Accessibility."
-             style="width:100%;">
-      </div>
+     <div class="col-lg-6" data-aos="fade-right">
+  <img src="images/Document Accessibility 2.jpg"
+       alt="Illustration of a user interface undergoing web accessibility check for WCAG compliance."
+       style="width: 100%; 
+              border-radius: 24px; 
+              box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+</div>
 
       <!-- RIGHT CONTENT -->
       <div class="col-lg-6" data-aos="fade-left">
-        <h3 style="color:#a94e00;text-transform:none;"><b>Building an Inclusive Digital Experience for All</b></h3>
-        <p style="color: #000;">
+        <h3 style="color:#a94e00;text-transform:none;padding:20px;"><b>Building an Inclusive Digital Experience for All</b></h3>
+        <p style="color: #000; padding:10px">
         At <strong>PRGEEQ, </strong> we are dedicated to ensuring that education, technology, and opportunity are accessible to everyone. Accessibility is not a single feature but a <strong>comprehensive framework of inclusive design principles </strong>and <strong>user-experience best practices </strong>that support equal participation for all users—regardless of visual, auditory, cognitive, or mobility challenges.<br><br>
         A <strong>Learning Management System (LMS) </strong>that aligns with <strong>WCAG (Web Content Accessibility Guidelines) </strong>and global accessibility frameworks establishes the foundation for an <strong>inclusive learning and development ecosystem.</strong> By integrating accessibility into every stage of design and development, organisations can ensure equitable and consistent learning outcomes for all employees.
 
@@ -812,37 +931,45 @@ window.addEventListener("resize", adjustExpertButton);
     <div class="row justify-content-center text-center mb-5">
       <div class="col-lg-8" data-aos="fade-up">
         
-        <h3 style="color:#a94e00; margin-bottom:25px;text-transform:none;"><b>
+        <h3 style="color:#a94e00; margin-bottom:25px;text-transform:none;padding-left: 50px; "><b>
           Understanding Accessibility Standards</b>
         </h3>
         
        <ul class="list-unstyled" 
     style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem; text-transform: none !important;">
   
-  <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 1.8; color: #000; font-size: 1.05rem; text-transform: none !important; text-align: left;">
+  <ul class="list-unstyled" 
+    style="
+      list-style: none; 
+      padding-left: 170px; 
+      margin: 20px 0; 
+      line-height: 1.6; 
+      color: #000; 
+      font-size: 1.05rem; 
+      text-transform: none !important; 
+      text-align: left;
+    ">
   
-  <li style="display: flex; align-items: flex-start; margin-bottom: 15px; text-transform: none !important; text-align: left;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem; flex-shrink: 0;"></i>
-    <span style="text-transform: none !important; display: block;">
+  <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span>
       <strong>WCAG (Web Content Accessibility Guidelines):</strong> A globally recognised standard for creating accessible digital content, also aligned with <strong>ISO/IEC 40500:2012.</strong>
     </span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; margin-bottom: 15px; text-transform: none !important; text-align: left;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem; flex-shrink: 0;"></i>
-    <span style="text-transform: none !important; display: block;">
+  <li style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span>
       <strong>ADA (Americans with Disabilities Act):</strong> A civil rights law ensuring equal opportunity for individuals with disabilities.
     </span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; text-transform: none !important; text-align: left;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 6px; font-size: 0.85rem; flex-shrink: 0;"></i>
-    <span style="text-transform: none !important; display: block;">
+  <li style="display: flex; align-items: flex-start;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 4px; font-size: 0.85rem; flex-shrink: 0;"></i>
+in every section where the poits are the the arro    <span>
       <strong>Section 508 (U.S. Federal Standard):</strong> Mandates that government websites and communications be accessible to users with disabilities.
     </span>
   </li>
-
-</ul>
 
 </ul>
 
@@ -855,39 +982,39 @@ window.addEventListener("resize", adjustExpertButton);
 
       <!-- LEFT CONTENT -->
       <div class="col-lg-6" data-aos="fade-right">
-        <h3 style="color:#a94e00;text-transform:none;"><b>Our Approach to Accessibility Services</b></h3>
+        <h3 style="color:#a94e00;text-transform:none; padding: 10px;"><b>Our Approach to Accessibility Services</b></h3>
         <p style="color: #000;">
          We provide comprehensive accessibility solutions designed to create a seamless and inclusive user experience. Our services include:
         </p>
 <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem; text-transform: none !important; text-align: left;">
   
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+  <li style="display: flex; align-items: center; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
     <span style="text-transform: none !important;">Consistent and intuitive <strong>user interfaces (UI)</strong> and iconography</span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+  <li style="display: flex; align-items: center; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
     <span style="text-transform: none !important;">Use of <strong>high-contrast colour palettes</strong> for improved visibility</span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+  <li style="display: flex; align-items: center; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
     <span style="text-transform: none !important;"><strong>Accessible text editors</strong> that support screen-reader compatibility</span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+  <li style="display: flex; align-items: center; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
     <span style="text-transform: none !important;"><strong>Accessible multi-select lists</strong> and form elements</span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+  <li style="display: flex; align-items: center; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
     <span style="text-transform: none !important;">Development of <strong>accessible course content</strong> aligned with WCAG standards</span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+  <li style="display: flex; align-items: center; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
     <span style="text-transform: none !important;"><strong>Screen-reader-friendly instructional materials</strong> and navigation aids</span>
   </li>
 
@@ -896,11 +1023,13 @@ window.addEventListener("resize", adjustExpertButton);
       </div>
 
       <!-- RIGHT IMAGE -->
-      <div class="col-lg-6" data-aos="fade-left">
-        <img src="images/Web Accessibility 2.jpg"
-             alt="Web Accessibility."
-             style="width:100%;">
-      </div>
+     <div class="col-lg-6" data-aos="fade-left">
+  <img src="images/Web Accessibility 2.jpg"
+       alt="Close-up of keyboard and monitor showing web accessibility compliance tools."
+       style="width: 100%; 
+              border-radius: 24px; 
+              box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+</div>
 
     </div>
 <!-- FINAL ROW -->
@@ -916,26 +1045,35 @@ window.addEventListener("resize", adjustExpertButton);
     <p style="line-height:1.8; color:#000">
       Our expert team helps you achieve compliance, usability, and inclusion. We can:
     </p>
-   <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem; text-transform: none !important; text-align: left;">
+   <ul class="list-unstyled" 
+    style="
+      list-style: none; 
+      padding-left: 100px; 
+      margin: 20px 0; 
+      line-height: 1.8; 
+      color: #000; 
+      font-size: 1.05rem; 
+      text-align: left;
+    ">
   
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-    <span style="text-transform: none !important;"><strong>Evaluate</strong> your current digital accessibility from both user and organisational perspectives</span>
+  <li style="display: flex; align-items: center; margin-bottom: 8px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span><strong>Evaluate</strong> your current digital accessibility from both user and organisational perspectives</span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-    <span style="text-transform: none !important;"><strong>Audit</strong> websites, digital assets, and e-learning platforms against accessibility benchmarks</span>
+  <li style="display: flex; align-items: center; margin-bottom: 8px;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span><strong>Audit</strong> websites, digital assets, and e-learning platforms against accessibility benchmarks</span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-    <span style="text-transform: none !important;"><strong>Recommend</strong> improvements based on international and national accessibility standards</span>
+  <li style="display: flex; align-items: center;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
+    <span><strong>Recommend</strong> improvements based on international and national accessibility standards</span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+  <li style="display: flex; align-items: flex-start;">
     <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-    <span style="text-transform: none !important;"><strong>Train</strong> your teams to understand, implement, and maintain accessibility compliance</span>
+    <span><strong>Train</strong> your teams to understand, implement, and maintain accessibility compliance</span>
   </li>
 
 </ul>
@@ -958,7 +1096,7 @@ window.addEventListener("resize", adjustExpertButton);
     <div class="row justify-content-center text-center" style="margin-bottom:30px;">
       <div class="col-md-7" data-aos="fade-up">
 
-        <p style="margin:0; color:#a94e00;"><strong><b>Frequently Asked Questions</b></strong></p>
+        <p style="margin:0; color:#a94e00; font-size:20px;"><strong><b>Frequently Asked Questions</b></strong></p>
       </div>
     </div>
 
@@ -972,7 +1110,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -994,7 +1132,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1016,7 +1154,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1036,7 +1174,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1058,7 +1196,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1081,22 +1219,26 @@ window.addEventListener("resize", adjustExpertButton);
 
 <!-- ================= Kindle Conversion Services ================= -->
 
-<section id="kindle" style="padding:100px 0; display:none; background:#ffffff;">
+<section id="kindle" style="padding:20px 0; display:none; background:#ffffff;">
   <div class="container">
+
+    <h3 style="color:#a94e00;text-transform:none; padding:20px; text-align:center"><b>Kindle Conversion Services</b></h3>
 
     <!-- ROW 1 -->
     <div class="row align-items-center mb-5">
 
       <!-- LEFT IMAGE -->
-      <div class="col-lg-6" data-aos="fade-right">
-        <img src="images/Kindle conversion 1.jpg"
-             alt="Kindle conversion."
-             style="width:100%;">
-      </div>
+     <div class="col-lg-6" data-aos="fade-right">
+  <img src="images/Kindle conversion 1.jpg"
+       alt="Kindle conversion service demonstrating e-book formatting and device compatibility."
+       style="width: 100%; 
+              border-radius: 24px; 
+              box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+</div>
 
       <!-- RIGHT CONTENT -->
       <div class="col-lg-6" data-aos="fade-left">
-        <h3 style="color:#a94e00;text-transform:none;"><b>Transform Your Content into Kindle-Ready Digital Books</b></h3>
+        <h3 style="color:#a94e00;text-transform:none;padding:20px;"><b>Transform Your Content into Kindle-Ready Digital Books</b></h3>
         <p style="color: #000;">
      The world of publishing has evolved dramatically, and <strong>Kindle eBooks</strong> have revolutionised the way people read and access information. At <strong>PRGEEQ, </strong>we provide <strong>high-quality, cost-effective Kindle and Mobipocket conversion services</strong>, converting your manuscripts and print books into formats optimised for the <strong>Amazon Kindle platform </strong>and compatible mobile devices.
      We support a wide variety of input formats, including <strong>hard copies, Word, PDF, HTML, XML, InDesign, </strong>and <strong>QuarkXPress</strong> files. Our conversions comply with <strong>OEB </strong>and <strong>XHTML standards,</strong> ensuring accessibility, consistency, and an intuitive reading experience across all Kindle-enabled devices.
@@ -1107,126 +1249,101 @@ window.addEventListener("resize", adjustExpertButton);
 
     </div>
 
+<div class="row align-items-center" style="margin-bottom: 60px; padding: 10px;">
 
-    <div class="row justify-content-center text-center mb-5">
-      <div class="col-lg-8" data-aos="fade-up">
-        
-        <h3 style="color:#a94e00; margin-bottom:25px;text-transform:none;">
-         <b>Our Approach to Kindle Conversion</b>
-        </h3>
-        <p style="color: #000;">Choosing PRGEEQ as your Kindle conversion partner means gaining access to expert craftsmanship and reliable delivery. Whether you have digital manuscripts or scanned physical books, we transform your content into professional, reader-ready Kindle eBooks.</p>
-        <p style="color: #000;">Our Kindle conversion process includes:</p>
-      <div style="display: flex; justify-content: center; width: 100%; margin: 40px 0;">
-  <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 0; line-height: 2.2; color: #000; font-size: 1.05rem; text-transform: none !important; text-align: left; display: inline-block;">
-    
-    <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-      <span style="text-transform: none !important;">Conversion of <strong>hard copies</strong> and <strong>HTML files</strong></span>
-    </li>
-
-    <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-      <span style="text-transform: none !important;">Processing of <strong>PDF files</strong> and <strong>scanned images</strong></span>
-    </li>
-
-    <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-      <span style="text-transform: none !important;">Integration of <strong>Adobe InDesign</strong> and <strong>XML</strong> content</span>
-    </li>
-
-    <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-      <span style="text-transform: none !important;">Conversion from <strong>Microsoft Word</strong> and <strong>QuarkXPress</strong> files</span>
-    </li>
-
-    <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-      <span style="text-transform: none !important;">Formatting for <strong>OEB, XHTML,</strong> and <strong>Kindle-friendly</strong> structures</span>
-    </li>
-
-    <li style="display: flex; align-items: flex-start; text-transform: none !important;">
-      <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-      <span style="text-transform: none !important;"><strong>Built-in navigational aids</strong> for a superior user experience</span>
-    </li>
-
-  </ul>
-</div>
-
-      </div>
-    </div>
-
-
-    <!-- ROW 2 -->
-    <div class="row align-items-center mb-5">
-
-      <!-- LEFT CONTENT -->
-      <div class="col-lg-6" data-aos="fade-right">
-        <h3 style="color:#a94e00;text-transform:none;"><b>Why Choose PRGEEQ for Kindle Conversion?</b></h3>
-
-        <p style="color:#000">At PRGEEQ, we are not just converters—we are <strong>publishing technology experts</strong> who prioritise quality, compliance, and confidentiality. Our solutions combine efficiency, accuracy, and an in-depth understanding of publishing standards.
-        </p>
-
-      </div>
-
-      <!-- RIGHT IMAGE -->
-      <div class="col-lg-6" data-aos="fade-left">
-        <img src="images/Kindle conversion 3.jpg"
-             alt="Kindle conversion."
-             style="width:100%;">
-      </div>
-
-    </div>
-
-   <!-- FINAL ROW -->
-<div class="row justify-content-center" style="margin-top:60px;">
-
-  <!-- CENTERED COLUMN -->
-  <div class="col-lg-8 col-md-10 mx-auto text-center" data-aos="fade-up">
-    
-    <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;">
-      <b>Our strengths include:</b>
+  <div class="col-lg-6" data-aos="fade-right" style="padding-right: 30px;">
+    <h3 style="color:#a94e00; margin-bottom:20px; text-transform:none;">
+      <b>Our Approach to Kindle Conversion</b>
     </h3>
-        
-   <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem; text-transform: none !important; text-align: left;">
-  
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-    <span style="text-transform: none !important;">Use of <strong>state-of-the-art techniques</strong> for precise format conversions</span>
-  </li>
-
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-    <span style="text-transform: none !important;"><strong>High-quality assurance culture</strong> integrated throughout the workflow</span>
-  </li>
-
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-    <span style="text-transform: none !important;">Adherence to <strong>international compliance standards</strong></span>
-  </li>
-
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-    <span style="text-transform: none !important;"><strong>Rigorous two-stage quality control (QC)</strong> before delivery</span>
-  </li>
-
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-    <span style="text-transform: none !important;"><strong>Dedicated project managers</strong> for transparent communication</span>
-  </li>
-
-  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-    <span style="text-transform: none !important;"><strong>Strict content privacy and data protection policies</strong></span>
-  </li>
-
-</ul>
-
-    <p style="line-height:1.8; margin-top:20px; color:#000">
-      With over a decade of experience, we ensure your Kindle-ready books meet global quality benchmarks while retaining the integrity and beauty of your original design.
+    <p style="color: #000; line-height: 1.6;">
+      Choosing PRGEEQ means gaining access to expert craftsmanship. Whether you have digital manuscripts or scanned books, we transform your content into reader-ready Kindle eBooks.
     </p>
-
+    
+    <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0 0 0; line-height: 1.8; color: #000; font-size: 0.95rem; text-align: left;">
+      <li style="display: flex; align-items: center; margin-bottom: 8px;">
+        <i class="fa-solid fa-angles-right" style="color: #a94e00; margin-right: 12px; font-size: 0.8rem; flex-shrink: 0;"></i>
+        <span>Conversion of <strong>hard copies</strong> and <strong>HTML files</strong></span>
+      </li>
+      <li style="display: flex; align-items: center; margin-bottom: 8px;">
+        <i class="fa-solid fa-angles-right" style="color: #a94e00; margin-right: 12px; font-size: 0.8rem; flex-shrink: 0;"></i>
+        <span>Processing of <strong>PDF files</strong> and <strong>scanned images</strong></span>
+      </li>
+      <li style="display: flex; align-items: center; margin-bottom: 8px;">
+        <i class="fa-solid fa-angles-right" style="color: #a94e00; margin-right: 12px; font-size: 0.8rem; flex-shrink: 0;"></i>
+        <span>Integration of <strong>Adobe InDesign</strong> and <strong>XML</strong></span>
+      </li>
+      <li style="display: flex; align-items: center;">
+        <i class="fa-solid fa-angles-right" style="color: #a94e00; margin-right: 12px; font-size: 0.8rem; flex-shrink: 0;"></i>
+        <span><strong>Built-in navigational aids</strong> for UX</span>
+      </li>
+    </ul>
   </div>
 
+  <div class="col-lg-6" data-aos="fade-left" style="padding-left: 30px; border-left: 1px solid #eee;">
+    <h3 style="color:#a94e00; text-transform:none; margin-bottom:20px;">
+      <b>Why Choose PRGEEQ?</b>
+    </h3>
+    <p style="color:#000; line-height: 1.8;">
+      At PRGEEQ, we are not just converters—we are <strong>publishing technology experts</strong> who prioritize quality, compliance, and confidentiality. Our solutions combine efficiency, accuracy, and an in-depth understanding of publishing standards.
+    </p>
+    <p style="color:#000; line-height: 1.8;">
+      We ensure that your Kindle files pass all validation checks and provide a seamless reading experience across all Amazon Kindle devices and apps.
+    </p>
+  </div>
+
+
+     <div class="row align-items-center" style="margin-top:60px; padding:10px;">
+
+  <div class="col-lg-6" data-aos="fade-right" style="padding-right: 40px;">
+    <div style="text-align:left;">
+      <h3 style="color:#a94e00; margin-bottom:20px; text-transform:none;">
+        <b>Our strengths include:</b>
+      </h3>
+    </div>
+    
+    <ul class="list-unstyled" style="list-style: none; margin: 20px 0; line-height: 1.8; color: #000; font-size: 1rem; text-align: left;">
+      <li style="display: flex; align-items: center; margin-bottom: 12px;">
+        <i class="fa-solid fa-angles-right" style="color: #a94e00; margin-right: 12px; font-size: 0.8rem; flex-shrink: 0;"></i>
+        <span>Use of <strong>state-of-the-art techniques</strong> for precise format conversions</span>
+      </li>
+      <li style="display: flex; align-items: center; margin-bottom: 12px;">
+        <i class="fa-solid fa-angles-right" style="color: #a94e00; margin-right: 12px; font-size: 0.8rem; flex-shrink: 0;"></i>
+        <span><strong>High-quality assurance culture</strong> integrated throughout the workflow</span>
+      </li>
+      <li style="display: flex; align-items: center; margin-bottom: 12px;">
+        <i class="fa-solid fa-angles-right" style="color: #a94e00; margin-right: 12px; font-size: 0.8rem; flex-shrink: 0;"></i>
+        <span>Adherence to <strong>international compliance standards</strong></span>
+      </li>
+      <li style="display: flex; align-items: center; margin-bottom: 12px;">
+        <i class="fa-solid fa-angles-right" style="color: #a94e00; margin-right: 12px; font-size: 0.8rem; flex-shrink: 0;"></i>
+        <span><strong>Rigorous two-stage quality control (QC)</strong> before delivery</span>
+      </li>
+      <li style="display: flex; align-items: center; margin-bottom: 12px;">
+        <i class="fa-solid fa-angles-right" style="color: #a94e00; margin-right: 12px; font-size: 0.8rem; flex-shrink: 0;"></i>
+        <span><strong>Dedicated project managers</strong> for transparent communication</span>
+      </li>
+      <li style="display: flex; align-items: center;">
+        <i class="fa-solid fa-angles-right" style="color: #a94e00; margin-right: 12px; font-size: 0.8rem; flex-shrink: 0;"></i>
+        <span><strong>Strict content privacy and data protection policies</strong></span>
+      </li>
+    </ul>
+
+    <p style="line-height:1.7; margin-top:20px; color:#000; font-size: 0.95rem;">
+      With over a decade of experience, we ensure your Kindle-ready books meet global quality benchmarks while retaining the integrity and beauty of your original design.
+    </p>
+  </div>
+
+  <div class="col-lg-6" data-aos="fade-left">
+    <img src="images/Kindle conversion 3.jpg"
+         alt="Kindle conversion service demonstrating e-book formatting and device compatibility."
+         style="width: 100%; 
+                height: 320px; 
+                object-fit: cover; 
+                border-radius: 24px; 
+                box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+  </div>
+
+</div>
 </div>
 </div>
 
@@ -1237,11 +1354,29 @@ window.addEventListener("resize", adjustExpertButton);
 
     <!-- Heading -->
     <div class="row justify-content-center text-center" style="margin-bottom:30px;">
-      <div class="col-md-7" data-aos="fade-up">
+      <div class="col-12 col-md-7" data-aos="fade-up">
 
-        <p style="margin:0; color:#a94e00;"><strong><b>Frequently Asked Questions</b></strong></p>
+        <p style="margin:0; color:#a94e00; font-size:20px; text-align:center; line-height:1.2; word-wrap:break-word;"><strong><b>Frequently Asked Questions</b></strong></p>
       </div>
     </div>
+
+    <style>
+      /* Kindle FAQ heading mobile fit */
+      #faq-section p {
+        font-size: 20px;
+      }
+      @media (max-width: 768px) {
+        #faq-section p {
+          font-size: 18px;
+        }
+      }
+      @media (max-width: 480px) {
+        #faq-section p {
+          font-size: 16px;
+          padding: 0 12px;
+        }
+      }
+    </style>
 
     <!-- FAQ Wrapper -->
     <div style="max-width:900px; margin:0 auto;">
@@ -1253,7 +1388,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1273,7 +1408,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1295,7 +1430,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1315,7 +1450,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1337,7 +1472,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1365,23 +1500,28 @@ window.addEventListener("resize", adjustExpertButton);
 
 <!-- =================  Proofreading Solutions ================= -->
 
-<section id="Proofreading" style="padding:100px 0; display:none; background:#ffffff;">
+<section id="Proofreading" style="padding:20px 0; display:none; background:#ffffff;">
   <div class="container">
+
+        <h3 style="color:#a94e00;text-transform:none; padding:20px; text-align:center"><b>Proofreading Solutions</b></h3>
+
 
     <!-- ROW 1 -->
     <div class="row align-items-center mb-5">
 
       <!-- LEFT IMAGE -->
-      <div class="col-lg-6" data-aos="fade-right">
-        <img src="images/Proof reading 1.jpg"
-             alt="Proof reading."
-             style="width:100%;">
-      </div>
+    <div class="col-lg-6" data-aos="fade-right">
+  <img src="images/Proof reading 1.jpg"
+       alt="Professional proofreading and editing services ensuring document accuracy and quality."
+       style="width: 100%; 
+              border-radius: 24px; 
+              box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+</div>
 
       <!-- RIGHT CONTENT -->
       <div class="col-lg-6" data-aos="fade-left">
-        <h3 style="color:#a94e00;text-transform:none;"><b>Perfecting Every Word for Publication Success</b></h3>
-        <p style="color: #000;">
+        <h3 style="color:#a94e00;text-transform:none;padding:20px;"><b>Perfecting Every Word for Publication Success</b></h3>
+        <p style="color: #000; padding:10px">
        At <strong>PRGEEQ,</strong> our editors ensure that every document is <strong>error-free, polished, and professionally formatted</strong>. We refine grammar, improve clarity, and enhance readability to ensure your writing flows seamlessly from start to finish. Whether you are an academic, researcher, or business professional, our goal is to make your work precise, persuasive, and publication-ready.<br><br>
        Our highly rated <strong>editing and proofreading services</strong> empower you to submit your work with confidence, knowing it meets international linguistic and formatting standards. From manuscripts and journal submissions to academic essays and corporate reports, PRGEEQ offers solutions tailored to your content, purpose, and audience.<br><br>
        We support you through every stage of your publishing journey—<strong>from language editing to translation, journal selection to research promotion</strong>—helping you achieve global visibility and publishing success.
@@ -1395,29 +1535,31 @@ window.addEventListener("resize", adjustExpertButton);
     <div class="row justify-content-center text-center mb-5">
       <div class="col-lg-8" data-aos="fade-up">
         
-        <h3 style="color:#a94e00; margin-bottom:25px;text-transform:none;">
-          <b>What Makes Us the Preferred Choice</b>
-        </h3>
+       <div style="text-align:left;">
+  <h3 style="color:#a94e00; margin-bottom:25px; text-transform:none;">
+    <b>What Makes Us the Preferred Choice</b>
+  </h3>
+</div>
         
        <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem; text-transform: none !important; text-align: left;">
   
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+  <li style="display: flex; align-items: center; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
     <span style="text-transform: none !important;"><strong>Inclusive for everyone –</strong> supporting students, researchers, and professionals.</span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+  <li style="display: flex; align-items: center; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
     <span style="text-transform: none !important;"><strong>Expert pairing –</strong> matched with subject-specialist editors for your discipline.</span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+  <li style="display: flex; align-items: center; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
     <span style="text-transform: none !important;"><strong>Client-centred control –</strong> your work, your preferences, your voice.</span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+  <li style="display: flex; align-items: center; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
     <span style="text-transform: none !important;"><strong>Innovation in publishing –</strong> adopting smart tools and accessibility-driven workflows.</span>
   </li>
 
@@ -1433,7 +1575,7 @@ window.addEventListener("resize", adjustExpertButton);
       <!-- LEFT CONTENT -->
       <div class="col-lg-6" data-aos="fade-right">
         <h3 style="color:#a94e00;text-transform:none;"><b>Our Approach to Proofreading Solutions</b></h3>
-        <p style="color: #000;">
+        <p style="color: #000; padding:10px">
           PRGEEQ provides a structured, multi-layered editing approach designed to elevate your content’s quality and impact.        </p>
           <h4 style="color: #000;text-transform:none;">Premium Editing:</h4>
           <p style="color: #000;">A comprehensive language and structural edit that enhances clarity, tone, and logical flow—ensuring your manuscript reads like a native-English publication. Ideal for authors targeting international journals.</p>
@@ -1444,23 +1586,23 @@ window.addEventListener("resize", adjustExpertButton);
           <p style="color: #000;">Our process includes:</p>
        <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem; text-transform: none !important; text-align: left;">
   
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+  <li style="display: flex; align-items: center; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
     <span style="text-transform: none !important;">Multiple rounds of editing and internal review</span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+  <li style="display: flex; align-items: center; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
     <span style="text-transform: none !important;">Consistent application of academic or organisational style guides</span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+  <li style="display: flex; align-items: center; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
     <span style="text-transform: none !important;">Accessibility and readability checks for inclusive publishing</span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+  <li style="display: flex; align-items: center; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
     <span style="text-transform: none !important;">Transparent tracking of all editorial changes</span>
   </li>
 
@@ -1470,10 +1612,12 @@ window.addEventListener("resize", adjustExpertButton);
 
       <!-- RIGHT IMAGE -->
       <div class="col-lg-6" data-aos="fade-left">
-        <img src="images/Kindle conversion 2.jpg"
-             alt="Proof reading."
-             style="width:100%;">
-      </div>
+  <img src="images/Kindle conversion 2.jpg"
+       alt="Kindle e-book conversion and formatting process."
+       style="width: 100%; 
+              border-radius: 24px; 
+              box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+</div>
 
     </div>
 <!-- FINAL ROW -->
@@ -1482,9 +1626,11 @@ window.addEventListener("resize", adjustExpertButton);
   <!-- CENTERED COLUMN -->
   <div class="col-lg-8 col-md-10 mx-auto text-center" data-aos="fade-up">
     
-    <h3 style="color:#a94e00; margin-bottom:20px;text-transform:none;">
-      <b>Why Choose PRGEEQ</b>
-    </h3>
+ <div style="text-align:left;">
+  <h3 style="color:#a94e00; margin-bottom:20px; text-transform:none;">
+    <b>Why Choose PRGEEQ</b>
+  </h3>
+</div>
 
     <p style="line-height:1.8; color:#000">
       We are your trusted partners for high-quality editorial support across a variety of formats:
@@ -1492,23 +1638,23 @@ window.addEventListener("resize", adjustExpertButton);
         
    <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem; text-transform: none !important; text-align: left;">
   
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+  <li style="display: flex; align-items: center; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
     <span style="text-transform: none !important;"><strong>Dissertations and Theses</strong></span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+  <li style="display: flex; align-items: center; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
     <span style="text-transform: none !important;"><strong>Research Papers and Journal Articles</strong></span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+  <li style="display: flex; align-items: center; margin-bottom: 12px; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
     <span style="text-transform: none !important;"><strong>Essays and Assignments</strong></span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
-    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
+  <li style="display: flex; align-items: center; text-transform: none !important;">
+    <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; font-size: 0.85rem; flex-shrink: 0;"></i>
     <span style="text-transform: none !important;"><strong>Personal Statements and Admission Essays</strong></span>
   </li>
 
@@ -1531,7 +1677,7 @@ window.addEventListener("resize", adjustExpertButton);
     <div class="row justify-content-center text-center" style="margin-bottom:30px;">
       <div class="col-md-7" data-aos="fade-up">
 
-        <p style="margin:0; color:#a94e00;"><strong><b>Frequently Asked Questions</b></strong></p>
+        <p style="margin:0; color:#a94e00;font-size:20px;"><strong><b>Frequently Asked Questions</b></strong></p>
       </div>
     </div>
 
@@ -1545,7 +1691,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1566,7 +1712,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1587,7 +1733,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1607,7 +1753,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1628,7 +1774,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1650,23 +1796,27 @@ window.addEventListener("resize", adjustExpertButton);
 
 <!-- =================  research ================= -->
 
-<section id="Research" style="padding:100px 0; display:none; background:#ffffff;">
+<section id="Research" style="padding:5px 0; display:none; background:#ffffff;">
   <div class="container">
+
+            <h3 style="color:#a94e00;text-transform:none; padding:20px; text-align:center"><b>Research Content Solutions</b></h3>
 
     <!-- ROW 1 -->
     <div class="row align-items-center mb-5">
 
       <!-- LEFT IMAGE -->
-      <div class="col-lg-6" data-aos="fade-right">
-        <img src="images/Research Content 1.jpg"
-             alt="Research Content."
-             style="width:100%; border-radius:12px; border:3px solid #a94e00;">
-      </div>
+     <div class="col-lg-6" data-aos="fade-right">
+  <img src="images/Research Content 1.jpg"
+       alt="Research content development and creation services."
+       style="width: 100%; 
+              border-radius: 24px; 
+              box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+</div>
 
       <!-- RIGHT CONTENT -->
       <div class="col-lg-6" data-aos="fade-left">
-        <h3 style="color:#a94e00;text-transform:none;"><b>Empowering Research Publishing with Intelligent Content Strategy</b></h3>
-        <p style="color: #000;">
+        <h3 style="color:#a94e00;text-transform:none; padding:10px;"><b>Empowering Research Publishing with Intelligent Content Strategy</b></h3>
+        <p style="color: #000; padding:10px">
        In today’s competitive landscape, content is the <strong>ultimate key to staying ahead. At PRGEEQ,</strong> we partner with leading publishers, academic institutions, and content platforms to deliver <strong>strategic research content solutions</strong> that enhance visibility, streamline workflows, and drive measurable impact.<br><br>
         We work with <strong>commercial publishers, university presses, open-access platforms, and academic associations</strong> supporting a diverse range of outputs—<strong>journals, books, MRWs (Major Reference Works), conference proceedings, and database products</strong>.
       Our services are designed to handle <strong>millions of pages annually,</strong> offering everything from <strong>pre-submission language editing</strong> to <strong>production editing, auto-pagination, web-based artwork, and transfer-desk services</strong>—all supported by robust technology and experienced professionals.<br><br>
@@ -1684,7 +1834,7 @@ window.addEventListener("resize", adjustExpertButton);
           <b>Our Approach to Research Content</b>
         </h3>
         
-       <p style="color: #000;">Our process is built around <strong>efficiency, scalability, and technological innovation</strong>. Once the transition volume is determined, our clients can simply relax while we ensure flawless execution and timely delivery—regardless of time zones.<br>
+       <p style="color: #000; padding: 10px;">Our process is built around <strong>efficiency, scalability, and technological innovation</strong>. Once the transition volume is determined, our clients can simply relax while we ensure flawless execution and timely delivery—regardless of time zones.<br>
          We leverage <Strong>AI-enabled tools, automation, and data-driven analytics</Strong> to optimise accuracy, turnaround time, and content performance.
          Our professionals, driven by a <strong>customer-first philosophy,</strong> ensure that every project aligns with your publishing vision and operational objectives.
         </p>
@@ -1702,21 +1852,30 @@ window.addEventListener("resize", adjustExpertButton);
           Our solutions bridge the gap between content development and commercial success.
         </p>
         <p style="color: #000;">Our key expertise areas include:</p>
-       <ul class="list-unstyled" style="list-style: none; padding: 0; margin: 20px 0; line-height: 2.2; color: #000; font-size: 1.05rem; text-transform: none !important; text-align: left;">
+      <ul class="list-unstyled" 
+    style="
+      list-style: none; 
+      padding-left: 22px; 
+      margin: 20px 0; 
+      line-height: 2.2; 
+      color: #000; 
+      font-size: 1.05rem; 
+      text-align: left;
+    ">
   
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
     <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-    <span style="text-transform: none !important;"><strong>Peer Review Management, Data and Insights</strong></span>
+    <span><strong>Peer Review Management, Data and Insights</strong></span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; margin-bottom: 12px; text-transform: none !important;">
+  <li style="display: flex; align-items: flex-start; margin-bottom: 12px;">
     <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-    <span style="text-transform: none !important;"><strong>Publishing, Digital Experience and Operations</strong></span>
+    <span><strong>Publishing, Digital Experience and Operations</strong></span>
   </li>
 
-  <li style="display: flex; align-items: flex-start; text-transform: none !important;">
+  <li style="display: flex; align-items: flex-start;">
     <i class="fa-solid fa-angles-right" style="color: #000; margin-right: 12px; margin-top: 8px; font-size: 0.85rem; flex-shrink: 0;"></i>
-    <span style="text-transform: none !important;"><strong>Editorial and Production Management</strong></span>
+    <span><strong>Editorial and Production Management</strong></span>
   </li>
 
 </ul>
@@ -1731,11 +1890,29 @@ window.addEventListener("resize", adjustExpertButton);
 
     <!-- Heading -->
     <div class="row justify-content-center text-center" style="margin-bottom:30px;">
-      <div class="col-md-7" data-aos="fade-up">
+      <div class="col-12" data-aos="fade-up">
 
-        <p style="margin:0; color:#a94e00;"><strong><b>Frequently Asked Questions</b></strong></p>
+        <p class="faq-heading-proofreading" style="margin:0; color:#a94e00; font-size:20px; text-align:center; line-height:1.2; word-wrap:break-word;"><strong><b>Frequently Asked Questions</b></strong></p>
       </div>
     </div>
+
+    <style>
+      /* Proofreading FAQ heading mobile fit */
+      .faq-heading-proofreading {
+        font-size: 20px;
+      }
+      @media (max-width: 768px) {
+        .faq-heading-proofreading {
+          font-size: 18px;
+        }
+      }
+      @media (max-width: 480px) {
+        .faq-heading-proofreading {
+          font-size: 16px;
+          padding: 0 12px;
+        }
+      }
+    </style>
 
     <!-- FAQ Wrapper -->
     <div style="max-width:900px; margin:0 auto;">
@@ -1747,7 +1924,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1768,7 +1945,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1789,7 +1966,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1809,7 +1986,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1831,7 +2008,7 @@ window.addEventListener("resize", adjustExpertButton);
           onclick="
             var a=this.nextElementSibling;
             var q=this.querySelector('.q');
-            q.style.color = a.style.display==='block' ? '#333' : '#f4a261';
+            q.style.color = a.style.display==='block' ? '#333' : '#a94e00';
             a.style.display = a.style.display==='block' ? 'none' : 'block';
           "
           style="width:100%; border:none; background:none; padding:22px 26px; display:flex; justify-content:space-between; align-items:center; font-size:18px; font-weight:600; cursor:pointer;">
@@ -1896,6 +2073,78 @@ function showSub(id) {
 
 </body>
 
+ <style>
+/* Info box styling */
+.info-box{
+border:1px solid #a94e00;
+padding:20px;
+border-radius:8px;
+margin-bottom:20px;
+}
+
+/* Section padding */
+.contact-left{
+padding:10px 20px;
+}
+
+.contact-right{
+padding:10px 20px;
+}
+
+/* Mobile Fix */
+@media (max-width:768px){
+
+.contact-left{
+padding:0 20px;
+}
+
+.contact-right{
+padding:0 20px;
+}
+
+.info-box{
+margin-bottom:18px;
+}
+
+/* Fix alignment for accessibility sections on mobile */
+ul[style*="padding-left: 170px"] {
+  padding-left: 20px !important;
+}
+
+ul[style*="padding-left: 100px"] {
+  padding-left: 20px !important;
+}
+
+}
+
+/* Orange focus for inputs */
+#contact-form .form-control:focus{
+border-color:#C35214 !important;
+box-shadow:0 0 0 0.2rem rgba(195,82,20,0.25) !important;
+}
+
+/* Custom Orange Button */
+.contact-btn{
+background-color:#C35214;
+border:2px solid #C35214;
+color:#ffffff;
+font-weight:700;
+border-radius:30px;
+transition:all 0.3s ease;
+}
+
+/* Hover Effect */
+.contact-btn:hover,
+.contact-btn:focus,
+.contact-btn:active{
+background-color:#a94410 !important;
+border-color:#a94410 !important;
+color:#ffffff !important;
+box-shadow:0 6px 15px rgba(195,82,20,0.4) !important;
+outline:none !important;
+}
+
+</style>
 <footer class="site-footer" style="padding:35px 0 20px 0;">
   <div class="container">
     <div class="row">
@@ -1903,41 +2152,92 @@ function showSub(id) {
       <!-- Company Info -->
       <div class="col-md-4">
         <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px;">
-          PRGEEQ Global Solutions Private Limited.
+          PRGEEQ Global Solutions Private Limited
         </h2>
-        <p style="margin-bottom:4px; font-size:14px;">No 22, 3rd Block, 18th Cross,</p>
-        <p style="margin-bottom:4px; font-size:14px;">Vishwapriya Nagar, Bangalore - 560068</p>
-        <p style="margin-bottom:6px; font-size:14px;">Karnataka, India.</p>
+        <p style="margin-bottom:4px; font-size:16px;">Prestige Atlanta, 10/12, 80 Feet Rd, 1A Block,</p>
+        <p style="margin-bottom:4px; font-size:16px;">Koramangala, Bengaluru, - 560034</p>
+        <p style="margin-bottom:6px; font-size:16px;">Karnataka, India.</p>
+        <p style="margin-bottom:8px; font-size:16px;"><strong>Email :</strong> contact@prgeeq.com</p>
+<div style="margin-top:10px; display:flex; gap:10px;">
 
-        <p style="margin-bottom:4px; font-size:14px;"><strong>Phone :</strong> +91 968 626 6966</p>
-        <p style="margin-bottom:8px; font-size:14px;"><strong>Email :</strong> contact@prgeeq.com</p>
+  <a href="https://x.com/PrgeeqGlobal"
+     class="social-box twitter"
+     aria-label="Follow PRGEEQ on X">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932L18.901 1.153ZM17.61 20.644h2.039L6.486 3.24H4.298L17.61 20.644Z"/>
+    </svg>
+  </a>
 
-        <!-- Social Icons -->
-        <div style="margin-top:10px;">
-          <a href="https://x.com/PrgeeqGlobal"
-             style="padding-right:10px; display:inline-block; transition:0.3s ease;"
-             onmouseover="this.style.transform='scale(1.2)'"
-             onmouseout="this.style.transform='scale(1)'"
-             aria-label="Follow PRGEEQ on Twitter">
-            <span class="icon-twitter"></span>
-          </a>
+  <a href="https://www.youtube.com/@prgeeqglobalsolutions"
+     class="social-box youtube"
+     aria-label="Subscribe to PRGEEQ on YouTube">
+    <span class="icon-youtube"></span>
+  </a>
 
-          <a href="https://www.youtube.com/@prgeeqglobalsolutions"
-             style="padding-right:10px; display:inline-block; transition:0.3s ease;"
-             onmouseover="this.style.transform='scale(1.2)'"
-             onmouseout="this.style.transform='scale(1)'"
-             aria-label="Subscribe to PRGEEQ on YouTube">
-            <span class="icon-youtube"></span>
-          </a>
+  <a href="https://www.linkedin.com/company/prgeeq-global-solutions-private-limited/?viewAsMember=true"
+     class="social-box linkedin"
+     aria-label="Connect with PRGEEQ on LinkedIn">
+    <span class="icon-linkedin"></span>
+  </a>
 
-          <a href="https://www.linkedin.com/company/prgeeq-global-solutions-private-limited/?viewAsMember=true"
-             style="display:inline-block; transition:0.3s ease;"
-             onmouseover="this.style.transform='scale(1.2)'"
-             onmouseout="this.style.transform='scale(1)'"
-             aria-label="Connect with PRGEEQ on LinkedIn">
-            <span class="icon-linkedin"></span>
-          </a>
-        </div>
+</div>
+
+<style>
+.social-box {
+  width: 38px;
+  height: 38px;
+  border: 1.5px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  background: #fff;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+/* DEFAULT ICON COLORS */
+.social-box.twitter { color: #000; }
+.social-box.youtube { color: #FF0000; }
+.social-box.linkedin { color: #0077B5; }
+
+/* HOVER EFFECT - Transform & Shadow */
+.social-box:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* HOVER BRANDING COLORS (Background & Border) */
+.social-box.twitter:hover { 
+  border-color: #000; 
+  background-color: #000; 
+  color: #fff; 
+}
+
+.social-box.youtube:hover { 
+  border-color: #FF0000; 
+  background-color: #FF0000; 
+  color: #fff; 
+}
+
+.social-box.linkedin:hover { 
+  border-color: #0077B5; 
+  background-color: #0077B5; 
+  color: #fff; 
+}
+
+/* Ensure SVG matches font-size */
+.social-box svg {
+  width: 16px;
+  height: 16px;
+}
+
+p {
+  text-align: justify;
+}
+</style>
       </div>
 
       <!-- Useful Links -->
@@ -1946,15 +2246,6 @@ function showSub(id) {
           Useful Links
         </h2>
         <ul class="list-unstyled" style="padding-left:0; line-height:1.6;">
-
-          <li style="margin-bottom:4px;">
-            <a href="index.html"
-               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
-               onmouseover="this.style.transform='scale(1.08)'"
-               onmouseout="this.style.transform='scale(1)'">
-              Home
-            </a>
-          </li>
 
           <li style="margin-bottom:4px;">
             <a href="index.html"
@@ -1998,43 +2289,34 @@ function showSub(id) {
       <!-- Our Services -->
       <div class="col-md-2">
         <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px; text-transform:none; color:#ffffff !important;">
-          Our Services
+          Discover PRGEEQ
         </h2>
         <ul class="list-unstyled" style="padding-left:0; line-height:1.6;">
 
           <li style="margin-bottom:4px;">
-            <a href="elearning_services.html"
+            <a href="Events.html"
                style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
                onmouseover="this.style.transform='scale(1.08)'"
                onmouseout="this.style.transform='scale(1)'">
-              eLearning
+              Achievements
             </a>
           </li>
 
           <li style="margin-bottom:4px;">
-            <a href="multimidia_services.html"
+            <a href="blogs.html"
                style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
                onmouseover="this.style.transform='scale(1.08)'"
                onmouseout="this.style.transform='scale(1)'">
-              Multimedia
+              Blogs
             </a>
           </li>
 
           <li style="margin-bottom:4px;">
-            <a href="localization_services.html"
+            <a href="help_Center.html"
                style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
                onmouseover="this.style.transform='scale(1.08)'"
                onmouseout="this.style.transform='scale(1)'">
-              Localization
-            </a>
-          </li>
-
-          <li style="margin-bottom:4px;">
-            <a href="software_services.html"
-               style="color:#ffffff !important; display:inline-block; transition:0.3s ease;"
-               onmouseover="this.style.transform='scale(1.08)'"
-               onmouseout="this.style.transform='scale(1)'">
-              Software
+              Help Center
             </a>
           </li>
 
@@ -2046,18 +2328,20 @@ function showSub(id) {
         <h2 class="footer-heading mb-3" style="margin-bottom:12px; font-size:18px;">
           Our Location
         </h2>
-        <div style="width:100%; height:130px; border-radius:8px; overflow:hidden;">
-          <iframe
-            title="Google Maps showing PRGEEQ office location"
-            src="https://www.google.com/maps?q=Vishwapriya%20Nagar%20Bangalore&output=embed"
-            width="100%"
-            height="130"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
-        </div>
+        <div style="width:100%; height:200px; border-radius:8px; overflow:hidden; position:relative;">
+
+           <iframe
+  title="Google Maps showing PRGEEQ office location"
+  src="https://maps.google.com/maps?q=Prestige%20Atlanta%2C%2010%2F12%2C%2080%20Feet%20Rd%2C%201A%20Block%2C%20Koramangala%2C%20Bengaluru%2C%20Karnataka%20560034&t=&z=17&ie=UTF8&iwloc=&output=embed"
+  width="100%"
+  height="220"
+  style="border:0; border-radius: 20px; margin-top: 0;"
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+</div>
+    </div>
       </div>
 
     </div>
