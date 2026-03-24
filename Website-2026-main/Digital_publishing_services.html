@@ -696,30 +696,51 @@ window.addEventListener("resize", adjustExpertButton);
 
 
 <style>
-  /* Hover effect for Digital Publishing Sub-Service buttons */
-  .pub-service-btn {
-    background: #a94e00;
-    border: 2px solid #a94e00;
-    padding: 12px 30px;
-    font-weight: 600;
-    border-radius: 30px;
+  /* CSS for hover/active sub-service buttons (page-specific) */
+  .sub-service-btn {
+    background: linear-gradient(135deg, #a94e00 0%, #c75c00 45%, #e08f26 100%);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    padding: 16px 26px;
+    font-weight: 700;
+    border-radius: 14px;
     margin: 10px;
     color: #fff;
     cursor: pointer;
-    transition: all 0.3s ease; /* Makes the hover smooth */
-    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    display: inline-flex;
+    width: auto;
+    min-width: 220px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: none;
+    font-size: 1.05rem;
+    line-height: 1.25;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
     outline: none;
   }
 
-  .pub-service-btn:hover {
-    background: #fff !important;   /* White background on hover */
-    color: #a94e00 !important;      /* Brown text on hover */
-    transform: translateY(-3px);   /* Slight lift effect */
-    box-shadow: 0 5px 15px rgba(169, 78, 0, 0.3); /* Soft shadow */
+  .sub-service-btn:hover {
+    background: #fff !important;
+    color: #a94e00 !important;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 22px rgba(0, 0, 0, 0.2);
+    border-color: #a94e00;
   }
 
-  .pub-service-btn:active {
-    transform: translateY(-1px);   /* Click effect */
+  .sub-service-btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.16);
+  }
+
+  @media (max-width: 768px) {
+    .sub-service-btn {
+      width: 100%;
+      max-width: 100%;
+      padding: 14px 20px;
+      font-size: 1rem;
+      margin: 8px auto;
+    }
   }
 
   /* ================= MOBILE RESPONSIVENESS ================= */
@@ -829,19 +850,19 @@ window.addEventListener("resize", adjustExpertButton);
     </h2>
 
     <div>
-      <button onclick="showSub('Accessibility_Solutions')" class="pub-service-btn">
+      <button onclick="showSub('Accessibility_Solutions')" class="sub-service-btn">
         Accessibility Solutions
       </button>
 
-      <button onclick="showSub('kindle')" class="pub-service-btn">
+      <button onclick="showSub('kindle')" class="sub-service-btn">
         Kindle Conversion Services
       </button>
 
-      <button onclick="showSub('Proofreading')" class="pub-service-btn">
+      <button onclick="showSub('Proofreading')" class="sub-service-btn">
         Proofreading Solutions
       </button>
 
-      <button onclick="showSub('Research')" class="pub-service-btn">
+      <button onclick="showSub('Research')" class="sub-service-btn">
         Research Content Solutions
       </button>
     </div>
